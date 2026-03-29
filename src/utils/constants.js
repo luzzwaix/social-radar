@@ -1,5 +1,5 @@
-export const APP_NAME = "Mayor Simulator";
-export const APP_TAGLINE = "Explainable GovTech decision support for Almaty";
+export const APP_NAME = "SocialRadar";
+export const APP_TAGLINE = "Explainable social risk intelligence for Almaty";
 
 export const API_PREFIX = "/api/v1";
 export const API_ENDPOINTS = {
@@ -67,4 +67,3 @@ export const GOVERNANCE_NOTES = [
   "Keep a human reviewer in the loop for every decision.",
   "Show limitations and uncertainty instead of black-box outputs.",
 ];
-

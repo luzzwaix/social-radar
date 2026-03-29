@@ -519,7 +519,7 @@ export default function App() {
             <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="brand-chip">Mayor Simulator</span>
+                  <span className="brand-chip">SocialRadar</span>
                   <span className="status-badge status-badge--slate">Palantir-style shell</span>
                   <span className="status-badge status-badge--cyan">
                     <span className={`live-dot ${liveRiskSnapshot.status === "ready" ? "live-dot--active" : ""}`} />
@@ -530,16 +530,16 @@ export default function App() {
                 <div className="mt-4 max-w-4xl">
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
                     <h1 className="text-[1.75rem] font-semibold tracking-[-0.05em] text-white md:text-[2.15rem]">
-                      Mayor Simulator civic operations console
+                      SocialRadar social risk intelligence console
                     </h1>
                     <span className="font-mono text-[11px] uppercase tracking-[0.24em] text-slate-500">
-                      Almaty urban command surface
+                      Almaty district monitoring surface
                     </span>
                   </div>
 
                   <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">
-                    District map, regional monitoring, sortable rankings, and visible governance guardrails in one
-                    dense console ready for demo now and FastAPI later.
+                    District map, labor-market signals, migration monitoring, sortable regional rankings, and visible
+                    governance guardrails in one dense console ready for demo now and FastAPI later.
                   </p>
                 </div>
               </div>

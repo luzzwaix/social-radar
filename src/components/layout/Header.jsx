@@ -58,8 +58,8 @@ function Stat({ label, value }) {
 }
 
 export default function Header({
-  title = "Mayor Simulator",
-  subtitle = "Explainable urban planning workspace",
+  title = "SocialRadar",
+  subtitle = "Explainable social risk intelligence workspace",
   status = "Online",
   district = "Almaty",
   actions = [],

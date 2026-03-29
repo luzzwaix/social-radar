@@ -537,7 +537,7 @@ export function useGame() {
   };
 
   const handleShare = async () => {
-    const shareText = `Mayor Simulator: ${selectedDistrict?.properties?.name ?? "Almaty"}, rating ${rating}, level ${level}, score ${score}`;
+    const shareText = `SocialRadar: ${selectedDistrict?.properties?.name ?? "Almaty"}, rating ${rating}, level ${level}, score ${score}`;
     try {
       if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(shareText);

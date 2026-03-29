@@ -1,8 +1,8 @@
 {
-  "name": "mayor-simulator-frontend",
+  "name": "social-radar-frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "Mayor Simulator frontend MVP for Decentrathon 5.0",
+  "description": "SocialRadar frontend MVP for Decentrathon 5.0",
   "scripts": {
     "start": "parcel serve public/index.html --port 3000",
     "build": "parcel build public/index.html --dist-dir dist",

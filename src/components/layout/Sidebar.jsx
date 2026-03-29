@@ -136,7 +136,7 @@ function NavTile({ item, active }) {
   );
 }
 
-export default function Sidebar({ brand = "Mayor Simulator", navItems = [], activeId, footer, className = "", style }) {
+export default function Sidebar({ brand = "SocialRadar", navItems = [], activeId, footer, className = "", style }) {
   return (
     <aside className={className} style={{ ...shellStyle, ...style }}>
       <div aria-hidden="true" style={washStyle} />

@@ -1,0 +1,33 @@
+{
+  "name": "mayor-simulator-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mayor Simulator frontend MVP for Decentrathon 5.0",
+  "scripts": {
+    "start": "parcel serve public/index.html --port 3000",
+    "build": "parcel build public/index.html --dist-dir dist",
+    "clean": "if exist .parcel-cache rmdir /s /q .parcel-cache && if exist dist rmdir /s /q dist"
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.7.5",
+    "@tanstack/react-table": "^8.21.3",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^12.23.24",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
+    "lucide-react": "^0.542.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^3.1.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@parcel/transformer-postcss": "^2.15.4",
+    "autoprefixer": "^10.4.21",
+    "buffer": "^6.0.3",
+    "parcel": "^2.15.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

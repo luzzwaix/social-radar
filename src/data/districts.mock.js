@@ -1,0 +1,240 @@
+import { ALMATY_CENTER, OPEN_DATA_SOURCES, CASE_THREE_FRAMING } from "../utils/constants.js";
+
+function buildSquarePolygon(center, delta = 0.035) {
+  const { lat, lng } = center;
+  return [
+    [
+      [lng - delta, lat - delta],
+      [lng + delta, lat - delta],
+      [lng + delta, lat + delta],
+      [lng - delta, lat + delta],
+      [lng - delta, lat - delta],
+    ],
+  ];
+}
+
+export const districtsMock = [
+  {
+    id: "almalinsky",
+    slug: "almalinsky",
+    nameRu: "Алмалинский район",
+    nameKk: "Алмалы ауданы",
+    shortName: "Алмалы",
+    center: { lat: 43.2425, lng: 76.9282 },
+    areaKm2: 18.6,
+    population: 245000,
+    budgetKzt: 12400000000,
+    schoolsCount: 28,
+    hospitalsCount: 5,
+    complaintsPerMonth: 132,
+    riskIndex: 0.46,
+    priority: "transport",
+    description: "Центральный район с плотной застройкой, высокой нагрузкой на дороги и дефицитом парковочных решений.",
+    issues: ["Транспортная нагрузка", "Износ дворовых дорог", "Очереди в поликлиниках"],
+    goals: ["Снизить жалобы на транспорт", "Повысить доступность социальной инфраструктуры"],
+    polygon: buildSquarePolygon({ lat: 43.2425, lng: 76.9282 }, 0.028),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "bostandyk",
+    slug: "bostandyk",
+    nameRu: "Бостандыкский район",
+    nameKk: "Бостандық ауданы",
+    shortName: "Бостандык",
+    center: { lat: 43.2102, lng: 76.8891 },
+    areaKm2: 97.6,
+    population: 347000,
+    budgetKzt: 14600000000,
+    schoolsCount: 41,
+    hospitalsCount: 7,
+    complaintsPerMonth: 156,
+    riskIndex: 0.52,
+    priority: "education",
+    description: "Образовательный и жилой район с сильным спросом на школы, детские маршруты и общественный транспорт.",
+    issues: ["Переполненные школы", "Дефицит безопасных переходов", "Загруженность магистралей"],
+    goals: ["Улучшить школьную доступность", "Снизить дорожные риски у школ"],
+    polygon: buildSquarePolygon({ lat: 43.2102, lng: 76.8891 }, 0.04),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "zhetysu",
+    slug: "zhetysu",
+    nameRu: "Жетысуский район",
+    nameKk: "Жетісу ауданы",
+    shortName: "Жетысу",
+    center: { lat: 43.3149, lng: 76.9687 },
+    areaKm2: 39.4,
+    population: 236000,
+    budgetKzt: 9800000000,
+    schoolsCount: 23,
+    hospitalsCount: 4,
+    complaintsPerMonth: 108,
+    riskIndex: 0.39,
+    priority: "roads",
+    description: "Район с потенциалом для улучшения дорожной сети и локальной логистики социальных услуг.",
+    issues: ["Качество дворовых проездов", "Дефицит пешеходной навигации", "Неравномерная нагрузка на школы"],
+    goals: ["Переразметить проблемные маршруты", "Выравнять инфраструктурную нагрузку"],
+    polygon: buildSquarePolygon({ lat: 43.3149, lng: 76.9687 }, 0.032),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "auezov",
+    slug: "auezov",
+    nameRu: "Ауэзовский район",
+    nameKk: "Әуезов ауданы",
+    shortName: "Ауэзов",
+    center: { lat: 43.2307, lng: 76.8486 },
+    areaKm2: 39.2,
+    population: 315000,
+    budgetKzt: 11100000000,
+    schoolsCount: 34,
+    hospitalsCount: 6,
+    complaintsPerMonth: 149,
+    riskIndex: 0.58,
+    priority: "public-services",
+    description: "Плотный жилой район с высоким спросом на сервисы, дворы и локальную транспортную связность.",
+    issues: ["Очереди в поликлиниках", "Слабая связность микрорайонов", "Дефицит озеленения"],
+    goals: ["Ускорить маршрутизацию обращений", "Повысить точность планирования сервисов"],
+    polygon: buildSquarePolygon({ lat: 43.2307, lng: 76.8486 }, 0.033),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "medeu",
+    slug: "medeu",
+    nameRu: "Медеуский район",
+    nameKk: "Медеу ауданы",
+    shortName: "Медеу",
+    center: { lat: 43.1716, lng: 77.0494 },
+    areaKm2: 253.4,
+    population: 183000,
+    budgetKzt: 10200000000,
+    schoolsCount: 19,
+    hospitalsCount: 3,
+    complaintsPerMonth: 91,
+    riskIndex: 0.33,
+    priority: "tourism",
+    description: "Крупный и разнообразный район, где важно балансировать туристическую привлекательность и бытовую инфраструктуру.",
+    issues: ["Сезонная нагрузка", "Сложная логистика", "Неравномерное покрытие сервисами"],
+    goals: ["Стабилизировать сезонную нагрузку", "Усилить аналитический контроль рисков"],
+    polygon: buildSquarePolygon({ lat: 43.1716, lng: 77.0494 }, 0.05),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "turksib",
+    slug: "turksib",
+    nameRu: "Турксибский район",
+    nameKk: "Түрксіб ауданы",
+    shortName: "Турксиб",
+    center: { lat: 43.3519, lng: 76.9831 },
+    areaKm2: 96.4,
+    population: 231000,
+    budgetKzt: 8900000000,
+    schoolsCount: 26,
+    hospitalsCount: 4,
+    complaintsPerMonth: 114,
+    riskIndex: 0.41,
+    priority: "logistics",
+    description: "Логистически значимый район с транспортными узлами и потребностью в предиктивном управлении дорожными рисками.",
+    issues: ["Перегрузка магистралей", "Сезонное ухудшение дорог", "Расхождение между потоками и сервисами"],
+    goals: ["Смоделировать узкие места", "Ускорить обработку жалоб жителей"],
+    polygon: buildSquarePolygon({ lat: 43.3519, lng: 76.9831 }, 0.034),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+  {
+    id: "nauryzbay",
+    slug: "nauryzbay",
+    nameRu: "Наурызбайский район",
+    nameKk: "Наурызбай ауданы",
+    shortName: "Наурызбай",
+    center: { lat: 43.1778, lng: 76.7755 },
+    areaKm2: 69.7,
+    population: 188000,
+    budgetKzt: 7600000000,
+    schoolsCount: 17,
+    hospitalsCount: 3,
+    complaintsPerMonth: 84,
+    riskIndex: 0.36,
+    priority: "expansion",
+    description: "Развивающийся район, где ценность AI заключается в оценке будущей нагрузки и расстановке приоритетов заранее.",
+    issues: ["Быстрый рост застройки", "Дефицит инфраструктурного буфера", "Разрывы в транспортной доступности"],
+    goals: ["Предсказывать точки перегрузки", "Опережать рост спроса"],
+    polygon: buildSquarePolygon({ lat: 43.1778, lng: 76.7755 }, 0.038),
+    officialSources: OPEN_DATA_SOURCES,
+    geoNotes: "Mock polygon for MVP; replace with official district boundaries from OSM/open data.",
+  },
+];
+
+export const districtsById = districtsMock.reduce((accumulator, district) => {
+  accumulator[district.id] = district;
+  return accumulator;
+}, {});
+
+export function getDistrictById(districtId) {
+  return districtsById[String(districtId || "").toLowerCase()] || null;
+}
+
+export function buildDistrictFeatureCollection(districts = districtsMock) {
+  return {
+    type: "FeatureCollection",
+    features: districts.map((district) => ({
+      type: "Feature",
+      geometry: {
+        type: "Polygon",
+        coordinates: district.polygon,
+      },
+      properties: {
+        id: district.id,
+        slug: district.slug,
+        nameRu: district.nameRu,
+        nameKk: district.nameKk,
+        shortName: district.shortName,
+        center: district.center,
+        areaKm2: district.areaKm2,
+        population: district.population,
+        riskIndex: district.riskIndex,
+        priority: district.priority,
+      },
+    })),
+  };
+}
+
+export function buildDistrictSummary(district = {}) {
+  return {
+    id: district.id,
+    nameRu: district.nameRu,
+    nameKk: district.nameKk,
+    shortName: district.shortName,
+    center: district.center || ALMATY_CENTER,
+    areaKm2: district.areaKm2 || 0,
+    population: district.population || 0,
+    budgetKzt: district.budgetKzt || 0,
+    schoolsCount: district.schoolsCount || 0,
+    hospitalsCount: district.hospitalsCount || 0,
+    complaintsPerMonth: district.complaintsPerMonth || 0,
+    riskIndex: district.riskIndex || 0,
+    priority: district.priority || "general",
+    description: district.description || "",
+    issues: Array.isArray(district.issues) ? district.issues : [],
+    goals: Array.isArray(district.goals) ? district.goals : [],
+    officialSources: Array.isArray(district.officialSources) ? district.officialSources : [],
+  };
+}
+
+export const hackathonCaseThreeContext = {
+  title: "Case 3: Explainable GovTech Decision Support",
+  whyAIRequired:
+    "AI/ML is necessary because district decisions depend on many interacting signals: population pressure, complaints, infrastructure gaps, budget constraints, and historical patterns. Simple automation cannot weigh these signals or explain trade-offs.",
+  humanInTheLoop:
+    "The prototype recommends and explains. An expert still approves, revises, or escalates the decision.",
+  officialDataPolicy:
+    "The production version must cite official/open datasets and clearly separate them from synthetic or mock data in the MVP.",
+  limitations: CASE_THREE_FRAMING.limitations,
+  sourceAnchors: OPEN_DATA_SOURCES,
+};
+

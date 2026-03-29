@@ -1,0 +1,3963 @@
+{
+  "meta": {
+    "latestYear": "2024",
+    "source": "Bureau of National Statistics of Kazakhstan / dataset.zip",
+    "note": "Almaty district boundaries are not present in the archive and are approximated in the frontend until GIS is added."
+  },
+  "regions": [
+    {
+      "region": "Мангистауская",
+      "population2026": 819824.0,
+      "growthPercent": 1.82,
+      "migrationBalance": 762.0,
+      "naturalGrowth": 13906.0,
+      "unemploymentRate": 5.0,
+      "employmentRate": 69.6,
+      "unemploymentCount": 18.293,
+      "outsideLaborForce": 133.643
+    },
+    {
+      "region": "Атырауская",
+      "population2026": 716071.0,
+      "growthPercent": 0.74,
+      "migrationBalance": -5015.0,
+      "naturalGrowth": 10305.0,
+      "unemploymentRate": 4.9,
+      "employmentRate": 74.7,
+      "unemploymentCount": 17.735,
+      "outsideLaborForce": 100.226
+    },
+    {
+      "region": "Абай",
+      "population2026": 595720.0,
+      "growthPercent": -1.18,
+      "migrationBalance": -9886.0,
+      "naturalGrowth": 2774.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 65.1,
+      "unemploymentCount": 14.689,
+      "outsideLaborForce": 142.377
+    },
+    {
+      "region": "Западно-Казахстанская",
+      "population2026": 695649.0,
+      "growthPercent": -0.05,
+      "migrationBalance": -5030.0,
+      "naturalGrowth": 4691.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 66.5,
+      "unemploymentCount": 17.162,
+      "outsideLaborForce": 152.357
+    },
+    {
+      "region": "Жамбылская",
+      "population2026": 1215656.0,
+      "growthPercent": -0.55,
+      "migrationBalance": -21396.0,
+      "naturalGrowth": 14661.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 65.7,
+      "unemploymentCount": 27.302,
+      "outsideLaborForce": 257.639
+    },
+    {
+      "region": "Жетісу",
+      "population2026": 687701.0,
+      "growthPercent": -0.95,
+      "migrationBalance": -12405.0,
+      "naturalGrowth": 5781.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 60.8,
+      "unemploymentCount": 14.876,
+      "outsideLaborForce": 176.202
+    },
+    {
+      "region": "Кызылординская",
+      "population2026": 846312.0,
+      "growthPercent": 0.02,
+      "migrationBalance": -11877.0,
+      "naturalGrowth": 12085.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 60.4,
+      "unemploymentCount": 16.939,
+      "outsideLaborForce": 202.091
+    },
+    {
+      "region": "Ұлытау",
+      "population2026": 219049.0,
+      "growthPercent": -1.01,
+      "migrationBalance": -3991.0,
+      "naturalGrowth": 1750.0,
+      "unemploymentRate": 4.8,
+      "employmentRate": 62.1,
+      "unemploymentCount": 41.603,
+      "outsideLaborForce": 494.824
+    },
+    {
+      "region": "Республика Казахстан",
+      "population2026": 20499822.0,
+      "growthPercent": 1.07,
+      "migrationBalance": 16153.0,
+      "naturalGrowth": 200270.0,
+      "unemploymentRate": 4.7,
+      "employmentRate": 65.0,
+      "unemploymentCount": 449.807,
+      "outsideLaborForce": 4512.796
+    },
+    {
+      "region": "Актюбинская",
+      "population2026": 955970.0,
+      "growthPercent": 0.68,
+      "migrationBalance": -3819.0,
+      "naturalGrowth": 10265.0,
+      "unemploymentRate": 4.7,
+      "employmentRate": 70.2,
+      "unemploymentCount": 22.557,
+      "outsideLaborForce": 171.58
+    },
+    {
+      "region": "Костанайская",
+      "population2026": 821473.0,
+      "growthPercent": -0.5,
+      "migrationBalance": -4087.0,
+      "naturalGrowth": -9.0,
+      "unemploymentRate": 4.7,
+      "employmentRate": 66.9,
+      "unemploymentCount": 21.604,
+      "outsideLaborForce": 195.377
+    },
+    {
+      "region": "Северо-Казахстанская",
+      "population2026": 514132.0,
+      "growthPercent": -1.54,
+      "migrationBalance": -6637.0,
+      "naturalGrowth": -1402.0,
+      "unemploymentRate": 4.7,
+      "employmentRate": 62.9,
+      "unemploymentCount": 19.194,
+      "outsideLaborForce": 175.762
+    },
+    {
+      "region": "Акмолинская",
+      "population2026": 789608.0,
+      "growthPercent": 0.3,
+      "migrationBalance": 237.0,
+      "naturalGrowth": 2108.0,
+      "unemploymentRate": 4.6,
+      "employmentRate": 67.2,
+      "unemploymentCount": 19.43,
+      "outsideLaborForce": 177.118
+    },
+    {
+      "region": "Алматинская",
+      "population2026": 1596532.0,
+      "growthPercent": 2.33,
+      "migrationBalance": 17587.0,
+      "naturalGrowth": 18821.0,
+      "unemploymentRate": 4.6,
+      "employmentRate": 68.2,
+      "unemploymentCount": 34.933,
+      "outsideLaborForce": 301.96
+    },
+    {
+      "region": "Туркестанская",
+      "population2026": 2149205.0,
+      "growthPercent": -0.22,
+      "migrationBalance": -42237.0,
+      "naturalGrowth": 37401.0,
+      "unemploymentRate": 4.6,
+      "employmentRate": 60.4,
+      "unemploymentCount": 12.861,
+      "outsideLaborForce": 144.926
+    },
+    {
+      "region": "г. Астана",
+      "population2026": 1639176.0,
+      "growthPercent": 7.23,
+      "migrationBalance": 89244.0,
+      "naturalGrowth": 21229.0,
+      "unemploymentRate": 4.6,
+      "employmentRate": 67.4,
+      "unemploymentCount": 17.501,
+      "outsideLaborForce": 189.366
+    },
+    {
+      "region": "г. Шымкент",
+      "population2026": 1294050.0,
+      "growthPercent": 3.02,
+      "migrationBalance": 15435.0,
+      "naturalGrowth": 22451.0,
+      "unemploymentRate": 4.6,
+      "employmentRate": 56.6,
+      "unemploymentCount": 52.025,
+      "outsideLaborForce": 519.874
+    },
+    {
+      "region": "г. Алматы",
+      "population2026": 2348103.0,
+      "growthPercent": 2.45,
+      "migrationBalance": 36437.0,
+      "naturalGrowth": 19611.0,
+      "unemploymentRate": 4.4,
+      "employmentRate": 65.4,
+      "unemploymentCount": 31.402,
+      "outsideLaborForce": 300.155
+    },
+    {
+      "region": "Карагандинская",
+      "population2026": 1131353.0,
+      "growthPercent": -0.23,
+      "migrationBalance": -5697.0,
+      "naturalGrowth": 3117.0,
+      "unemploymentRate": 4.1,
+      "employmentRate": 62.6,
+      "unemploymentCount": 22.915,
+      "outsideLaborForce": 301.929
+    },
+    {
+      "region": "Восточно-Казахстанская",
+      "population2026": 718995.0,
+      "growthPercent": -0.69,
+      "migrationBalance": -4323.0,
+      "naturalGrowth": -649.0,
+      "unemploymentRate": 4.1,
+      "employmentRate": 64.0,
+      "unemploymentCount": 4.189,
+      "outsideLaborForce": 55.208
+    },
+    {
+      "region": "Павлодарская",
+      "population2026": 745243.0,
+      "growthPercent": -0.77,
+      "migrationBalance": -7149.0,
+      "naturalGrowth": 1374.0,
+      "unemploymentRate": null,
+      "employmentRate": 66.5,
+      "unemploymentCount": null,
+      "outsideLaborForce": null
+    }
+  ],
+  "timeSeries": {
+    "Республика Казахстан": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.4,
+        "employmentRate": 62.9,
+        "unemploymentCount": 780.3,
+        "outsideLaborForce": 3175.801
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.3,
+        "employmentRate": 63.6,
+        "unemploymentCount": 690.7,
+        "outsideLaborForce": 3155.314
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.8,
+        "employmentRate": 63.9,
+        "unemploymentCount": 672.1,
+        "outsideLaborForce": 3278.6
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 8.4,
+        "employmentRate": 64.0,
+        "unemploymentCount": 658.8,
+        "outsideLaborForce": 3383.4
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 8.1,
+        "employmentRate": 63.8,
+        "unemploymentCount": 640.7,
+        "outsideLaborForce": 3476.9
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.8,
+        "employmentRate": 64.3,
+        "unemploymentCount": 625.4,
+        "outsideLaborForce": 3493.9
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.257656208033504,
+        "employmentRate": 65.3,
+        "unemploymentCount": 597.181,
+        "outsideLaborForce": 3463.166
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.629116452524367,
+        "employmentRate": 66.4,
+        "unemploymentCount": 557.8,
+        "outsideLaborForce": 3416.2
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.6,
+        "employmentRate": 66.1,
+        "unemploymentCount": 554.5,
+        "outsideLaborForce": 3500.3
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.8,
+        "employmentRate": 67.1,
+        "unemploymentCount": 496.5,
+        "outsideLaborForce": 3487.7
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.4,
+        "employmentRate": 67.8,
+        "unemploymentCount": 473.0,
+        "outsideLaborForce": 3477.3
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.3,
+        "employmentRate": 67.9,
+        "unemploymentCount": 474.781,
+        "outsideLaborForce": 3538.735
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.2,
+        "employmentRate": 68.0,
+        "unemploymentCount": 470.696,
+        "outsideLaborForce": 3569.357
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 67.1,
+        "unemploymentCount": 451.891,
+        "outsideLaborForce": 3715.945
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.5,
+        "unemploymentCount": 445.467,
+        "outsideLaborForce": 3854.978
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.3,
+        "unemploymentCount": 442.279,
+        "outsideLaborForce": 3927.255
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.6,
+        "unemploymentCount": 443.644,
+        "outsideLaborForce": 3907.304
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.7,
+        "unemploymentCount": 440.652,
+        "outsideLaborForce": 3934.006
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 65.9,
+        "unemploymentCount": 448.805,
+        "outsideLaborForce": 4076.775
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.0,
+        "unemploymentCount": 449.644,
+        "outsideLaborForce": 4093.294
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.9,
+        "employmentRate": 65.3,
+        "unemploymentCount": 458.27,
+        "outsideLaborForce": 4301.439
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.7,
+        "employmentRate": 65.2,
+        "unemploymentCount": 452.194,
+        "outsideLaborForce": 4393.533
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.7,
+        "employmentRate": 65.0,
+        "unemploymentCount": 449.807,
+        "outsideLaborForce": 4512.796
+      }
+    ],
+    "Абай": [
+      {
+        "year": "2001",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.0,
+        "employmentRate": 63.6,
+        "unemploymentCount": 15.077,
+        "outsideLaborForce": 149.449
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 65.1,
+        "unemploymentCount": 14.818,
+        "outsideLaborForce": 141.936
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 65.1,
+        "unemploymentCount": 14.689,
+        "outsideLaborForce": 142.377
+      }
+    ],
+    "Акмолинская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.8,
+        "employmentRate": 65.8,
+        "unemploymentCount": 47.2,
+        "outsideLaborForce": 154.718
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.2,
+        "employmentRate": 67.9,
+        "unemploymentCount": 36.3,
+        "outsideLaborForce": 132.765
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 9.2,
+        "employmentRate": 66.8,
+        "unemploymentCount": 37.9,
+        "outsideLaborForce": 147.3
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 9.2,
+        "employmentRate": 66.1,
+        "unemploymentCount": 38.3,
+        "outsideLaborForce": 155.7
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 8.9,
+        "employmentRate": 66.1,
+        "unemploymentCount": 37.4,
+        "outsideLaborForce": 158.0
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.6,
+        "employmentRate": 66.8,
+        "unemploymentCount": 36.5,
+        "outsideLaborForce": 155.6
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.981454696942038,
+        "employmentRate": 67.4,
+        "unemploymentCount": 34.103,
+        "outsideLaborForce": 155.977
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 7.123139167087872,
+        "employmentRate": 69.6,
+        "unemploymentCount": 31.2,
+        "outsideLaborForce": 146.5
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.9,
+        "employmentRate": 69.8,
+        "unemploymentCount": 29.9,
+        "outsideLaborForce": 145.6
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.8,
+        "employmentRate": 71.5,
+        "unemploymentCount": 25.4,
+        "outsideLaborForce": 139.4
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.5,
+        "employmentRate": 72.7,
+        "unemploymentCount": 24.3,
+        "outsideLaborForce": 132.7
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.3,
+        "employmentRate": 73.0,
+        "unemploymentCount": 23.379,
+        "outsideLaborForce": 130.54
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.2,
+        "employmentRate": 82.6,
+        "unemploymentCount": 22.926,
+        "outsideLaborForce": 127.839
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.9,
+        "employmentRate": 74.0,
+        "unemploymentCount": 21.998,
+        "outsideLaborForce": 126.401
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 72.7,
+        "unemploymentCount": 21.559,
+        "outsideLaborForce": 134.662
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 72.6,
+        "unemploymentCount": 20.593,
+        "outsideLaborForce": 133.13
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 72.4,
+        "unemploymentCount": 20.515,
+        "outsideLaborForce": 134.909
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.7,
+        "employmentRate": 72.5,
+        "unemploymentCount": 20.251,
+        "outsideLaborForce": 134.762
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 71.1,
+        "unemploymentCount": 20.297,
+        "outsideLaborForce": 141.279
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 71.1,
+        "unemploymentCount": 20.518,
+        "outsideLaborForce": 141.159
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.8,
+        "employmentRate": 71.0,
+        "unemploymentCount": 21.024,
+        "outsideLaborForce": 151.297
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 68.3,
+        "unemploymentCount": 20.539,
+        "outsideLaborForce": 168.632
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.6,
+        "employmentRate": 67.2,
+        "unemploymentCount": 19.43,
+        "outsideLaborForce": 177.118
+      }
+    ],
+    "Актюбинская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 11.4,
+        "employmentRate": 68.0,
+        "unemploymentCount": 41.3,
+        "outsideLaborForce": 110.313
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 10.2,
+        "employmentRate": 64.7,
+        "unemploymentCount": 34.2,
+        "outsideLaborForce": 129.991
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 9.7,
+        "employmentRate": 65.3,
+        "unemploymentCount": 33.7,
+        "outsideLaborForce": 133.3
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 9.4,
+        "employmentRate": 66.8,
+        "unemploymentCount": 34.5,
+        "outsideLaborForce": 130.1
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.2,
+        "employmentRate": 67.3,
+        "unemploymentCount": 34.3,
+        "outsideLaborForce": 130.5
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.5,
+        "employmentRate": 67.9,
+        "unemploymentCount": 32.5,
+        "outsideLaborForce": 131.9
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.445872023832573,
+        "employmentRate": 68.9,
+        "unemploymentCount": 28.843,
+        "outsideLaborForce": 133.068
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.376327237542824,
+        "employmentRate": 69.5,
+        "unemploymentCount": 25.1,
+        "outsideLaborForce": 136.7
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.0,
+        "employmentRate": 69.5,
+        "unemploymentCount": 24.1,
+        "outsideLaborForce": 139.9
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.3,
+        "employmentRate": 69.9,
+        "unemploymentCount": 21.4,
+        "outsideLaborForce": 142.0
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 4.9,
+        "employmentRate": 69.6,
+        "unemploymentCount": 20.2,
+        "outsideLaborForce": 152.2
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.0,
+        "employmentRate": 68.8,
+        "unemploymentCount": 21.433,
+        "outsideLaborForce": 164.555
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 4.9,
+        "employmentRate": 78.6,
+        "unemploymentCount": 21.468,
+        "outsideLaborForce": 167.054
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.9,
+        "employmentRate": 67.7,
+        "unemploymentCount": 20.905,
+        "outsideLaborForce": 174.753
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.8,
+        "unemploymentCount": 20.735,
+        "outsideLaborForce": 182.561
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.8,
+        "unemploymentCount": 20.597,
+        "outsideLaborForce": 182.647
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 67.7,
+        "unemploymentCount": 21.082,
+        "outsideLaborForce": 178.426
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.9,
+        "unemploymentCount": 20.834,
+        "outsideLaborForce": 185.171
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.6,
+        "unemploymentCount": 20.857,
+        "outsideLaborForce": 188.389
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.8,
+        "unemploymentCount": 21.2,
+        "outsideLaborForce": 187.621
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.6,
+        "unemploymentCount": 21.484,
+        "outsideLaborForce": 191.709
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.7,
+        "employmentRate": 67.5,
+        "unemploymentCount": 21.662,
+        "outsideLaborForce": 187.491
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.7,
+        "employmentRate": 70.2,
+        "unemploymentCount": 22.557,
+        "outsideLaborForce": 171.58
+      }
+    ],
+    "Алматинская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.2,
+        "employmentRate": 60.8,
+        "unemploymentCount": 75.0,
+        "outsideLaborForce": 349.539
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.2,
+        "employmentRate": 63.8,
+        "unemploymentCount": 70.4,
+        "outsideLaborForce": 321.135
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.6,
+        "employmentRate": 64.0,
+        "unemploymentCount": 68.0,
+        "outsideLaborForce": 338.5
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 7.8,
+        "employmentRate": 63.3,
+        "unemploymentCount": 62.3,
+        "outsideLaborForce": 365.0
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.3,
+        "employmentRate": 62.8,
+        "unemploymentCount": 59.0,
+        "outsideLaborForce": 381.7
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.1,
+        "employmentRate": 63.1,
+        "unemploymentCount": 57.8,
+        "outsideLaborForce": 386.2
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.703623956380168,
+        "employmentRate": 63.7,
+        "unemploymentCount": 55.916,
+        "outsideLaborForce": 387.964
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.408518469091752,
+        "employmentRate": 64.4,
+        "unemploymentCount": 54.7,
+        "outsideLaborForce": 387.4
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.5,
+        "employmentRate": 64.1,
+        "unemploymentCount": 56.3,
+        "outsideLaborForce": 395.3
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.6,
+        "employmentRate": 66.0,
+        "unemploymentCount": 50.2,
+        "outsideLaborForce": 384.3
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.1,
+        "employmentRate": 67.4,
+        "unemploymentCount": 47.9,
+        "outsideLaborForce": 387.2
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.0,
+        "employmentRate": 68.8,
+        "unemploymentCount": 51.055,
+        "outsideLaborForce": 388.334
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 4.9,
+        "employmentRate": 79.2,
+        "unemploymentCount": 51.431,
+        "outsideLaborForce": 381.376
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.9,
+        "employmentRate": 70.3,
+        "unemploymentCount": 52.03,
+        "outsideLaborForce": 377.072
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.8,
+        "employmentRate": 71.4,
+        "unemploymentCount": 49.442,
+        "outsideLaborForce": 345.683
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.7,
+        "employmentRate": 71.1,
+        "unemploymentCount": 49.09,
+        "outsideLaborForce": 352.164
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.7,
+        "employmentRate": 71.1,
+        "unemploymentCount": 48.749,
+        "outsideLaborForce": 355.638
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.6,
+        "employmentRate": 70.4,
+        "unemploymentCount": 47.76,
+        "outsideLaborForce": 368.539
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.8,
+        "employmentRate": 69.1,
+        "unemploymentCount": 48.682,
+        "outsideLaborForce": 386.359
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.8,
+        "employmentRate": 69.0,
+        "unemploymentCount": 48.527,
+        "outsideLaborForce": 389.348
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.7,
+        "employmentRate": 68.7,
+        "unemploymentCount": 34.129,
+        "outsideLaborForce": 283.063
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.7,
+        "employmentRate": 68.1,
+        "unemploymentCount": 34.847,
+        "outsideLaborForce": 295.191
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.6,
+        "employmentRate": 68.2,
+        "unemploymentCount": 34.933,
+        "outsideLaborForce": 301.96
+      }
+    ],
+    "Атырауская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 13.5,
+        "employmentRate": 59.9,
+        "unemploymentCount": 27.5,
+        "outsideLaborForce": 90.034
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 10.7,
+        "employmentRate": 61.6,
+        "unemploymentCount": 22.1,
+        "outsideLaborForce": 92.732
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 9.5,
+        "employmentRate": 62.2,
+        "unemploymentCount": 20.4,
+        "outsideLaborForce": 96.8
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 9.3,
+        "employmentRate": 63.8,
+        "unemploymentCount": 21.0,
+        "outsideLaborForce": 95.7
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.1,
+        "employmentRate": 63.6,
+        "unemploymentCount": 21.0,
+        "outsideLaborForce": 98.9
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.4,
+        "employmentRate": 63.8,
+        "unemploymentCount": 19.8,
+        "outsideLaborForce": 102.3
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.438480567671375,
+        "employmentRate": 66.2,
+        "unemploymentCount": 18.282,
+        "outsideLaborForce": 97.92
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.3090501028818595,
+        "employmentRate": 68.7,
+        "unemploymentCount": 16.2,
+        "outsideLaborForce": 93.3
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.1,
+        "employmentRate": 67.5,
+        "unemploymentCount": 15.8,
+        "outsideLaborForce": 100.5
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.4,
+        "employmentRate": 70.0,
+        "unemploymentCount": 14.6,
+        "outsideLaborForce": 95.0
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.0,
+        "employmentRate": 72.1,
+        "unemploymentCount": 14.2,
+        "outsideLaborForce": 89.9
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.0,
+        "employmentRate": 71.9,
+        "unemploymentCount": 14.463,
+        "outsideLaborForce": 93.783
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.0,
+        "employmentRate": 79.6,
+        "unemploymentCount": 14.785,
+        "outsideLaborForce": 96.195
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 72.3,
+        "unemploymentCount": 15.173,
+        "outsideLaborForce": 94.689
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.0,
+        "unemploymentCount": 15.391,
+        "outsideLaborForce": 94.066
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.2,
+        "unemploymentCount": 15.599,
+        "outsideLaborForce": 94.101
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.1,
+        "unemploymentCount": 15.663,
+        "outsideLaborForce": 96.032
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 74.7,
+        "unemploymentCount": 16.087,
+        "outsideLaborForce": 90.802
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.5,
+        "unemploymentCount": 16.217,
+        "outsideLaborForce": 97.088
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.5,
+        "unemploymentCount": 16.309,
+        "outsideLaborForce": 98.472
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.8,
+        "employmentRate": 72.7,
+        "unemploymentCount": 16.609,
+        "outsideLaborForce": 106.13
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 73.4,
+        "unemploymentCount": 17.009,
+        "outsideLaborForce": 104.349
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.9,
+        "employmentRate": 74.7,
+        "unemploymentCount": 17.735,
+        "outsideLaborForce": 100.226
+      }
+    ],
+    "Западно-Казахстанская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 12.5,
+        "employmentRate": 64.7,
+        "unemploymentCount": 40.8,
+        "outsideLaborForce": 114.659
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 10.0,
+        "employmentRate": 62.9,
+        "unemploymentCount": 30.2,
+        "outsideLaborForce": 130.145
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 9.3,
+        "employmentRate": 64.0,
+        "unemploymentCount": 29.4,
+        "outsideLaborForce": 131.3
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 9.2,
+        "employmentRate": 63.4,
+        "unemploymentCount": 29.3,
+        "outsideLaborForce": 138.7
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.0,
+        "employmentRate": 62.5,
+        "unemploymentCount": 28.7,
+        "outsideLaborForce": 145.5
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.6,
+        "employmentRate": 62.6,
+        "unemploymentCount": 27.6,
+        "outsideLaborForce": 147.9
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.782741594168822,
+        "employmentRate": 63.5,
+        "unemploymentCount": 25.487,
+        "outsideLaborForce": 147.789
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 7.091190517776158,
+        "employmentRate": 64.4,
+        "unemploymentCount": 23.5,
+        "outsideLaborForce": 146.9
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.3,
+        "employmentRate": 64.9,
+        "unemploymentCount": 21.0,
+        "outsideLaborForce": 148.4
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.6,
+        "employmentRate": 64.9,
+        "unemploymentCount": 18.8,
+        "outsideLaborForce": 151.9
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.3,
+        "employmentRate": 65.8,
+        "unemploymentCount": 17.6,
+        "outsideLaborForce": 146.3
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.1,
+        "employmentRate": 66.3,
+        "unemploymentCount": 17.094,
+        "outsideLaborForce": 142.994
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.1,
+        "employmentRate": 76.7,
+        "unemploymentCount": 16.919,
+        "outsideLaborForce": 143.989
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.3,
+        "unemploymentCount": 16.751,
+        "outsideLaborForce": 144.46
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.6,
+        "unemploymentCount": 16.414,
+        "outsideLaborForce": 143.562
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.6,
+        "unemploymentCount": 16.384,
+        "outsideLaborForce": 144.072
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.6,
+        "unemploymentCount": 16.405,
+        "outsideLaborForce": 144.743
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.5,
+        "unemploymentCount": 16.35,
+        "outsideLaborForce": 145.488
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.5,
+        "unemploymentCount": 16.841,
+        "outsideLaborForce": 144.843
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.7,
+        "unemploymentCount": 16.431,
+        "outsideLaborForce": 144.63
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.2,
+        "unemploymentCount": 17.378,
+        "outsideLaborForce": 151.616
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.5,
+        "unemploymentCount": 17.014,
+        "outsideLaborForce": 151.228
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.5,
+        "unemploymentCount": 17.162,
+        "outsideLaborForce": 152.357
+      }
+    ],
+    "Жамбылская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 12.7,
+        "employmentRate": 62.1,
+        "unemploymentCount": 60.8,
+        "outsideLaborForce": 194.184
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 12.3,
+        "employmentRate": 63.6,
+        "unemploymentCount": 59.2,
+        "outsideLaborForce": 183.376
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 11.1,
+        "employmentRate": 67.2,
+        "unemploymentCount": 57.4,
+        "outsideLaborForce": 167.9
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 10.2,
+        "employmentRate": 62.9,
+        "unemploymentCount": 50.5,
+        "outsideLaborForce": 210.8
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.8,
+        "employmentRate": 63.0,
+        "unemploymentCount": 48.7,
+        "outsideLaborForce": 214.9
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 9.2,
+        "employmentRate": 64.6,
+        "unemploymentCount": 46.9,
+        "outsideLaborForce": 207.7
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.725971966534822,
+        "employmentRate": 69.8,
+        "unemploymentCount": 42.387,
+        "outsideLaborForce": 176.489
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.516030846660777,
+        "employmentRate": 72.6,
+        "unemploymentCount": 37.0,
+        "outsideLaborForce": 163.1
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.5,
+        "employmentRate": 72.9,
+        "unemploymentCount": 37.7,
+        "outsideLaborForce": 162.5
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.7,
+        "employmentRate": 73.8,
+        "unemploymentCount": 33.4,
+        "outsideLaborForce": 162.5
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.5,
+        "employmentRate": 74.8,
+        "unemploymentCount": 32.4,
+        "outsideLaborForce": 155.3
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.4,
+        "employmentRate": 75.4,
+        "unemploymentCount": 32.051,
+        "outsideLaborForce": 150.392
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.2,
+        "employmentRate": 80.5,
+        "unemploymentCount": 30.134,
+        "outsideLaborForce": 164.113
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.9,
+        "employmentRate": 70.9,
+        "unemploymentCount": 27.548,
+        "outsideLaborForce": 190.48
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 66.6,
+        "unemploymentCount": 25.612,
+        "outsideLaborForce": 225.836
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": 67.6,
+        "unemploymentCount": 25.787,
+        "outsideLaborForce": 216.571
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.9,
+        "employmentRate": 68.1,
+        "unemploymentCount": 26.035,
+        "outsideLaborForce": 211.8
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 67.7,
+        "unemploymentCount": 25.447,
+        "outsideLaborForce": 216.058
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 67.3,
+        "unemploymentCount": 25.685,
+        "outsideLaborForce": 218.939
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 67.2,
+        "unemploymentCount": 25.672,
+        "outsideLaborForce": 219.545
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.4,
+        "unemploymentCount": 28.17,
+        "outsideLaborForce": 244.505
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.4,
+        "unemploymentCount": 27.185,
+        "outsideLaborForce": 247.857
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 65.7,
+        "unemploymentCount": 27.302,
+        "outsideLaborForce": 257.639
+      }
+    ],
+    "Жетісу": [
+      {
+        "year": "2001",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.1,
+        "employmentRate": 65.8,
+        "unemploymentCount": 17.158,
+        "outsideLaborForce": 149.329
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.9,
+        "employmentRate": 63.9,
+        "unemploymentCount": 15.767,
+        "outsideLaborForce": 158.824
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 60.8,
+        "unemploymentCount": 14.876,
+        "outsideLaborForce": 176.202
+      }
+    ],
+    "Карагандинская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 9.2,
+        "employmentRate": 62.5,
+        "unemploymentCount": 66.2,
+        "outsideLaborForce": 325.532
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 8.3,
+        "employmentRate": 65.7,
+        "unemploymentCount": 60.5,
+        "outsideLaborForce": 286.914
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 7.5,
+        "employmentRate": 65.1,
+        "unemploymentCount": 54.7,
+        "outsideLaborForce": 305.4
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 7.4,
+        "employmentRate": 64.7,
+        "unemploymentCount": 53.7,
+        "outsideLaborForce": 315.3
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.0,
+        "employmentRate": 65.3,
+        "unemploymentCount": 51.4,
+        "outsideLaborForce": 313.4
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 6.9,
+        "employmentRate": 65.3,
+        "unemploymentCount": 51.1,
+        "outsideLaborForce": 315.5
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.654449600571802,
+        "employmentRate": 65.3,
+        "unemploymentCount": 49.53,
+        "outsideLaborForce": 319.782
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.216172702024607,
+        "employmentRate": 65.5,
+        "unemploymentCount": 46.3,
+        "outsideLaborForce": 322.0
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.1,
+        "employmentRate": 65.0,
+        "unemploymentCount": 45.3,
+        "outsideLaborForce": 329.3
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.5,
+        "employmentRate": 65.6,
+        "unemploymentCount": 40.6,
+        "outsideLaborForce": 328.3
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.3,
+        "employmentRate": 65.4,
+        "unemploymentCount": 38.8,
+        "outsideLaborForce": 332.1
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.1,
+        "employmentRate": 65.7,
+        "unemploymentCount": 37.948,
+        "outsideLaborForce": 329.754
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.0,
+        "employmentRate": 78.0,
+        "unemploymentCount": 36.912,
+        "outsideLaborForce": 323.709
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.9,
+        "employmentRate": 63.4,
+        "unemploymentCount": 34.7,
+        "outsideLaborForce": 356.57
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.0,
+        "employmentRate": 61.4,
+        "unemploymentCount": 34.222,
+        "outsideLaborForce": 377.883
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 61.4,
+        "unemploymentCount": 32.648,
+        "outsideLaborForce": 376.967
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.6,
+        "employmentRate": 61.9,
+        "unemploymentCount": 31.367,
+        "outsideLaborForce": 371.11
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.4,
+        "employmentRate": 61.8,
+        "unemploymentCount": 30.013,
+        "outsideLaborForce": 371.827
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.6,
+        "employmentRate": 61.3,
+        "unemploymentCount": 30.69,
+        "outsideLaborForce": 375.129
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.5,
+        "employmentRate": 61.7,
+        "unemploymentCount": 30.036,
+        "outsideLaborForce": 370.108
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.4,
+        "employmentRate": 62.0,
+        "unemploymentCount": 24.776,
+        "outsideLaborForce": 303.542
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.1,
+        "employmentRate": 62.1,
+        "unemploymentCount": 22.92,
+        "outsideLaborForce": 304.541
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.1,
+        "employmentRate": 62.6,
+        "unemploymentCount": 22.915,
+        "outsideLaborForce": 301.929
+      }
+    ],
+    "Костанайская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.3,
+        "employmentRate": 67.7,
+        "unemploymentCount": 58.2,
+        "outsideLaborForce": 183.869
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.3,
+        "employmentRate": 68.8,
+        "unemploymentCount": 49.7,
+        "outsideLaborForce": 169.312
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.7,
+        "employmentRate": 69.0,
+        "unemploymentCount": 47.0,
+        "outsideLaborForce": 175.5
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 8.5,
+        "employmentRate": 69.9,
+        "unemploymentCount": 46.8,
+        "outsideLaborForce": 171.2
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 8.2,
+        "employmentRate": 70.5,
+        "unemploymentCount": 45.4,
+        "outsideLaborForce": 168.9
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.8,
+        "employmentRate": 70.8,
+        "unemploymentCount": 43.3,
+        "outsideLaborForce": 168.6
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.5105400916002205,
+        "employmentRate": 71.3,
+        "unemploymentCount": 42.095,
+        "outsideLaborForce": 166.675
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.8668886688866895,
+        "employmentRate": 71.3,
+        "unemploymentCount": 38.1,
+        "outsideLaborForce": 170.1
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.3,
+        "employmentRate": 70.6,
+        "unemploymentCount": 34.5,
+        "outsideLaborForce": 178.4
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.7,
+        "employmentRate": 71.0,
+        "unemploymentCount": 30.9,
+        "outsideLaborForce": 178.2
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.4,
+        "employmentRate": 71.3,
+        "unemploymentCount": 29.1,
+        "outsideLaborForce": 177.0
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.2,
+        "employmentRate": 71.7,
+        "unemploymentCount": 28.311,
+        "outsideLaborForce": 173.483
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.2,
+        "employmentRate": 82.3,
+        "unemploymentCount": 27.427,
+        "outsideLaborForce": 180.386
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 69.3,
+        "unemploymentCount": 26.105,
+        "outsideLaborForce": 192.88
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 70.0,
+        "unemploymentCount": 25.653,
+        "outsideLaborForce": 185.699
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 70.1,
+        "unemploymentCount": 25.016,
+        "outsideLaborForce": 184.964
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 69.8,
+        "unemploymentCount": 24.526,
+        "outsideLaborForce": 186.729
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.7,
+        "employmentRate": 69.5,
+        "unemploymentCount": 24.121,
+        "outsideLaborForce": 188.282
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 67.6,
+        "unemploymentCount": 24.138,
+        "outsideLaborForce": 199.696
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.8,
+        "employmentRate": 68.9,
+        "unemploymentCount": 24.082,
+        "outsideLaborForce": 190.615
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.9,
+        "employmentRate": 68.9,
+        "unemploymentCount": 23.185,
+        "outsideLaborForce": 182.092
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 68.7,
+        "unemploymentCount": 22.595,
+        "outsideLaborForce": 182.046
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.7,
+        "employmentRate": 66.9,
+        "unemploymentCount": 21.604,
+        "outsideLaborForce": 195.377
+      }
+    ],
+    "Кызылординская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 13.9,
+        "employmentRate": 58.2,
+        "unemploymentCount": 36.0,
+        "outsideLaborForce": 124.83
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 12.5,
+        "employmentRate": 61.4,
+        "unemploymentCount": 34.4,
+        "outsideLaborForce": 116.819
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 11.4,
+        "employmentRate": 63.5,
+        "unemploymentCount": 32.8,
+        "outsideLaborForce": 113.8
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 10.2,
+        "employmentRate": 64.9,
+        "unemploymentCount": 30.3,
+        "outsideLaborForce": 114.1
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.7,
+        "employmentRate": 65.3,
+        "unemploymentCount": 29.4,
+        "outsideLaborForce": 115.5
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 9.3,
+        "employmentRate": 64.0,
+        "unemploymentCount": 27.9,
+        "outsideLaborForce": 124.4
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 8.226937455138344,
+        "employmentRate": 65.8,
+        "unemploymentCount": 25.33,
+        "outsideLaborForce": 121.798
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.939578178004294,
+        "employmentRate": 65.2,
+        "unemploymentCount": 21.2,
+        "outsideLaborForce": 130.2
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.6,
+        "employmentRate": 64.9,
+        "unemploymentCount": 20.4,
+        "outsideLaborForce": 135.0
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.9,
+        "employmentRate": 66.4,
+        "unemploymentCount": 18.7,
+        "outsideLaborForce": 132.7
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.5,
+        "employmentRate": 67.9,
+        "unemploymentCount": 18.6,
+        "outsideLaborForce": 132.2
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.3,
+        "employmentRate": 66.5,
+        "unemploymentCount": 18.549,
+        "outsideLaborForce": 147.406
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.2,
+        "employmentRate": 74.1,
+        "unemploymentCount": 18.267,
+        "outsideLaborForce": 149.727
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 64.8,
+        "unemploymentCount": 16.449,
+        "outsideLaborForce": 152.34
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 63.3,
+        "unemploymentCount": 17.072,
+        "outsideLaborForce": 173.594
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 63.6,
+        "unemploymentCount": 16.849,
+        "outsideLaborForce": 172.029
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 63.8,
+        "unemploymentCount": 16.785,
+        "outsideLaborForce": 172.27
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 63.0,
+        "unemploymentCount": 16.793,
+        "outsideLaborForce": 178.479
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 61.7,
+        "unemploymentCount": 16.877,
+        "outsideLaborForce": 187.622
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 61.4,
+        "unemploymentCount": 17.017,
+        "outsideLaborForce": 190.713
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.9,
+        "employmentRate": 61.1,
+        "unemploymentCount": 17.028,
+        "outsideLaborForce": 193.05
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.9,
+        "employmentRate": 60.7,
+        "unemploymentCount": 17.042,
+        "outsideLaborForce": 197.671
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 60.4,
+        "unemploymentCount": 16.939,
+        "outsideLaborForce": 202.091
+      }
+    ],
+    "Мангистауская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.5,
+        "employmentRate": 63.1,
+        "unemploymentCount": 15.4,
+        "outsideLaborForce": 61.034
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.8,
+        "employmentRate": 60.8,
+        "unemploymentCount": 14.4,
+        "outsideLaborForce": 71.446
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 9.7,
+        "employmentRate": 61.7,
+        "unemploymentCount": 15.2,
+        "outsideLaborForce": 72.5
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 9.8,
+        "employmentRate": 67.9,
+        "unemploymentCount": 17.9,
+        "outsideLaborForce": 59.7
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 9.7,
+        "employmentRate": 69.7,
+        "unemploymentCount": 18.3,
+        "outsideLaborForce": 55.7
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 9.3,
+        "employmentRate": 66.3,
+        "unemploymentCount": 17.7,
+        "outsideLaborForce": 69.7
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 8.48566589620966,
+        "employmentRate": 65.5,
+        "unemploymentCount": 16.484,
+        "outsideLaborForce": 77.066
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.852954150084008,
+        "employmentRate": 66.1,
+        "unemploymentCount": 13.8,
+        "outsideLaborForce": 82.4
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 7.1,
+        "employmentRate": 65.7,
+        "unemploymentCount": 14.9,
+        "outsideLaborForce": 86.6
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 6.4,
+        "employmentRate": 66.5,
+        "unemploymentCount": 14.1,
+        "outsideLaborForce": 89.2
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.8,
+        "employmentRate": 67.6,
+        "unemploymentCount": 14.1,
+        "outsideLaborForce": 94.9
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.7,
+        "employmentRate": 67.7,
+        "unemploymentCount": 15.41,
+        "outsideLaborForce": 106.789
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.5,
+        "employmentRate": 74.0,
+        "unemploymentCount": 15.141,
+        "outsideLaborForce": 117.157
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": 62.3,
+        "unemploymentCount": 12.977,
+        "outsideLaborForce": 137.754
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.0,
+        "employmentRate": 66.7,
+        "unemploymentCount": 14.501,
+        "outsideLaborForce": 124.499
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": 65.5,
+        "unemploymentCount": 14.238,
+        "outsideLaborForce": 131.836
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 70.6,
+        "unemploymentCount": 15.49,
+        "outsideLaborForce": 111.238
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 69.5,
+        "unemploymentCount": 15.357,
+        "outsideLaborForce": 118.502
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 68.5,
+        "unemploymentCount": 15.779,
+        "outsideLaborForce": 126.343
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 72.1,
+        "unemploymentCount": 16.918,
+        "outsideLaborForce": 111.252
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.1,
+        "employmentRate": 70.8,
+        "unemploymentCount": 17.746,
+        "outsideLaborForce": 119.332
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 5.0,
+        "employmentRate": 69.7,
+        "unemploymentCount": 17.58,
+        "outsideLaborForce": 128.609
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 5.0,
+        "employmentRate": 69.6,
+        "unemploymentCount": 18.293,
+        "outsideLaborForce": 133.643
+      }
+    ],
+    "Павлодарская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 11.5,
+        "employmentRate": 67.7,
+        "unemploymentCount": 97.3,
+        "outsideLaborForce": 402.241
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.4,
+        "employmentRate": 65.6,
+        "unemploymentCount": 83.9,
+        "outsideLaborForce": 386.213
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.6,
+        "employmentRate": 64.5,
+        "unemploymentCount": 81.5,
+        "outsideLaborForce": 408.4
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 7.8,
+        "employmentRate": 63.6,
+        "unemploymentCount": 78.7,
+        "outsideLaborForce": 422.2
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.5,
+        "employmentRate": 62.4,
+        "unemploymentCount": 75.5,
+        "outsideLaborForce": 452.4
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.2,
+        "employmentRate": 63.4,
+        "unemploymentCount": 75.8,
+        "outsideLaborForce": 446.4
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.932931424265259,
+        "employmentRate": 64.9,
+        "unemploymentCount": 74.98,
+        "outsideLaborForce": 450.677
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.616897054498351,
+        "employmentRate": 67.1,
+        "unemploymentCount": 74.0,
+        "outsideLaborForce": 448.3
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.6,
+        "employmentRate": 67.3,
+        "unemploymentCount": 75.0,
+        "outsideLaborForce": 463.7
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": null,
+        "employmentRate": 68.8,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": null,
+        "employmentRate": 69.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": null,
+        "employmentRate": 69.8,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": null,
+        "employmentRate": 80.3,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": null,
+        "employmentRate": 70.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": null,
+        "employmentRate": 67.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": null,
+        "employmentRate": 67.4,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": null,
+        "employmentRate": 67.2,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": null,
+        "employmentRate": 67.0,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": null,
+        "employmentRate": 66.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": null,
+        "employmentRate": 66.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": null,
+        "employmentRate": 66.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": null,
+        "employmentRate": 66.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": null,
+        "employmentRate": 66.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      }
+    ],
+    "Северо-Казахстанская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 9.2,
+        "employmentRate": 73.5,
+        "unemploymentCount": 41.4,
+        "outsideLaborForce": 153.042
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 8.7,
+        "employmentRate": 72.3,
+        "unemploymentCount": 35.4,
+        "outsideLaborForce": 159.869
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.2,
+        "employmentRate": 70.0,
+        "unemploymentCount": 33.9,
+        "outsideLaborForce": 173.5
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 7.7,
+        "employmentRate": 68.7,
+        "unemploymentCount": 31.6,
+        "outsideLaborForce": 183.8
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.6,
+        "employmentRate": 68.6,
+        "unemploymentCount": 30.5,
+        "outsideLaborForce": 193.8
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.4,
+        "employmentRate": 69.0,
+        "unemploymentCount": 30.2,
+        "outsideLaborForce": 188.0
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.920392928058653,
+        "employmentRate": 68.9,
+        "unemploymentCount": 28.997,
+        "outsideLaborForce": 181.647
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.359357555486582,
+        "employmentRate": 69.1,
+        "unemploymentCount": 27.5,
+        "outsideLaborForce": 170.7
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.4,
+        "employmentRate": 68.5,
+        "unemploymentCount": 27.6,
+        "outsideLaborForce": 169.9
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.6,
+        "employmentRate": 68.7,
+        "unemploymentCount": 24.8,
+        "outsideLaborForce": 163.7
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.2,
+        "employmentRate": 69.5,
+        "unemploymentCount": 22.9,
+        "outsideLaborForce": 160.5
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 4.9,
+        "employmentRate": 70.5,
+        "unemploymentCount": 21.725,
+        "outsideLaborForce": 159.211
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.0,
+        "employmentRate": 81.7,
+        "unemploymentCount": 22.024,
+        "outsideLaborForce": 157.692
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.8,
+        "employmentRate": 68.1,
+        "unemploymentCount": 20.981,
+        "outsideLaborForce": 155.012
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.8,
+        "employmentRate": 67.0,
+        "unemploymentCount": 20.297,
+        "outsideLaborForce": 171.582
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.0,
+        "unemploymentCount": 19.921,
+        "outsideLaborForce": 171.729
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 67.0,
+        "unemploymentCount": 19.617,
+        "outsideLaborForce": 172.429
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.7,
+        "employmentRate": 66.7,
+        "unemploymentCount": 19.146,
+        "outsideLaborForce": 173.103
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.6,
+        "unemploymentCount": 19.587,
+        "outsideLaborForce": 174.579
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.8,
+        "employmentRate": 66.7,
+        "unemploymentCount": 19.378,
+        "outsideLaborForce": 173.671
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.8,
+        "employmentRate": 65.1,
+        "unemploymentCount": 19.186,
+        "outsideLaborForce": 174.437
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 64.1,
+        "unemploymentCount": 19.323,
+        "outsideLaborForce": 174.905
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.7,
+        "employmentRate": 62.9,
+        "unemploymentCount": 19.194,
+        "outsideLaborForce": 175.762
+      }
+    ],
+    "Туркестанская": [
+      {
+        "year": "2001",
+        "unemploymentRate": 8.9,
+        "employmentRate": null,
+        "unemploymentCount": 39.1,
+        "outsideLaborForce": 105.394
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 8.0,
+        "employmentRate": null,
+        "unemploymentCount": 32.7,
+        "outsideLaborForce": 111.374
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.0,
+        "employmentRate": null,
+        "unemploymentCount": 32.5,
+        "outsideLaborForce": 127.3
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 8.1,
+        "employmentRate": null,
+        "unemploymentCount": 32.6,
+        "outsideLaborForce": 134.4
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.9,
+        "employmentRate": null,
+        "unemploymentCount": 31.2,
+        "outsideLaborForce": 135.9
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 7.2,
+        "employmentRate": null,
+        "unemploymentCount": 28.6,
+        "outsideLaborForce": 136.0
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.893382586287876,
+        "employmentRate": null,
+        "unemploymentCount": 27.152,
+        "outsideLaborForce": 138.728
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.318984405868197,
+        "employmentRate": null,
+        "unemploymentCount": 24.6,
+        "outsideLaborForce": 138.7
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.3,
+        "employmentRate": null,
+        "unemploymentCount": 24.1,
+        "outsideLaborForce": 140.8
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.8,
+        "employmentRate": null,
+        "unemploymentCount": 22.0,
+        "outsideLaborForce": 141.1
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.4,
+        "employmentRate": null,
+        "unemploymentCount": 19.9,
+        "outsideLaborForce": 132.2
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.2,
+        "employmentRate": null,
+        "unemploymentCount": 18.312,
+        "outsideLaborForce": 120.345
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.1,
+        "employmentRate": null,
+        "unemploymentCount": 17.56,
+        "outsideLaborForce": 118.63
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.0,
+        "employmentRate": null,
+        "unemploymentCount": 16.47,
+        "outsideLaborForce": 130.223
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.0,
+        "employmentRate": null,
+        "unemploymentCount": 15.839,
+        "outsideLaborForce": 133.26
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.9,
+        "employmentRate": null,
+        "unemploymentCount": 15.155,
+        "outsideLaborForce": 136.685
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.9,
+        "employmentRate": 63.5,
+        "unemploymentCount": 15.116,
+        "outsideLaborForce": 130.76
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 63.8,
+        "unemploymentCount": 14.908,
+        "outsideLaborForce": 131.825
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 5.0,
+        "employmentRate": 62.1,
+        "unemploymentCount": 15.078,
+        "outsideLaborForce": 130.052
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.9,
+        "employmentRate": 61.4,
+        "unemploymentCount": 14.686,
+        "outsideLaborForce": 128.744
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.9,
+        "employmentRate": 60.6,
+        "unemploymentCount": 14.249,
+        "outsideLaborForce": 135.173
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 60.2,
+        "unemploymentCount": 13.833,
+        "outsideLaborForce": 140.07
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.6,
+        "employmentRate": 60.4,
+        "unemploymentCount": 12.861,
+        "outsideLaborForce": 144.926
+      }
+    ],
+    "Ұлытау": [
+      {
+        "year": "2001",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": null,
+        "employmentRate": null,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.4,
+        "employmentRate": null,
+        "unemploymentCount": 48.089,
+        "outsideLaborForce": 315.957
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.4,
+        "employmentRate": null,
+        "unemploymentCount": 49.405,
+        "outsideLaborForce": 324.041
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.3,
+        "employmentRate": null,
+        "unemploymentCount": 50.815,
+        "outsideLaborForce": 360.679
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.4,
+        "employmentRate": null,
+        "unemploymentCount": 51.115,
+        "outsideLaborForce": 368.812
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.5,
+        "employmentRate": null,
+        "unemploymentCount": 50.666,
+        "outsideLaborForce": 387.685
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.1,
+        "employmentRate": null,
+        "unemploymentCount": 42.781,
+        "outsideLaborForce": 390.823
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 5.2,
+        "employmentRate": null,
+        "unemploymentCount": 42.498,
+        "outsideLaborForce": 414.017
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 5.2,
+        "employmentRate": null,
+        "unemploymentCount": 43.041,
+        "outsideLaborForce": 409.579
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 5.1,
+        "employmentRate": null,
+        "unemploymentCount": 41.85,
+        "outsideLaborForce": 403.443
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 5.2,
+        "employmentRate": null,
+        "unemploymentCount": 42.46,
+        "outsideLaborForce": 433.675
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 5.1,
+        "employmentRate": null,
+        "unemploymentCount": 41.771,
+        "outsideLaborForce": 446.272
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.2,
+        "employmentRate": 64.6,
+        "unemploymentCount": 43.051,
+        "outsideLaborForce": 471.785
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 5.0,
+        "employmentRate": 64.8,
+        "unemploymentCount": 41.698,
+        "outsideLaborForce": 487.132
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.8,
+        "employmentRate": 62.1,
+        "unemploymentCount": 41.603,
+        "outsideLaborForce": 494.824
+      }
+    ],
+    "Восточно-Казахстанская": [
+      {
+        "year": "2001",
+        "unemploymentRate": null,
+        "employmentRate": 61.2,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": null,
+        "employmentRate": 60.0,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": null,
+        "employmentRate": 60.3,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": null,
+        "employmentRate": 60.4,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": null,
+        "employmentRate": 60.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": null,
+        "employmentRate": 61.3,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": null,
+        "employmentRate": 62.2,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": null,
+        "employmentRate": 62.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": null,
+        "employmentRate": 62.7,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": null,
+        "employmentRate": 63.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": null,
+        "employmentRate": 63.5,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": null,
+        "employmentRate": 63.7,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": null,
+        "employmentRate": 77.4,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": null,
+        "employmentRate": 64.0,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": null,
+        "employmentRate": 62.8,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": null,
+        "employmentRate": 63.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": null,
+        "employmentRate": 63.7,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": null,
+        "employmentRate": 64.0,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": null,
+        "employmentRate": 63.6,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": null,
+        "employmentRate": 64.0,
+        "unemploymentCount": null,
+        "outsideLaborForce": null
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.3,
+        "employmentRate": 63.7,
+        "unemploymentCount": 4.49,
+        "outsideLaborForce": 50.735
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.2,
+        "employmentRate": 64.5,
+        "unemploymentCount": 4.384,
+        "outsideLaborForce": 50.445
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.1,
+        "employmentRate": 64.0,
+        "unemploymentCount": 4.189,
+        "outsideLaborForce": 55.208
+      }
+    ],
+    "г. Астана": [
+      {
+        "year": "2001",
+        "unemploymentRate": 7.3,
+        "employmentRate": 64.5,
+        "unemploymentCount": 55.9,
+        "outsideLaborForce": 390.173
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 7.3,
+        "employmentRate": 58.2,
+        "unemploymentCount": 52.5,
+        "outsideLaborForce": 393.803
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 7.3,
+        "employmentRate": 59.3,
+        "unemploymentCount": 54.1,
+        "outsideLaborForce": 400.5
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 7.2,
+        "employmentRate": 63.4,
+        "unemploymentCount": 54.5,
+        "outsideLaborForce": 402.4
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 7.1,
+        "employmentRate": 61.6,
+        "unemploymentCount": 53.6,
+        "outsideLaborForce": 401.2
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 6.9,
+        "employmentRate": 61.5,
+        "unemploymentCount": 52.4,
+        "outsideLaborForce": 391.4
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 6.619448137253876,
+        "employmentRate": 61.6,
+        "unemploymentCount": 50.589,
+        "outsideLaborForce": 382.943
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.4246470947324665,
+        "employmentRate": 67.3,
+        "unemploymentCount": 49.2,
+        "outsideLaborForce": 378.3
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.4,
+        "employmentRate": 67.3,
+        "unemploymentCount": 48.9,
+        "outsideLaborForce": 376.9
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 5.7,
+        "employmentRate": 67.0,
+        "unemploymentCount": 43.7,
+        "outsideLaborForce": 371.0
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.2,
+        "employmentRate": 68.5,
+        "unemploymentCount": 39.6,
+        "outsideLaborForce": 373.7
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.1,
+        "employmentRate": 68.0,
+        "unemploymentCount": 38.05,
+        "outsideLaborForce": 367.37
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.1,
+        "employmentRate": 74.7,
+        "unemploymentCount": 37.735,
+        "outsideLaborForce": 363.098
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 4.8,
+        "employmentRate": 69.9,
+        "unemploymentCount": 35.456,
+        "outsideLaborForce": 362.029
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.9,
+        "employmentRate": 73.1,
+        "unemploymentCount": 34.928,
+        "outsideLaborForce": 370.636
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.8,
+        "employmentRate": 70.8,
+        "unemploymentCount": 34.704,
+        "outsideLaborForce": 359.356
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.8,
+        "employmentRate": 68.8,
+        "unemploymentCount": 34.552,
+        "outsideLaborForce": 352.365
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.8,
+        "employmentRate": 72.5,
+        "unemploymentCount": 34.059,
+        "outsideLaborForce": 348.892
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.9,
+        "employmentRate": 70.8,
+        "unemploymentCount": 34.124,
+        "outsideLaborForce": 349.129
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.8,
+        "employmentRate": 70.4,
+        "unemploymentCount": 33.506,
+        "outsideLaborForce": 342.084
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.7,
+        "employmentRate": 68.3,
+        "unemploymentCount": 18.134,
+        "outsideLaborForce": 191.123
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.6,
+        "employmentRate": 68.5,
+        "unemploymentCount": 17.987,
+        "outsideLaborForce": 185.118
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.6,
+        "employmentRate": 67.4,
+        "unemploymentCount": 17.501,
+        "outsideLaborForce": 189.366
+      }
+    ],
+    "г. Алматы": [
+      {
+        "year": "2001",
+        "unemploymentRate": 9.3,
+        "employmentRate": 55.6,
+        "unemploymentCount": 18.3,
+        "outsideLaborForce": 79.608
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 8.7,
+        "employmentRate": 56.8,
+        "unemploymentCount": 20.8,
+        "outsideLaborForce": 136.093
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.4,
+        "employmentRate": 57.0,
+        "unemploymentCount": 22.0,
+        "outsideLaborForce": 141.8
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 8.3,
+        "employmentRate": 57.4,
+        "unemploymentCount": 24.1,
+        "outsideLaborForce": 129.7
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 8.2,
+        "employmentRate": 57.5,
+        "unemploymentCount": 24.1,
+        "outsideLaborForce": 143.4
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.0,
+        "employmentRate": 58.1,
+        "unemploymentCount": 24.3,
+        "outsideLaborForce": 150.0
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.608623127392885,
+        "employmentRate": 59.7,
+        "unemploymentCount": 23.947,
+        "outsideLaborForce": 157.065
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 6.620398395157316,
+        "employmentRate": 61.1,
+        "unemploymentCount": 23.5,
+        "outsideLaborForce": 138.0
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 6.6,
+        "employmentRate": 59.8,
+        "unemploymentCount": 24.4,
+        "outsideLaborForce": 144.5
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 6.2,
+        "employmentRate": 61.1,
+        "unemploymentCount": 24.0,
+        "outsideLaborForce": 156.3
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.8,
+        "employmentRate": 61.9,
+        "unemploymentCount": 23.2,
+        "outsideLaborForce": 149.4
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.7,
+        "employmentRate": 62.2,
+        "unemploymentCount": 23.625,
+        "outsideLaborForce": 162.077
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.5,
+        "employmentRate": 72.7,
+        "unemploymentCount": 24.014,
+        "outsideLaborForce": 163.959
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.1,
+        "employmentRate": 63.4,
+        "unemploymentCount": 22.955,
+        "outsideLaborForce": 162.668
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 4.6,
+        "employmentRate": 64.6,
+        "unemploymentCount": 22.659,
+        "outsideLaborForce": 148.732
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 4.6,
+        "employmentRate": 64.6,
+        "unemploymentCount": 23.958,
+        "outsideLaborForce": 181.401
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 4.5,
+        "employmentRate": 64.9,
+        "unemploymentCount": 23.953,
+        "outsideLaborForce": 206.567
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 4.4,
+        "employmentRate": 65.2,
+        "unemploymentCount": 25.544,
+        "outsideLaborForce": 183.999
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 4.6,
+        "employmentRate": 65.1,
+        "unemploymentCount": 27.083,
+        "outsideLaborForce": 205.565
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 4.6,
+        "employmentRate": 65.1,
+        "unemploymentCount": 28.133,
+        "outsideLaborForce": 215.553
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 4.6,
+        "employmentRate": 64.6,
+        "unemploymentCount": 29.938,
+        "outsideLaborForce": 259.997
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.5,
+        "employmentRate": 65.3,
+        "unemploymentCount": 31.238,
+        "outsideLaborForce": 272.0
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.4,
+        "employmentRate": 65.4,
+        "unemploymentCount": 31.402,
+        "outsideLaborForce": 300.155
+      }
+    ],
+    "г. Шымкент": [
+      {
+        "year": "2001",
+        "unemploymentRate": 10.8,
+        "employmentRate": null,
+        "unemploymentCount": 59.9,
+        "outsideLaborForce": 336.631
+      },
+      {
+        "year": "2002",
+        "unemploymentRate": 9.6,
+        "employmentRate": null,
+        "unemploymentCount": 54.0,
+        "outsideLaborForce": 333.327
+      },
+      {
+        "year": "2003",
+        "unemploymentRate": 8.9,
+        "employmentRate": null,
+        "unemploymentCount": 51.6,
+        "outsideLaborForce": 344.8
+      },
+      {
+        "year": "2004",
+        "unemploymentRate": 8.8,
+        "employmentRate": null,
+        "unemploymentCount": 52.7,
+        "outsideLaborForce": 354.4
+      },
+      {
+        "year": "2005",
+        "unemploymentRate": 8.4,
+        "employmentRate": null,
+        "unemploymentCount": 52.2,
+        "outsideLaborForce": 367.3
+      },
+      {
+        "year": "2006",
+        "unemploymentRate": 8.2,
+        "employmentRate": null,
+        "unemploymentCount": 53.0,
+        "outsideLaborForce": 372.3
+      },
+      {
+        "year": "2007",
+        "unemploymentRate": 7.833691117023318,
+        "employmentRate": null,
+        "unemploymentCount": 53.059,
+        "outsideLaborForce": 367.578
+      },
+      {
+        "year": "2008",
+        "unemploymentRate": 7.353783265866132,
+        "employmentRate": null,
+        "unemploymentCount": 51.9,
+        "outsideLaborForce": 363.5
+      },
+      {
+        "year": "2009",
+        "unemploymentRate": 7.7,
+        "employmentRate": null,
+        "unemploymentCount": 54.6,
+        "outsideLaborForce": 383.0
+      },
+      {
+        "year": "2010",
+        "unemploymentRate": 6.3,
+        "employmentRate": null,
+        "unemploymentCount": 45.5,
+        "outsideLaborForce": 386.4
+      },
+      {
+        "year": "2011",
+        "unemploymentRate": 5.6,
+        "employmentRate": null,
+        "unemploymentCount": 41.7,
+        "outsideLaborForce": 388.1
+      },
+      {
+        "year": "2012",
+        "unemploymentRate": 5.6,
+        "employmentRate": null,
+        "unemploymentCount": 43.642,
+        "outsideLaborForce": 399.745
+      },
+      {
+        "year": "2013",
+        "unemploymentRate": 5.6,
+        "employmentRate": null,
+        "unemploymentCount": 44.446,
+        "outsideLaborForce": 399.233
+      },
+      {
+        "year": "2014",
+        "unemploymentRate": 5.5,
+        "employmentRate": null,
+        "unemploymentCount": 44.764,
+        "outsideLaborForce": 396.035
+      },
+      {
+        "year": "2016",
+        "unemploymentRate": 5.3,
+        "employmentRate": null,
+        "unemploymentCount": 48.371,
+        "outsideLaborForce": 427.718
+      },
+      {
+        "year": "2017",
+        "unemploymentRate": 5.3,
+        "employmentRate": null,
+        "unemploymentCount": 49.584,
+        "outsideLaborForce": 437.353
+      },
+      {
+        "year": "2018",
+        "unemploymentRate": 5.2,
+        "employmentRate": 60.7,
+        "unemploymentCount": 49.75,
+        "outsideLaborForce": 444.258
+      },
+      {
+        "year": "2019",
+        "unemploymentRate": 5.1,
+        "employmentRate": 60.5,
+        "unemploymentCount": 50.025,
+        "outsideLaborForce": 449.172
+      },
+      {
+        "year": "2020",
+        "unemploymentRate": 5.2,
+        "employmentRate": 59.6,
+        "unemploymentCount": 52.198,
+        "outsideLaborForce": 462.073
+      },
+      {
+        "year": "2021",
+        "unemploymentRate": 5.2,
+        "employmentRate": 58.7,
+        "unemploymentCount": 53.512,
+        "outsideLaborForce": 474.396
+      },
+      {
+        "year": "2022",
+        "unemploymentRate": 5.0,
+        "employmentRate": 57.0,
+        "unemploymentCount": 53.035,
+        "outsideLaborForce": 494.023
+      },
+      {
+        "year": "2023",
+        "unemploymentRate": 4.8,
+        "employmentRate": 56.4,
+        "unemploymentCount": 52.528,
+        "outsideLaborForce": 503.002
+      },
+      {
+        "year": "2024",
+        "unemploymentRate": 4.6,
+        "employmentRate": 56.6,
+        "unemploymentCount": 52.025,
+        "outsideLaborForce": 519.874
+      }
+    ]
+  },
+  "almatyDistricts": [
+    {
+      "district": "Алмалинский район",
+      "total": 272739.0,
+      "male": 123883.0,
+      "female": 148856.0,
+      "age0to15": 58333.0,
+      "workingAge": 173737.0,
+      "senior": 40669.0,
+      "youthShare": 21.39,
+      "seniorShare": 14.91,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 159980.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 66051.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 7884.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 6830.0
+        },
+        {
+          "ethnos": "Не указавшие",
+          "value": 5477.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 4579.0
+        }
+      ]
+    },
+    {
+      "district": "Алатауский район",
+      "total": 400953.0,
+      "male": 192323.0,
+      "female": 208630.0,
+      "age0to15": 127195.0,
+      "workingAge": 240519.0,
+      "senior": 33239.0,
+      "youthShare": 31.72,
+      "seniorShare": 8.29,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 314235.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 26635.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 22291.0
+        },
+        {
+          "ethnos": "Дунгане",
+          "value": 9343.0
+        },
+        {
+          "ethnos": "Не указавшие",
+          "value": 3876.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 3870.0
+        }
+      ]
+    },
+    {
+      "district": "Ауэзовский район",
+      "total": 360392.0,
+      "male": 162902.0,
+      "female": 197490.0,
+      "age0to15": 96733.0,
+      "workingAge": 213846.0,
+      "senior": 49813.0,
+      "youthShare": 26.84,
+      "seniorShare": 13.82,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 226895.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 72616.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 21929.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 7428.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 5507.0
+        },
+        {
+          "ethnos": "Украинцы",
+          "value": 3582.0
+        }
+      ]
+    },
+    {
+      "district": "Бостандыкский район",
+      "total": 348491.0,
+      "male": 158390.0,
+      "female": 190101.0,
+      "age0to15": 79465.0,
+      "workingAge": 220882.0,
+      "senior": 48144.0,
+      "youthShare": 22.8,
+      "seniorShare": 13.81,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 221861.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 74271.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 8770.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 8093.0
+        },
+        {
+          "ethnos": "Не указавшие",
+          "value": 6151.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 5752.0
+        }
+      ]
+    },
+    {
+      "district": "Жетысуский район",
+      "total": 198881.0,
+      "male": 92507.0,
+      "female": 106374.0,
+      "age0to15": 51006.0,
+      "workingAge": 121292.0,
+      "senior": 26583.0,
+      "youthShare": 25.65,
+      "seniorShare": 13.37,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 99974.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 46166.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 23768.0
+        },
+        {
+          "ethnos": "Дунгане",
+          "value": 3338.0
+        },
+        {
+          "ethnos": "Кыргызы",
+          "value": 3076.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 2793.0
+        }
+      ]
+    },
+    {
+      "district": "Медеуский район",
+      "total": 255078.0,
+      "male": 122226.0,
+      "female": 132852.0,
+      "age0to15": 62446.0,
+      "workingAge": 156279.0,
+      "senior": 36353.0,
+      "youthShare": 24.48,
+      "seniorShare": 14.25,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 152802.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 52215.0
+        },
+        {
+          "ethnos": "Не указавшие",
+          "value": 11829.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 10424.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 4135.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 4110.0
+        }
+      ]
+    },
+    {
+      "district": "Наурызбайский район",
+      "total": 240049.0,
+      "male": 111708.0,
+      "female": 128341.0,
+      "age0to15": 71024.0,
+      "workingAge": 145109.0,
+      "senior": 23916.0,
+      "youthShare": 29.59,
+      "seniorShare": 9.96,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 198215.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 18293.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 7861.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 2340.0
+        },
+        {
+          "ethnos": "Не указавшие",
+          "value": 1950.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 1932.0
+        }
+      ]
+    },
+    {
+      "district": "Турксибский район",
+      "total": 271520.0,
+      "male": 128931.0,
+      "female": 142589.0,
+      "age0to15": 74101.0,
+      "workingAge": 163294.0,
+      "senior": 34125.0,
+      "youthShare": 27.29,
+      "seniorShare": 12.57,
+      "topEthnicities": [
+        {
+          "ethnos": "Казахи",
+          "value": 144361.0
+        },
+        {
+          "ethnos": "Русские",
+          "value": 72546.0
+        },
+        {
+          "ethnos": "Уйгуры",
+          "value": 22278.0
+        },
+        {
+          "ethnos": "Азербайджанцы",
+          "value": 4507.0
+        },
+        {
+          "ethnos": "Татары",
+          "value": 3686.0
+        },
+        {
+          "ethnos": "Корейцы",
+          "value": 3588.0
+        }
+      ]
+    }
+  ]
+}

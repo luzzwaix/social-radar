@@ -1,0 +1,9 @@
+node_modules/
+.parcel-cache/
+dist/
+.env
+.tmp_dataset_inspect/
+*.log
+*.err
+*.png
+cors-test.html

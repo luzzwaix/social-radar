@@ -1,0 +1,8690 @@
+{
+  "generatedAt": "2026-03-29T11:18:16.884594Z",
+  "national": {
+    "id": "kazakhstan",
+    "label": "Kazakhstan",
+    "coordinates": [
+      48.0196,
+      66.9237
+    ],
+    "rawName": "Республика Казахстан",
+    "population2026": 20499822.0,
+    "male2026": 10020683.0,
+    "female2026": 10479139.0,
+    "urbanPopulation2026": 13085110.0,
+    "ruralPopulation2026": 7414712.0,
+    "series": {
+      "unemployedPopulation": [
+        {
+          "year": 2001,
+          "value": 780.3
+        },
+        {
+          "year": 2002,
+          "value": 690.7
+        },
+        {
+          "year": 2003,
+          "value": 672.1
+        },
+        {
+          "year": 2004,
+          "value": 658.8
+        },
+        {
+          "year": 2005,
+          "value": 640.7
+        },
+        {
+          "year": 2006,
+          "value": 625.4
+        },
+        {
+          "year": 2007,
+          "value": 597.181
+        },
+        {
+          "year": 2008,
+          "value": 557.8
+        },
+        {
+          "year": 2009,
+          "value": 554.5
+        },
+        {
+          "year": 2010,
+          "value": 496.5
+        },
+        {
+          "year": 2011,
+          "value": 473.0
+        },
+        {
+          "year": 2012,
+          "value": 474.781
+        },
+        {
+          "year": 2013,
+          "value": 470.696
+        },
+        {
+          "year": 2014,
+          "value": 451.891
+        },
+        {
+          "year": 2016,
+          "value": 445.467
+        },
+        {
+          "year": 2017,
+          "value": 442.279
+        },
+        {
+          "year": 2018,
+          "value": 443.644
+        },
+        {
+          "year": 2019,
+          "value": 440.652
+        },
+        {
+          "year": 2020,
+          "value": 448.805
+        },
+        {
+          "year": 2021,
+          "value": 449.644
+        },
+        {
+          "year": 2022,
+          "value": 458.27
+        },
+        {
+          "year": 2023,
+          "value": 452.194
+        },
+        {
+          "year": 2024,
+          "value": 449.807
+        }
+      ],
+      "notInLaborForce": [
+        {
+          "year": 2001,
+          "value": 3175.801
+        },
+        {
+          "year": 2002,
+          "value": 3155.314
+        },
+        {
+          "year": 2003,
+          "value": 3278.6
+        },
+        {
+          "year": 2004,
+          "value": 3383.4
+        },
+        {
+          "year": 2005,
+          "value": 3476.9
+        },
+        {
+          "year": 2006,
+          "value": 3493.9
+        },
+        {
+          "year": 2007,
+          "value": 3463.166
+        },
+        {
+          "year": 2008,
+          "value": 3416.2
+        },
+        {
+          "year": 2009,
+          "value": 3500.3
+        },
+        {
+          "year": 2010,
+          "value": 3487.7
+        },
+        {
+          "year": 2011,
+          "value": 3477.3
+        },
+        {
+          "year": 2012,
+          "value": 3538.735
+        },
+        {
+          "year": 2013,
+          "value": 3569.357
+        },
+        {
+          "year": 2014,
+          "value": 3715.945
+        },
+        {
+          "year": 2016,
+          "value": 3854.978
+        },
+        {
+          "year": 2017,
+          "value": 3927.255
+        },
+        {
+          "year": 2018,
+          "value": 3907.304
+        },
+        {
+          "year": 2019,
+          "value": 3934.006
+        },
+        {
+          "year": 2020,
+          "value": 4076.775
+        },
+        {
+          "year": 2021,
+          "value": 4093.294
+        },
+        {
+          "year": 2022,
+          "value": 4301.439
+        },
+        {
+          "year": 2023,
+          "value": 4393.533
+        },
+        {
+          "year": 2024,
+          "value": 4512.796
+        }
+      ],
+      "unemploymentRate": [
+        {
+          "year": 2001,
+          "value": 10.4
+        },
+        {
+          "year": 2002,
+          "value": 9.3
+        },
+        {
+          "year": 2003,
+          "value": 8.8
+        },
+        {
+          "year": 2004,
+          "value": 8.4
+        },
+        {
+          "year": 2005,
+          "value": 8.1
+        },
+        {
+          "year": 2006,
+          "value": 7.8
+        },
+        {
+          "year": 2007,
+          "value": 7.257656208033504
+        },
+        {
+          "year": 2008,
+          "value": 6.629116452524367
+        },
+        {
+          "year": 2009,
+          "value": 6.6
+        },
+        {
+          "year": 2010,
+          "value": 5.8
+        },
+        {
+          "year": 2011,
+          "value": 5.4
+        },
+        {
+          "year": 2012,
+          "value": 5.3
+        },
+        {
+          "year": 2013,
+          "value": 5.2
+        },
+        {
+          "year": 2014,
+          "value": 5.0
+        },
+        {
+          "year": 2016,
+          "value": 5.0
+        },
+        {
+          "year": 2017,
+          "value": 4.9
+        },
+        {
+          "year": 2018,
+          "value": 4.9
+        },
+        {
+          "year": 2019,
+          "value": 4.8
+        },
+        {
+          "year": 2020,
+          "value": 4.9
+        },
+        {
+          "year": 2021,
+          "value": 4.9
+        },
+        {
+          "year": 2022,
+          "value": 4.9
+        },
+        {
+          "year": 2023,
+          "value": 4.7
+        },
+        {
+          "year": 2024,
+          "value": 4.7
+        }
+      ],
+      "employmentRate": [
+        {
+          "year": 2001,
+          "value": 62.9
+        },
+        {
+          "year": 2002,
+          "value": 63.6
+        },
+        {
+          "year": 2003,
+          "value": 63.9
+        },
+        {
+          "year": 2004,
+          "value": 64.0
+        },
+        {
+          "year": 2005,
+          "value": 63.8
+        },
+        {
+          "year": 2006,
+          "value": 64.3
+        },
+        {
+          "year": 2007,
+          "value": 65.3
+        },
+        {
+          "year": 2008,
+          "value": 66.4
+        },
+        {
+          "year": 2009,
+          "value": 66.1
+        },
+        {
+          "year": 2010,
+          "value": 67.1
+        },
+        {
+          "year": 2011,
+          "value": 67.8
+        },
+        {
+          "year": 2012,
+          "value": 67.9
+        },
+        {
+          "year": 2013,
+          "value": 68.0
+        },
+        {
+          "year": 2014,
+          "value": 67.1
+        },
+        {
+          "year": 2016,
+          "value": 66.5
+        },
+        {
+          "year": 2017,
+          "value": 66.3
+        },
+        {
+          "year": 2018,
+          "value": 66.6
+        },
+        {
+          "year": 2019,
+          "value": 66.7
+        },
+        {
+          "year": 2020,
+          "value": 65.9
+        },
+        {
+          "year": 2021,
+          "value": 66.0
+        },
+        {
+          "year": 2022,
+          "value": 65.3
+        }
+      ]
+    },
+    "latestUnemploymentRate": 4.7,
+    "latestEmploymentRate": 65.3,
+    "latestUnemployedPopulation": 449.807,
+    "latestNotInLaborForce": 4512.796
+  },
+  "regions": [
+    {
+      "id": "abai",
+      "label": "Abai Region",
+      "coordinates": [
+        50.4111,
+        80.2275
+      ],
+      "rawName": "Абай",
+      "population2026": 595720.0,
+      "male2026": 292638.0,
+      "female2026": 303082.0,
+      "urbanPopulation2026": 374500.0,
+      "ruralPopulation2026": 221220.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2022,
+            "value": 15.077
+          },
+          {
+            "year": 2023,
+            "value": 14.818
+          },
+          {
+            "year": 2024,
+            "value": 14.689
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2022,
+            "value": 149.449
+          },
+          {
+            "year": 2023,
+            "value": 141.936
+          },
+          {
+            "year": 2024,
+            "value": 142.377
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2022,
+            "value": 5.0
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2022,
+            "value": 63.6
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Семей г.а.",
+          "population": 315314.0,
+          "male": 151022.0,
+          "female": 164292.0,
+          "urbanPopulation": 315314.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Курчатов г.а.",
+          "population": 9849.0,
+          "male": 4823.0,
+          "female": 5026.0,
+          "urbanPopulation": 9849.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Абайский район",
+          "population": 13142.0,
+          "male": 6629.0,
+          "female": 6513.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13142.0
+        },
+        {
+          "name": "район Ақсуат",
+          "population": 18097.0,
+          "male": 9333.0,
+          "female": 8764.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 18097.0
+        },
+        {
+          "name": "Аягозский район",
+          "population": 61871.0,
+          "male": 31330.0,
+          "female": 30541.0,
+          "urbanPopulation": 40169.0,
+          "ruralPopulation": 21702.0
+        },
+        {
+          "name": "Бескарагайский район",
+          "population": 16685.0,
+          "male": 8410.0,
+          "female": 8275.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 16685.0
+        },
+        {
+          "name": "Бородулихинский район",
+          "population": 31482.0,
+          "male": 15419.0,
+          "female": 16063.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 31482.0
+        },
+        {
+          "name": "район Жаңасемей",
+          "population": 19269.0,
+          "male": 9820.0,
+          "female": 9449.0,
+          "urbanPopulation": 3284.0,
+          "ruralPopulation": 15985.0
+        },
+        {
+          "name": "Жарминский район",
+          "population": 32749.0,
+          "male": 16523.0,
+          "female": 16226.0,
+          "urbanPopulation": 5884.0,
+          "ruralPopulation": 26865.0
+        },
+        {
+          "name": "Кокпектинский район",
+          "population": 12635.0,
+          "male": 6501.0,
+          "female": 6134.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 12635.0
+        },
+        {
+          "name": "район Мақаншы",
+          "population": 24771.0,
+          "male": 12621.0,
+          "female": 12150.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 24771.0
+        },
+        {
+          "name": "Урджарский район",
+          "population": 39856.0,
+          "male": 20207.0,
+          "female": 19649.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 39856.0
+        }
+      ],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 63.6,
+      "latestUnemployedPopulation": 14.689,
+      "latestNotInLaborForce": 142.377,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "akmola",
+      "label": "Akmola Region",
+      "coordinates": [
+        51.9165,
+        69.411
+      ],
+      "rawName": "Акмолинская",
+      "population2026": 789608.0,
+      "male2026": 388546.0,
+      "female2026": 401062.0,
+      "urbanPopulation2026": 456778.0,
+      "ruralPopulation2026": 332830.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 47.2
+          },
+          {
+            "year": 2002,
+            "value": 36.3
+          },
+          {
+            "year": 2003,
+            "value": 37.9
+          },
+          {
+            "year": 2004,
+            "value": 38.3
+          },
+          {
+            "year": 2005,
+            "value": 37.4
+          },
+          {
+            "year": 2006,
+            "value": 36.5
+          },
+          {
+            "year": 2007,
+            "value": 34.103
+          },
+          {
+            "year": 2008,
+            "value": 31.2
+          },
+          {
+            "year": 2009,
+            "value": 29.9
+          },
+          {
+            "year": 2010,
+            "value": 25.4
+          },
+          {
+            "year": 2011,
+            "value": 24.3
+          },
+          {
+            "year": 2012,
+            "value": 23.379
+          },
+          {
+            "year": 2013,
+            "value": 22.926
+          },
+          {
+            "year": 2014,
+            "value": 21.998
+          },
+          {
+            "year": 2016,
+            "value": 21.559
+          },
+          {
+            "year": 2017,
+            "value": 20.593
+          },
+          {
+            "year": 2018,
+            "value": 20.515
+          },
+          {
+            "year": 2019,
+            "value": 20.251
+          },
+          {
+            "year": 2020,
+            "value": 20.297
+          },
+          {
+            "year": 2021,
+            "value": 20.518
+          },
+          {
+            "year": 2022,
+            "value": 21.024
+          },
+          {
+            "year": 2023,
+            "value": 20.539
+          },
+          {
+            "year": 2024,
+            "value": 19.43
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 154.718
+          },
+          {
+            "year": 2002,
+            "value": 132.765
+          },
+          {
+            "year": 2003,
+            "value": 147.3
+          },
+          {
+            "year": 2004,
+            "value": 155.7
+          },
+          {
+            "year": 2005,
+            "value": 158.0
+          },
+          {
+            "year": 2006,
+            "value": 155.6
+          },
+          {
+            "year": 2007,
+            "value": 155.977
+          },
+          {
+            "year": 2008,
+            "value": 146.5
+          },
+          {
+            "year": 2009,
+            "value": 145.6
+          },
+          {
+            "year": 2010,
+            "value": 139.4
+          },
+          {
+            "year": 2011,
+            "value": 132.7
+          },
+          {
+            "year": 2012,
+            "value": 130.54
+          },
+          {
+            "year": 2013,
+            "value": 127.839
+          },
+          {
+            "year": 2014,
+            "value": 126.401
+          },
+          {
+            "year": 2016,
+            "value": 134.662
+          },
+          {
+            "year": 2017,
+            "value": 133.13
+          },
+          {
+            "year": 2018,
+            "value": 134.909
+          },
+          {
+            "year": 2019,
+            "value": 134.762
+          },
+          {
+            "year": 2020,
+            "value": 141.279
+          },
+          {
+            "year": 2021,
+            "value": 141.159
+          },
+          {
+            "year": 2022,
+            "value": 151.297
+          },
+          {
+            "year": 2023,
+            "value": 168.632
+          },
+          {
+            "year": 2024,
+            "value": 177.118
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 10.8
+          },
+          {
+            "year": 2002,
+            "value": 9.2
+          },
+          {
+            "year": 2003,
+            "value": 9.2
+          },
+          {
+            "year": 2004,
+            "value": 9.2
+          },
+          {
+            "year": 2005,
+            "value": 8.9
+          },
+          {
+            "year": 2006,
+            "value": 8.6
+          },
+          {
+            "year": 2007,
+            "value": 7.981454696942038
+          },
+          {
+            "year": 2008,
+            "value": 7.123139167087872
+          },
+          {
+            "year": 2009,
+            "value": 6.9
+          },
+          {
+            "year": 2010,
+            "value": 5.8
+          },
+          {
+            "year": 2011,
+            "value": 5.5
+          },
+          {
+            "year": 2012,
+            "value": 5.3
+          },
+          {
+            "year": 2013,
+            "value": 5.2
+          },
+          {
+            "year": 2014,
+            "value": 4.9
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.7
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 4.8
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.6
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 65.8
+          },
+          {
+            "year": 2002,
+            "value": 67.9
+          },
+          {
+            "year": 2003,
+            "value": 66.8
+          },
+          {
+            "year": 2004,
+            "value": 66.1
+          },
+          {
+            "year": 2005,
+            "value": 66.1
+          },
+          {
+            "year": 2006,
+            "value": 66.8
+          },
+          {
+            "year": 2007,
+            "value": 67.4
+          },
+          {
+            "year": 2008,
+            "value": 69.6
+          },
+          {
+            "year": 2009,
+            "value": 69.8
+          },
+          {
+            "year": 2010,
+            "value": 71.5
+          },
+          {
+            "year": 2011,
+            "value": 72.7
+          },
+          {
+            "year": 2012,
+            "value": 73.0
+          },
+          {
+            "year": 2013,
+            "value": 82.6
+          },
+          {
+            "year": 2014,
+            "value": 74.0
+          },
+          {
+            "year": 2016,
+            "value": 72.7
+          },
+          {
+            "year": 2017,
+            "value": 72.6
+          },
+          {
+            "year": 2018,
+            "value": 72.4
+          },
+          {
+            "year": 2019,
+            "value": 72.5
+          },
+          {
+            "year": 2020,
+            "value": 71.1
+          },
+          {
+            "year": 2021,
+            "value": 71.1
+          },
+          {
+            "year": 2022,
+            "value": 71.0
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Кокшетау г.а.",
+          "population": 199413.0,
+          "male": 94937.0,
+          "female": 104476.0,
+          "urbanPopulation": 185668.0,
+          "ruralPopulation": 13745.0
+        },
+        {
+          "name": "Косшы г.а.",
+          "population": 66088.0,
+          "male": 30673.0,
+          "female": 35415.0,
+          "urbanPopulation": 65084.0,
+          "ruralPopulation": 1004.0
+        },
+        {
+          "name": "Степногорск г.а.",
+          "population": 65696.0,
+          "male": 31795.0,
+          "female": 33901.0,
+          "urbanPopulation": 62989.0,
+          "ruralPopulation": 2707.0
+        },
+        {
+          "name": "Аккольский район",
+          "population": 22021.0,
+          "male": 11081.0,
+          "female": 10940.0,
+          "urbanPopulation": 14790.0,
+          "ruralPopulation": 7231.0
+        },
+        {
+          "name": "Аршалынский район",
+          "population": 26167.0,
+          "male": 13720.0,
+          "female": 12447.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 26167.0
+        },
+        {
+          "name": "Астраханский район",
+          "population": 17988.0,
+          "male": 9043.0,
+          "female": 8945.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 17988.0
+        },
+        {
+          "name": "Атбасарский район",
+          "population": 40626.0,
+          "male": 20450.0,
+          "female": 20176.0,
+          "urbanPopulation": 29751.0,
+          "ruralPopulation": 10875.0
+        },
+        {
+          "name": "Буландынский район",
+          "population": 27928.0,
+          "male": 13895.0,
+          "female": 14033.0,
+          "urbanPopulation": 17915.0,
+          "ruralPopulation": 10013.0
+        },
+        {
+          "name": "Егиндыкольский район",
+          "population": 4757.0,
+          "male": 2445.0,
+          "female": 2312.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 4757.0
+        },
+        {
+          "name": "район Биржан сал",
+          "population": 11963.0,
+          "male": 6028.0,
+          "female": 5935.0,
+          "urbanPopulation": 3924.0,
+          "ruralPopulation": 8039.0
+        },
+        {
+          "name": "Ерейментауский район",
+          "population": 23621.0,
+          "male": 12069.0,
+          "female": 11552.0,
+          "urbanPopulation": 11695.0,
+          "ruralPopulation": 11926.0
+        },
+        {
+          "name": "Есильский район",
+          "population": 19082.0,
+          "male": 9345.0,
+          "female": 9737.0,
+          "urbanPopulation": 10817.0,
+          "ruralPopulation": 8265.0
+        },
+        {
+          "name": "Жаксынский район",
+          "population": 14643.0,
+          "male": 7397.0,
+          "female": 7246.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 14643.0
+        },
+        {
+          "name": "Жаркаинский район",
+          "population": 11446.0,
+          "male": 5725.0,
+          "female": 5721.0,
+          "urbanPopulation": 6591.0,
+          "ruralPopulation": 4855.0
+        },
+        {
+          "name": "Зерендинский район",
+          "population": 32528.0,
+          "male": 16727.0,
+          "female": 15801.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 32528.0
+        },
+        {
+          "name": "Коргалжынский район",
+          "population": 6447.0,
+          "male": 3422.0,
+          "female": 3025.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 6447.0
+        },
+        {
+          "name": "Сандыктауский район",
+          "population": 15938.0,
+          "male": 7907.0,
+          "female": 8031.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15938.0
+        },
+        {
+          "name": "Целиноградский район",
+          "population": 87293.0,
+          "male": 44709.0,
+          "female": 42584.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 87293.0
+        },
+        {
+          "name": "Шортандинский район",
+          "population": 25832.0,
+          "male": 13077.0,
+          "female": 12755.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25832.0
+        },
+        {
+          "name": "Бурабайский район",
+          "population": 70131.0,
+          "male": 34101.0,
+          "female": 36030.0,
+          "urbanPopulation": 47554.0,
+          "ruralPopulation": 22577.0
+        }
+      ],
+      "latestUnemploymentRate": 4.6,
+      "latestEmploymentRate": 71.0,
+      "latestUnemployedPopulation": 19.43,
+      "latestNotInLaborForce": 177.118,
+      "unemploymentDelta": -0.2
+    },
+    {
+      "id": "aktobe",
+      "label": "Aktobe Region",
+      "coordinates": [
+        50.2839,
+        57.167
+      ],
+      "rawName": "Актюбинская",
+      "population2026": 955970.0,
+      "male2026": 469814.0,
+      "female2026": 486156.0,
+      "urbanPopulation2026": 729369.0,
+      "ruralPopulation2026": 226601.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 41.3
+          },
+          {
+            "year": 2002,
+            "value": 34.2
+          },
+          {
+            "year": 2003,
+            "value": 33.7
+          },
+          {
+            "year": 2004,
+            "value": 34.5
+          },
+          {
+            "year": 2005,
+            "value": 34.3
+          },
+          {
+            "year": 2006,
+            "value": 32.5
+          },
+          {
+            "year": 2007,
+            "value": 28.843
+          },
+          {
+            "year": 2008,
+            "value": 25.1
+          },
+          {
+            "year": 2009,
+            "value": 24.1
+          },
+          {
+            "year": 2010,
+            "value": 21.4
+          },
+          {
+            "year": 2011,
+            "value": 20.2
+          },
+          {
+            "year": 2012,
+            "value": 21.433
+          },
+          {
+            "year": 2013,
+            "value": 21.468
+          },
+          {
+            "year": 2014,
+            "value": 20.905
+          },
+          {
+            "year": 2016,
+            "value": 20.735
+          },
+          {
+            "year": 2017,
+            "value": 20.597
+          },
+          {
+            "year": 2018,
+            "value": 21.082
+          },
+          {
+            "year": 2019,
+            "value": 20.834
+          },
+          {
+            "year": 2020,
+            "value": 20.857
+          },
+          {
+            "year": 2021,
+            "value": 21.2
+          },
+          {
+            "year": 2022,
+            "value": 21.484
+          },
+          {
+            "year": 2023,
+            "value": 21.662
+          },
+          {
+            "year": 2024,
+            "value": 22.557
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 110.313
+          },
+          {
+            "year": 2002,
+            "value": 129.991
+          },
+          {
+            "year": 2003,
+            "value": 133.3
+          },
+          {
+            "year": 2004,
+            "value": 130.1
+          },
+          {
+            "year": 2005,
+            "value": 130.5
+          },
+          {
+            "year": 2006,
+            "value": 131.9
+          },
+          {
+            "year": 2007,
+            "value": 133.068
+          },
+          {
+            "year": 2008,
+            "value": 136.7
+          },
+          {
+            "year": 2009,
+            "value": 139.9
+          },
+          {
+            "year": 2010,
+            "value": 142.0
+          },
+          {
+            "year": 2011,
+            "value": 152.2
+          },
+          {
+            "year": 2012,
+            "value": 164.555
+          },
+          {
+            "year": 2013,
+            "value": 167.054
+          },
+          {
+            "year": 2014,
+            "value": 174.753
+          },
+          {
+            "year": 2016,
+            "value": 182.561
+          },
+          {
+            "year": 2017,
+            "value": 182.647
+          },
+          {
+            "year": 2018,
+            "value": 178.426
+          },
+          {
+            "year": 2019,
+            "value": 185.171
+          },
+          {
+            "year": 2020,
+            "value": 188.389
+          },
+          {
+            "year": 2021,
+            "value": 187.621
+          },
+          {
+            "year": 2022,
+            "value": 191.709
+          },
+          {
+            "year": 2023,
+            "value": 187.491
+          },
+          {
+            "year": 2024,
+            "value": 171.58
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 11.4
+          },
+          {
+            "year": 2002,
+            "value": 10.2
+          },
+          {
+            "year": 2003,
+            "value": 9.7
+          },
+          {
+            "year": 2004,
+            "value": 9.4
+          },
+          {
+            "year": 2005,
+            "value": 9.2
+          },
+          {
+            "year": 2006,
+            "value": 8.5
+          },
+          {
+            "year": 2007,
+            "value": 7.445872023832573
+          },
+          {
+            "year": 2008,
+            "value": 6.376327237542824
+          },
+          {
+            "year": 2009,
+            "value": 6.0
+          },
+          {
+            "year": 2010,
+            "value": 5.3
+          },
+          {
+            "year": 2011,
+            "value": 4.9
+          },
+          {
+            "year": 2012,
+            "value": 5.0
+          },
+          {
+            "year": 2013,
+            "value": 4.9
+          },
+          {
+            "year": 2014,
+            "value": 4.9
+          },
+          {
+            "year": 2016,
+            "value": 4.8
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.8
+          },
+          {
+            "year": 2021,
+            "value": 4.8
+          },
+          {
+            "year": 2022,
+            "value": 4.8
+          },
+          {
+            "year": 2023,
+            "value": 4.7
+          },
+          {
+            "year": 2024,
+            "value": 4.7
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 68.0
+          },
+          {
+            "year": 2002,
+            "value": 64.7
+          },
+          {
+            "year": 2003,
+            "value": 65.3
+          },
+          {
+            "year": 2004,
+            "value": 66.8
+          },
+          {
+            "year": 2005,
+            "value": 67.3
+          },
+          {
+            "year": 2006,
+            "value": 67.9
+          },
+          {
+            "year": 2007,
+            "value": 68.9
+          },
+          {
+            "year": 2008,
+            "value": 69.5
+          },
+          {
+            "year": 2009,
+            "value": 69.5
+          },
+          {
+            "year": 2010,
+            "value": 69.9
+          },
+          {
+            "year": 2011,
+            "value": 69.6
+          },
+          {
+            "year": 2012,
+            "value": 68.8
+          },
+          {
+            "year": 2013,
+            "value": 78.6
+          },
+          {
+            "year": 2014,
+            "value": 67.7
+          },
+          {
+            "year": 2016,
+            "value": 66.8
+          },
+          {
+            "year": 2017,
+            "value": 66.8
+          },
+          {
+            "year": 2018,
+            "value": 67.7
+          },
+          {
+            "year": 2019,
+            "value": 66.9
+          },
+          {
+            "year": 2020,
+            "value": 66.6
+          },
+          {
+            "year": 2021,
+            "value": 66.8
+          },
+          {
+            "year": 2022,
+            "value": 66.6
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Актобе г.а.",
+          "population": 598683.0,
+          "male": 287842.0,
+          "female": 310841.0,
+          "urbanPopulation": 598683.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Алгинский район",
+          "population": 43086.0,
+          "male": 21705.0,
+          "female": 21381.0,
+          "urbanPopulation": 22365.0,
+          "ruralPopulation": 20721.0
+        },
+        {
+          "name": "Айтекебийский район",
+          "population": 19522.0,
+          "male": 10150.0,
+          "female": 9372.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 19522.0
+        },
+        {
+          "name": "Байганинский район",
+          "population": 22286.0,
+          "male": 11484.0,
+          "female": 10802.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 22286.0
+        },
+        {
+          "name": "Каргалинский район",
+          "population": 14875.0,
+          "male": 7478.0,
+          "female": 7397.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 14875.0
+        },
+        {
+          "name": "Хобдинский район",
+          "population": 15378.0,
+          "male": 7988.0,
+          "female": 7390.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15378.0
+        },
+        {
+          "name": "Мартукский район",
+          "population": 29125.0,
+          "male": 14664.0,
+          "female": 14461.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 29125.0
+        },
+        {
+          "name": "Мугалжарский район",
+          "population": 63309.0,
+          "male": 31854.0,
+          "female": 31455.0,
+          "urbanPopulation": 48496.0,
+          "ruralPopulation": 14813.0
+        },
+        {
+          "name": "Уилский район",
+          "population": 15072.0,
+          "male": 7908.0,
+          "female": 7164.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15072.0
+        },
+        {
+          "name": "Темирский район",
+          "population": 34148.0,
+          "male": 17639.0,
+          "female": 16509.0,
+          "urbanPopulation": 2111.0,
+          "ruralPopulation": 32037.0
+        },
+        {
+          "name": "Хромтауский район",
+          "population": 46025.0,
+          "male": 23204.0,
+          "female": 22821.0,
+          "urbanPopulation": 30393.0,
+          "ruralPopulation": 15632.0
+        },
+        {
+          "name": "Шалкарский район",
+          "population": 41116.0,
+          "male": 20915.0,
+          "female": 20201.0,
+          "urbanPopulation": 27321.0,
+          "ruralPopulation": 13795.0
+        },
+        {
+          "name": "Иргизский район",
+          "population": 13345.0,
+          "male": 6983.0,
+          "female": 6362.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13345.0
+        }
+      ],
+      "latestUnemploymentRate": 4.7,
+      "latestEmploymentRate": 66.6,
+      "latestUnemployedPopulation": 22.557,
+      "latestNotInLaborForce": 171.58,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "almaty_region",
+      "label": "Almaty Region",
+      "coordinates": [
+        45.011,
+        78.422
+      ],
+      "rawName": "Алматинская",
+      "population2026": 1596532.0,
+      "male2026": 801173.0,
+      "female2026": 795359.0,
+      "urbanPopulation2026": 308841.0,
+      "ruralPopulation2026": 1287691.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 75.0
+          },
+          {
+            "year": 2002,
+            "value": 70.4
+          },
+          {
+            "year": 2003,
+            "value": 68.0
+          },
+          {
+            "year": 2004,
+            "value": 62.3
+          },
+          {
+            "year": 2005,
+            "value": 59.0
+          },
+          {
+            "year": 2006,
+            "value": 57.8
+          },
+          {
+            "year": 2007,
+            "value": 55.916
+          },
+          {
+            "year": 2008,
+            "value": 54.7
+          },
+          {
+            "year": 2009,
+            "value": 56.3
+          },
+          {
+            "year": 2010,
+            "value": 50.2
+          },
+          {
+            "year": 2011,
+            "value": 47.9
+          },
+          {
+            "year": 2012,
+            "value": 51.055
+          },
+          {
+            "year": 2013,
+            "value": 51.431
+          },
+          {
+            "year": 2014,
+            "value": 52.03
+          },
+          {
+            "year": 2016,
+            "value": 49.442
+          },
+          {
+            "year": 2017,
+            "value": 49.09
+          },
+          {
+            "year": 2018,
+            "value": 48.749
+          },
+          {
+            "year": 2019,
+            "value": 47.76
+          },
+          {
+            "year": 2020,
+            "value": 48.682
+          },
+          {
+            "year": 2021,
+            "value": 48.527
+          },
+          {
+            "year": 2022,
+            "value": 34.129
+          },
+          {
+            "year": 2023,
+            "value": 34.847
+          },
+          {
+            "year": 2024,
+            "value": 34.933
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 349.539
+          },
+          {
+            "year": 2002,
+            "value": 321.135
+          },
+          {
+            "year": 2003,
+            "value": 338.5
+          },
+          {
+            "year": 2004,
+            "value": 365.0
+          },
+          {
+            "year": 2005,
+            "value": 381.7
+          },
+          {
+            "year": 2006,
+            "value": 386.2
+          },
+          {
+            "year": 2007,
+            "value": 387.964
+          },
+          {
+            "year": 2008,
+            "value": 387.4
+          },
+          {
+            "year": 2009,
+            "value": 395.3
+          },
+          {
+            "year": 2010,
+            "value": 384.3
+          },
+          {
+            "year": 2011,
+            "value": 387.2
+          },
+          {
+            "year": 2012,
+            "value": 388.334
+          },
+          {
+            "year": 2013,
+            "value": 381.376
+          },
+          {
+            "year": 2014,
+            "value": 377.072
+          },
+          {
+            "year": 2016,
+            "value": 345.683
+          },
+          {
+            "year": 2017,
+            "value": 352.164
+          },
+          {
+            "year": 2018,
+            "value": 355.638
+          },
+          {
+            "year": 2019,
+            "value": 368.539
+          },
+          {
+            "year": 2020,
+            "value": 386.359
+          },
+          {
+            "year": 2021,
+            "value": 389.348
+          },
+          {
+            "year": 2022,
+            "value": 283.063
+          },
+          {
+            "year": 2023,
+            "value": 295.191
+          },
+          {
+            "year": 2024,
+            "value": 301.96
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 10.2
+          },
+          {
+            "year": 2002,
+            "value": 9.2
+          },
+          {
+            "year": 2003,
+            "value": 8.6
+          },
+          {
+            "year": 2004,
+            "value": 7.8
+          },
+          {
+            "year": 2005,
+            "value": 7.3
+          },
+          {
+            "year": 2006,
+            "value": 7.1
+          },
+          {
+            "year": 2007,
+            "value": 6.703623956380168
+          },
+          {
+            "year": 2008,
+            "value": 6.408518469091752
+          },
+          {
+            "year": 2009,
+            "value": 6.5
+          },
+          {
+            "year": 2010,
+            "value": 5.6
+          },
+          {
+            "year": 2011,
+            "value": 5.1
+          },
+          {
+            "year": 2012,
+            "value": 5.0
+          },
+          {
+            "year": 2013,
+            "value": 4.9
+          },
+          {
+            "year": 2014,
+            "value": 4.9
+          },
+          {
+            "year": 2016,
+            "value": 4.8
+          },
+          {
+            "year": 2017,
+            "value": 4.7
+          },
+          {
+            "year": 2018,
+            "value": 4.7
+          },
+          {
+            "year": 2019,
+            "value": 4.6
+          },
+          {
+            "year": 2020,
+            "value": 4.8
+          },
+          {
+            "year": 2021,
+            "value": 4.8
+          },
+          {
+            "year": 2022,
+            "value": 4.7
+          },
+          {
+            "year": 2023,
+            "value": 4.7
+          },
+          {
+            "year": 2024,
+            "value": 4.6
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 60.8
+          },
+          {
+            "year": 2002,
+            "value": 63.8
+          },
+          {
+            "year": 2003,
+            "value": 64.0
+          },
+          {
+            "year": 2004,
+            "value": 63.3
+          },
+          {
+            "year": 2005,
+            "value": 62.8
+          },
+          {
+            "year": 2006,
+            "value": 63.1
+          },
+          {
+            "year": 2007,
+            "value": 63.7
+          },
+          {
+            "year": 2008,
+            "value": 64.4
+          },
+          {
+            "year": 2009,
+            "value": 64.1
+          },
+          {
+            "year": 2010,
+            "value": 66.0
+          },
+          {
+            "year": 2011,
+            "value": 67.4
+          },
+          {
+            "year": 2012,
+            "value": 68.8
+          },
+          {
+            "year": 2013,
+            "value": 79.2
+          },
+          {
+            "year": 2014,
+            "value": 70.3
+          },
+          {
+            "year": 2016,
+            "value": 71.4
+          },
+          {
+            "year": 2017,
+            "value": 71.1
+          },
+          {
+            "year": 2018,
+            "value": 71.1
+          },
+          {
+            "year": 2019,
+            "value": 70.4
+          },
+          {
+            "year": 2020,
+            "value": 69.1
+          },
+          {
+            "year": 2021,
+            "value": 69.0
+          },
+          {
+            "year": 2022,
+            "value": 68.7
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Қонаев г.а.",
+          "population": 66325.0,
+          "male": 32222.0,
+          "female": 34103.0,
+          "urbanPopulation": 58075.0,
+          "ruralPopulation": 8250.0
+        },
+        {
+          "name": "Алатау г.а.",
+          "population": 55086.0,
+          "male": 28378.0,
+          "female": 26708.0,
+          "urbanPopulation": 55086.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Балхашский район",
+          "population": 27154.0,
+          "male": 14015.0,
+          "female": 13139.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 27154.0
+        },
+        {
+          "name": "Енбекшиказахский район",
+          "population": 283275.0,
+          "male": 142401.0,
+          "female": 140874.0,
+          "urbanPopulation": 40718.0,
+          "ruralPopulation": 242557.0
+        },
+        {
+          "name": "Жамбылский район",
+          "population": 170729.0,
+          "male": 87075.0,
+          "female": 83654.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 170729.0
+        },
+        {
+          "name": "Кегенский район",
+          "population": 25152.0,
+          "male": 13199.0,
+          "female": 11953.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25152.0
+        },
+        {
+          "name": "Карасайский район",
+          "population": 372826.0,
+          "male": 186523.0,
+          "female": 186303.0,
+          "urbanPopulation": 89032.0,
+          "ruralPopulation": 283794.0
+        },
+        {
+          "name": "Райымбекский район",
+          "population": 25790.0,
+          "male": 13735.0,
+          "female": 12055.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25790.0
+        },
+        {
+          "name": "Талгарский район",
+          "population": 268570.0,
+          "male": 132739.0,
+          "female": 135831.0,
+          "urbanPopulation": 65930.0,
+          "ruralPopulation": 202640.0
+        },
+        {
+          "name": "Уйгурский район",
+          "population": 59768.0,
+          "male": 30880.0,
+          "female": 28888.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 59768.0
+        },
+        {
+          "name": "Илийский район",
+          "population": 241857.0,
+          "male": 120006.0,
+          "female": 121851.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 241857.0
+        }
+      ],
+      "latestUnemploymentRate": 4.6,
+      "latestEmploymentRate": 68.7,
+      "latestUnemployedPopulation": 34.933,
+      "latestNotInLaborForce": 301.96,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "atyrau",
+      "label": "Atyrau Region",
+      "coordinates": [
+        47.0945,
+        51.923
+      ],
+      "rawName": "Атырауская",
+      "population2026": 716071.0,
+      "male2026": 354592.0,
+      "female2026": 361479.0,
+      "urbanPopulation2026": 392995.0,
+      "ruralPopulation2026": 323076.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 27.5
+          },
+          {
+            "year": 2002,
+            "value": 22.1
+          },
+          {
+            "year": 2003,
+            "value": 20.4
+          },
+          {
+            "year": 2004,
+            "value": 21.0
+          },
+          {
+            "year": 2005,
+            "value": 21.0
+          },
+          {
+            "year": 2006,
+            "value": 19.8
+          },
+          {
+            "year": 2007,
+            "value": 18.282
+          },
+          {
+            "year": 2008,
+            "value": 16.2
+          },
+          {
+            "year": 2009,
+            "value": 15.8
+          },
+          {
+            "year": 2010,
+            "value": 14.6
+          },
+          {
+            "year": 2011,
+            "value": 14.2
+          },
+          {
+            "year": 2012,
+            "value": 14.463
+          },
+          {
+            "year": 2013,
+            "value": 14.785
+          },
+          {
+            "year": 2014,
+            "value": 15.173
+          },
+          {
+            "year": 2016,
+            "value": 15.391
+          },
+          {
+            "year": 2017,
+            "value": 15.599
+          },
+          {
+            "year": 2018,
+            "value": 15.663
+          },
+          {
+            "year": 2019,
+            "value": 16.087
+          },
+          {
+            "year": 2020,
+            "value": 16.217
+          },
+          {
+            "year": 2021,
+            "value": 16.309
+          },
+          {
+            "year": 2022,
+            "value": 16.609
+          },
+          {
+            "year": 2023,
+            "value": 17.009
+          },
+          {
+            "year": 2024,
+            "value": 17.735
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 90.034
+          },
+          {
+            "year": 2002,
+            "value": 92.732
+          },
+          {
+            "year": 2003,
+            "value": 96.8
+          },
+          {
+            "year": 2004,
+            "value": 95.7
+          },
+          {
+            "year": 2005,
+            "value": 98.9
+          },
+          {
+            "year": 2006,
+            "value": 102.3
+          },
+          {
+            "year": 2007,
+            "value": 97.92
+          },
+          {
+            "year": 2008,
+            "value": 93.3
+          },
+          {
+            "year": 2009,
+            "value": 100.5
+          },
+          {
+            "year": 2010,
+            "value": 95.0
+          },
+          {
+            "year": 2011,
+            "value": 89.9
+          },
+          {
+            "year": 2012,
+            "value": 93.783
+          },
+          {
+            "year": 2013,
+            "value": 96.195
+          },
+          {
+            "year": 2014,
+            "value": 94.689
+          },
+          {
+            "year": 2016,
+            "value": 94.066
+          },
+          {
+            "year": 2017,
+            "value": 94.101
+          },
+          {
+            "year": 2018,
+            "value": 96.032
+          },
+          {
+            "year": 2019,
+            "value": 90.802
+          },
+          {
+            "year": 2020,
+            "value": 97.088
+          },
+          {
+            "year": 2021,
+            "value": 98.472
+          },
+          {
+            "year": 2022,
+            "value": 106.13
+          },
+          {
+            "year": 2023,
+            "value": 104.349
+          },
+          {
+            "year": 2024,
+            "value": 100.226
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 13.5
+          },
+          {
+            "year": 2002,
+            "value": 10.7
+          },
+          {
+            "year": 2003,
+            "value": 9.5
+          },
+          {
+            "year": 2004,
+            "value": 9.3
+          },
+          {
+            "year": 2005,
+            "value": 9.1
+          },
+          {
+            "year": 2006,
+            "value": 8.4
+          },
+          {
+            "year": 2007,
+            "value": 7.438480567671375
+          },
+          {
+            "year": 2008,
+            "value": 6.3090501028818595
+          },
+          {
+            "year": 2009,
+            "value": 6.1
+          },
+          {
+            "year": 2010,
+            "value": 5.4
+          },
+          {
+            "year": 2011,
+            "value": 5.0
+          },
+          {
+            "year": 2012,
+            "value": 5.0
+          },
+          {
+            "year": 2013,
+            "value": 5.0
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.9
+          },
+          {
+            "year": 2018,
+            "value": 4.9
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 4.8
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.9
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 59.9
+          },
+          {
+            "year": 2002,
+            "value": 61.6
+          },
+          {
+            "year": 2003,
+            "value": 62.2
+          },
+          {
+            "year": 2004,
+            "value": 63.8
+          },
+          {
+            "year": 2005,
+            "value": 63.6
+          },
+          {
+            "year": 2006,
+            "value": 63.8
+          },
+          {
+            "year": 2007,
+            "value": 66.2
+          },
+          {
+            "year": 2008,
+            "value": 68.7
+          },
+          {
+            "year": 2009,
+            "value": 67.5
+          },
+          {
+            "year": 2010,
+            "value": 70.0
+          },
+          {
+            "year": 2011,
+            "value": 72.1
+          },
+          {
+            "year": 2012,
+            "value": 71.9
+          },
+          {
+            "year": 2013,
+            "value": 79.6
+          },
+          {
+            "year": 2014,
+            "value": 72.3
+          },
+          {
+            "year": 2016,
+            "value": 73.0
+          },
+          {
+            "year": 2017,
+            "value": 73.2
+          },
+          {
+            "year": 2018,
+            "value": 73.1
+          },
+          {
+            "year": 2019,
+            "value": 74.7
+          },
+          {
+            "year": 2020,
+            "value": 73.5
+          },
+          {
+            "year": 2021,
+            "value": 73.5
+          },
+          {
+            "year": 2022,
+            "value": 72.7
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Атырау г.а.",
+          "population": 431254.0,
+          "male": 209774.0,
+          "female": 221480.0,
+          "urbanPopulation": 328616.0,
+          "ruralPopulation": 102638.0
+        },
+        {
+          "name": "Жылыойский район",
+          "population": 83958.0,
+          "male": 42194.0,
+          "female": 41764.0,
+          "urbanPopulation": 64379.0,
+          "ruralPopulation": 19579.0
+        },
+        {
+          "name": "Индерский район",
+          "population": 32428.0,
+          "male": 16605.0,
+          "female": 15823.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 32428.0
+        },
+        {
+          "name": "Исатайский район",
+          "population": 25841.0,
+          "male": 13369.0,
+          "female": 12472.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25841.0
+        },
+        {
+          "name": "Курмангазинский район",
+          "population": 54737.0,
+          "male": 28085.0,
+          "female": 26652.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 54737.0
+        },
+        {
+          "name": "Кзылкогинский район",
+          "population": 30364.0,
+          "male": 15675.0,
+          "female": 14689.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 30364.0
+        },
+        {
+          "name": "Макатский район",
+          "population": 29144.0,
+          "male": 14625.0,
+          "female": 14519.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 29144.0
+        },
+        {
+          "name": "Махамбетский район",
+          "population": 28345.0,
+          "male": 14265.0,
+          "female": 14080.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 28345.0
+        },
+        {
+          "name": "Западно-казахстанская",
+          "population": 695649.0,
+          "male": 340673.0,
+          "female": 354976.0,
+          "urbanPopulation": 401554.0,
+          "ruralPopulation": 294095.0
+        },
+        {
+          "name": "Уральск г.а.",
+          "population": 372372.0,
+          "male": 177059.0,
+          "female": 195313.0,
+          "urbanPopulation": 366170.0,
+          "ruralPopulation": 6202.0
+        },
+        {
+          "name": "Акжаикский район",
+          "population": 33932.0,
+          "male": 17442.0,
+          "female": 16490.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 33932.0
+        },
+        {
+          "name": "Бурлинский район",
+          "population": 57020.0,
+          "male": 27859.0,
+          "female": 29161.0,
+          "urbanPopulation": 35384.0,
+          "ruralPopulation": 21636.0
+        },
+        {
+          "name": "Жангалинский район",
+          "population": 21015.0,
+          "male": 10846.0,
+          "female": 10169.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 21015.0
+        },
+        {
+          "name": "Жанибекский район",
+          "population": 13636.0,
+          "male": 6922.0,
+          "female": 6714.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13636.0
+        },
+        {
+          "name": "район Бәйтерек",
+          "population": 63074.0,
+          "male": 31599.0,
+          "female": 31475.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 63074.0
+        },
+        {
+          "name": "Казталовский район",
+          "population": 25743.0,
+          "male": 13296.0,
+          "female": 12447.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25743.0
+        },
+        {
+          "name": "Каратобинский район",
+          "population": 12797.0,
+          "male": 6718.0,
+          "female": 6079.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 12797.0
+        },
+        {
+          "name": "Бокейординский район",
+          "population": 13673.0,
+          "male": 7047.0,
+          "female": 6626.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13673.0
+        },
+        {
+          "name": "Сырымский район",
+          "population": 16408.0,
+          "male": 8509.0,
+          "female": 7899.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 16408.0
+        },
+        {
+          "name": "Таскалинский район",
+          "population": 15545.0,
+          "male": 7839.0,
+          "female": 7706.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15545.0
+        },
+        {
+          "name": "Теректинский район",
+          "population": 38112.0,
+          "male": 19296.0,
+          "female": 18816.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 38112.0
+        },
+        {
+          "name": "Чингирлауский район",
+          "population": 12322.0,
+          "male": 6241.0,
+          "female": 6081.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 12322.0
+        }
+      ],
+      "latestUnemploymentRate": 4.9,
+      "latestEmploymentRate": 72.7,
+      "latestUnemployedPopulation": 17.735,
+      "latestNotInLaborForce": 100.226,
+      "unemploymentDelta": 0.1
+    },
+    {
+      "id": "west_kazakhstan",
+      "label": "West Kazakhstan Region",
+      "coordinates": [
+        51.2333,
+        51.3667
+      ],
+      "rawName": "Западно-Казахстанская",
+      "population2026": 695649.0,
+      "male2026": 340673.0,
+      "female2026": 354976.0,
+      "urbanPopulation2026": 401554.0,
+      "ruralPopulation2026": 294095.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 40.8
+          },
+          {
+            "year": 2002,
+            "value": 30.2
+          },
+          {
+            "year": 2003,
+            "value": 29.4
+          },
+          {
+            "year": 2004,
+            "value": 29.3
+          },
+          {
+            "year": 2005,
+            "value": 28.7
+          },
+          {
+            "year": 2006,
+            "value": 27.6
+          },
+          {
+            "year": 2007,
+            "value": 25.487
+          },
+          {
+            "year": 2008,
+            "value": 23.5
+          },
+          {
+            "year": 2009,
+            "value": 21.0
+          },
+          {
+            "year": 2010,
+            "value": 18.8
+          },
+          {
+            "year": 2011,
+            "value": 17.6
+          },
+          {
+            "year": 2012,
+            "value": 17.094
+          },
+          {
+            "year": 2013,
+            "value": 16.919
+          },
+          {
+            "year": 2014,
+            "value": 16.751
+          },
+          {
+            "year": 2016,
+            "value": 16.414
+          },
+          {
+            "year": 2017,
+            "value": 16.384
+          },
+          {
+            "year": 2018,
+            "value": 16.405
+          },
+          {
+            "year": 2019,
+            "value": 16.35
+          },
+          {
+            "year": 2020,
+            "value": 16.841
+          },
+          {
+            "year": 2021,
+            "value": 16.431
+          },
+          {
+            "year": 2022,
+            "value": 17.378
+          },
+          {
+            "year": 2023,
+            "value": 17.014
+          },
+          {
+            "year": 2024,
+            "value": 17.162
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 114.659
+          },
+          {
+            "year": 2002,
+            "value": 130.145
+          },
+          {
+            "year": 2003,
+            "value": 131.3
+          },
+          {
+            "year": 2004,
+            "value": 138.7
+          },
+          {
+            "year": 2005,
+            "value": 145.5
+          },
+          {
+            "year": 2006,
+            "value": 147.9
+          },
+          {
+            "year": 2007,
+            "value": 147.789
+          },
+          {
+            "year": 2008,
+            "value": 146.9
+          },
+          {
+            "year": 2009,
+            "value": 148.4
+          },
+          {
+            "year": 2010,
+            "value": 151.9
+          },
+          {
+            "year": 2011,
+            "value": 146.3
+          },
+          {
+            "year": 2012,
+            "value": 142.994
+          },
+          {
+            "year": 2013,
+            "value": 143.989
+          },
+          {
+            "year": 2014,
+            "value": 144.46
+          },
+          {
+            "year": 2016,
+            "value": 143.562
+          },
+          {
+            "year": 2017,
+            "value": 144.072
+          },
+          {
+            "year": 2018,
+            "value": 144.743
+          },
+          {
+            "year": 2019,
+            "value": 145.488
+          },
+          {
+            "year": 2020,
+            "value": 144.843
+          },
+          {
+            "year": 2021,
+            "value": 144.63
+          },
+          {
+            "year": 2022,
+            "value": 151.616
+          },
+          {
+            "year": 2023,
+            "value": 151.228
+          },
+          {
+            "year": 2024,
+            "value": 152.357
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 12.5
+          },
+          {
+            "year": 2002,
+            "value": 10.0
+          },
+          {
+            "year": 2003,
+            "value": 9.3
+          },
+          {
+            "year": 2004,
+            "value": 9.2
+          },
+          {
+            "year": 2005,
+            "value": 9.0
+          },
+          {
+            "year": 2006,
+            "value": 8.6
+          },
+          {
+            "year": 2007,
+            "value": 7.782741594168822
+          },
+          {
+            "year": 2008,
+            "value": 7.091190517776158
+          },
+          {
+            "year": 2009,
+            "value": 6.3
+          },
+          {
+            "year": 2010,
+            "value": 5.6
+          },
+          {
+            "year": 2011,
+            "value": 5.3
+          },
+          {
+            "year": 2012,
+            "value": 5.1
+          },
+          {
+            "year": 2013,
+            "value": 5.1
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.9
+          },
+          {
+            "year": 2018,
+            "value": 4.9
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 5.0
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 5.0
+          },
+          {
+            "year": 2023,
+            "value": 4.9
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 64.7
+          },
+          {
+            "year": 2002,
+            "value": 62.9
+          },
+          {
+            "year": 2003,
+            "value": 64.0
+          },
+          {
+            "year": 2004,
+            "value": 63.4
+          },
+          {
+            "year": 2005,
+            "value": 62.5
+          },
+          {
+            "year": 2006,
+            "value": 62.6
+          },
+          {
+            "year": 2007,
+            "value": 63.5
+          },
+          {
+            "year": 2008,
+            "value": 64.4
+          },
+          {
+            "year": 2009,
+            "value": 64.9
+          },
+          {
+            "year": 2010,
+            "value": 64.9
+          },
+          {
+            "year": 2011,
+            "value": 65.8
+          },
+          {
+            "year": 2012,
+            "value": 66.3
+          },
+          {
+            "year": 2013,
+            "value": 76.7
+          },
+          {
+            "year": 2014,
+            "value": 66.3
+          },
+          {
+            "year": 2016,
+            "value": 66.6
+          },
+          {
+            "year": 2017,
+            "value": 66.6
+          },
+          {
+            "year": 2018,
+            "value": 66.6
+          },
+          {
+            "year": 2019,
+            "value": 66.5
+          },
+          {
+            "year": 2020,
+            "value": 66.5
+          },
+          {
+            "year": 2021,
+            "value": 66.7
+          },
+          {
+            "year": 2022,
+            "value": 66.2
+          }
+        ]
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 66.2,
+      "latestUnemployedPopulation": 17.162,
+      "latestNotInLaborForce": 152.357,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "zhambyl",
+      "label": "Zhambyl Region",
+      "coordinates": [
+        44.2673,
+        72.9397
+      ],
+      "rawName": "Жамбылская",
+      "population2026": 1215656.0,
+      "male2026": 604835.0,
+      "female2026": 610821.0,
+      "urbanPopulation2026": 586115.0,
+      "ruralPopulation2026": 629541.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 60.8
+          },
+          {
+            "year": 2002,
+            "value": 59.2
+          },
+          {
+            "year": 2003,
+            "value": 57.4
+          },
+          {
+            "year": 2004,
+            "value": 50.5
+          },
+          {
+            "year": 2005,
+            "value": 48.7
+          },
+          {
+            "year": 2006,
+            "value": 46.9
+          },
+          {
+            "year": 2007,
+            "value": 42.387
+          },
+          {
+            "year": 2008,
+            "value": 37.0
+          },
+          {
+            "year": 2009,
+            "value": 37.7
+          },
+          {
+            "year": 2010,
+            "value": 33.4
+          },
+          {
+            "year": 2011,
+            "value": 32.4
+          },
+          {
+            "year": 2012,
+            "value": 32.051
+          },
+          {
+            "year": 2013,
+            "value": 30.134
+          },
+          {
+            "year": 2014,
+            "value": 27.548
+          },
+          {
+            "year": 2016,
+            "value": 25.612
+          },
+          {
+            "year": 2017,
+            "value": 25.787
+          },
+          {
+            "year": 2018,
+            "value": 26.035
+          },
+          {
+            "year": 2019,
+            "value": 25.447
+          },
+          {
+            "year": 2020,
+            "value": 25.685
+          },
+          {
+            "year": 2021,
+            "value": 25.672
+          },
+          {
+            "year": 2022,
+            "value": 28.17
+          },
+          {
+            "year": 2023,
+            "value": 27.185
+          },
+          {
+            "year": 2024,
+            "value": 27.302
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 194.184
+          },
+          {
+            "year": 2002,
+            "value": 183.376
+          },
+          {
+            "year": 2003,
+            "value": 167.9
+          },
+          {
+            "year": 2004,
+            "value": 210.8
+          },
+          {
+            "year": 2005,
+            "value": 214.9
+          },
+          {
+            "year": 2006,
+            "value": 207.7
+          },
+          {
+            "year": 2007,
+            "value": 176.489
+          },
+          {
+            "year": 2008,
+            "value": 163.1
+          },
+          {
+            "year": 2009,
+            "value": 162.5
+          },
+          {
+            "year": 2010,
+            "value": 162.5
+          },
+          {
+            "year": 2011,
+            "value": 155.3
+          },
+          {
+            "year": 2012,
+            "value": 150.392
+          },
+          {
+            "year": 2013,
+            "value": 164.113
+          },
+          {
+            "year": 2014,
+            "value": 190.48
+          },
+          {
+            "year": 2016,
+            "value": 225.836
+          },
+          {
+            "year": 2017,
+            "value": 216.571
+          },
+          {
+            "year": 2018,
+            "value": 211.8
+          },
+          {
+            "year": 2019,
+            "value": 216.058
+          },
+          {
+            "year": 2020,
+            "value": 218.939
+          },
+          {
+            "year": 2021,
+            "value": 219.545
+          },
+          {
+            "year": 2022,
+            "value": 244.505
+          },
+          {
+            "year": 2023,
+            "value": 247.857
+          },
+          {
+            "year": 2024,
+            "value": 257.639
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 12.7
+          },
+          {
+            "year": 2002,
+            "value": 12.3
+          },
+          {
+            "year": 2003,
+            "value": 11.1
+          },
+          {
+            "year": 2004,
+            "value": 10.2
+          },
+          {
+            "year": 2005,
+            "value": 9.8
+          },
+          {
+            "year": 2006,
+            "value": 9.2
+          },
+          {
+            "year": 2007,
+            "value": 7.725971966534822
+          },
+          {
+            "year": 2008,
+            "value": 6.516030846660777
+          },
+          {
+            "year": 2009,
+            "value": 6.5
+          },
+          {
+            "year": 2010,
+            "value": 5.7
+          },
+          {
+            "year": 2011,
+            "value": 5.5
+          },
+          {
+            "year": 2012,
+            "value": 5.4
+          },
+          {
+            "year": 2013,
+            "value": 5.2
+          },
+          {
+            "year": 2014,
+            "value": 4.9
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.9
+          },
+          {
+            "year": 2018,
+            "value": 4.9
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 5.0
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 62.1
+          },
+          {
+            "year": 2002,
+            "value": 63.6
+          },
+          {
+            "year": 2003,
+            "value": 67.2
+          },
+          {
+            "year": 2004,
+            "value": 62.9
+          },
+          {
+            "year": 2005,
+            "value": 63.0
+          },
+          {
+            "year": 2006,
+            "value": 64.6
+          },
+          {
+            "year": 2007,
+            "value": 69.8
+          },
+          {
+            "year": 2008,
+            "value": 72.6
+          },
+          {
+            "year": 2009,
+            "value": 72.9
+          },
+          {
+            "year": 2010,
+            "value": 73.8
+          },
+          {
+            "year": 2011,
+            "value": 74.8
+          },
+          {
+            "year": 2012,
+            "value": 75.4
+          },
+          {
+            "year": 2013,
+            "value": 80.5
+          },
+          {
+            "year": 2014,
+            "value": 70.9
+          },
+          {
+            "year": 2016,
+            "value": 66.6
+          },
+          {
+            "year": 2017,
+            "value": 67.6
+          },
+          {
+            "year": 2018,
+            "value": 68.1
+          },
+          {
+            "year": 2019,
+            "value": 67.7
+          },
+          {
+            "year": 2020,
+            "value": 67.3
+          },
+          {
+            "year": 2021,
+            "value": 67.2
+          },
+          {
+            "year": 2022,
+            "value": 66.4
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Тараз г.а.",
+          "population": 487499.0,
+          "male": 235583.0,
+          "female": 251916.0,
+          "urbanPopulation": 487499.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Байзакский район",
+          "population": 95472.0,
+          "male": 48829.0,
+          "female": 46643.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 95472.0
+        },
+        {
+          "name": "Жамбылский район",
+          "population": 51354.0,
+          "male": 26615.0,
+          "female": 24739.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 51354.0
+        },
+        {
+          "name": "Жуалынский район",
+          "population": 52459.0,
+          "male": 27093.0,
+          "female": 25366.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 52459.0
+        },
+        {
+          "name": "Кордайский район",
+          "population": 155130.0,
+          "male": 77169.0,
+          "female": 77961.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 155130.0
+        },
+        {
+          "name": "Район Турара Рыскулова",
+          "population": 65284.0,
+          "male": 33627.0,
+          "female": 31657.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 65284.0
+        },
+        {
+          "name": "Меркенский район",
+          "population": 87319.0,
+          "male": 44022.0,
+          "female": 43297.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 87319.0
+        },
+        {
+          "name": "Мойынкумский район",
+          "population": 27159.0,
+          "male": 14041.0,
+          "female": 13118.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 27159.0
+        },
+        {
+          "name": "Сарысуский район",
+          "population": 42812.0,
+          "male": 21724.0,
+          "female": 21088.0,
+          "urbanPopulation": 25578.0,
+          "ruralPopulation": 17234.0
+        },
+        {
+          "name": "Таласский район",
+          "population": 46871.0,
+          "male": 23815.0,
+          "female": 23056.0,
+          "urbanPopulation": 27948.0,
+          "ruralPopulation": 18923.0
+        },
+        {
+          "name": "Шуский район",
+          "population": 104297.0,
+          "male": 52317.0,
+          "female": 51980.0,
+          "urbanPopulation": 45090.0,
+          "ruralPopulation": 59207.0
+        }
+      ],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 66.4,
+      "latestUnemployedPopulation": 27.302,
+      "latestNotInLaborForce": 257.639,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "zhetisu",
+      "label": "Zhetisu Region",
+      "coordinates": [
+        45.0167,
+        78.3667
+      ],
+      "rawName": "Жетісу",
+      "population2026": 687701.0,
+      "male2026": 340668.0,
+      "female2026": 347033.0,
+      "urbanPopulation2026": 315873.0,
+      "ruralPopulation2026": 371828.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2022,
+            "value": 17.158
+          },
+          {
+            "year": 2023,
+            "value": 15.767
+          },
+          {
+            "year": 2024,
+            "value": 14.876
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2022,
+            "value": 149.329
+          },
+          {
+            "year": 2023,
+            "value": 158.824
+          },
+          {
+            "year": 2024,
+            "value": 176.202
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2022,
+            "value": 5.1
+          },
+          {
+            "year": 2023,
+            "value": 4.9
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2022,
+            "value": 65.8
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Талдыкорган г.а.",
+          "population": 210375.0,
+          "male": 99479.0,
+          "female": 110896.0,
+          "urbanPopulation": 171882.0,
+          "ruralPopulation": 38493.0
+        },
+        {
+          "name": "Текели г.а.",
+          "population": 30465.0,
+          "male": 13958.0,
+          "female": 16507.0,
+          "urbanPopulation": 29596.0,
+          "ruralPopulation": 869.0
+        },
+        {
+          "name": "Аксуский район",
+          "population": 33723.0,
+          "male": 17414.0,
+          "female": 16309.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 33723.0
+        },
+        {
+          "name": "Алакольский район",
+          "population": 71775.0,
+          "male": 36610.0,
+          "female": 35165.0,
+          "urbanPopulation": 20392.0,
+          "ruralPopulation": 51383.0
+        },
+        {
+          "name": "Ескельдинский район",
+          "population": 50122.0,
+          "male": 25279.0,
+          "female": 24843.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 50122.0
+        },
+        {
+          "name": "Кербулакский район",
+          "population": 40735.0,
+          "male": 21096.0,
+          "female": 19639.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 40735.0
+        },
+        {
+          "name": "Коксуский район",
+          "population": 40798.0,
+          "male": 20422.0,
+          "female": 20376.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 40798.0
+        },
+        {
+          "name": "Каратальский район",
+          "population": 37657.0,
+          "male": 19429.0,
+          "female": 18228.0,
+          "urbanPopulation": 17784.0,
+          "ruralPopulation": 19873.0
+        },
+        {
+          "name": "Панфиловский район",
+          "population": 134323.0,
+          "male": 67944.0,
+          "female": 66379.0,
+          "urbanPopulation": 58907.0,
+          "ruralPopulation": 75416.0
+        },
+        {
+          "name": "Сарканский район",
+          "population": 37728.0,
+          "male": 19037.0,
+          "female": 18691.0,
+          "urbanPopulation": 17312.0,
+          "ruralPopulation": 20416.0
+        }
+      ],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 65.8,
+      "latestUnemployedPopulation": 14.876,
+      "latestNotInLaborForce": 176.202,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "karaganda",
+      "label": "Karaganda Region",
+      "coordinates": [
+        47.9022,
+        71.7707
+      ],
+      "rawName": "Карагандинская",
+      "population2026": 1131353.0,
+      "male2026": 542865.0,
+      "female2026": 588488.0,
+      "urbanPopulation2026": 933386.0,
+      "ruralPopulation2026": 197967.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 66.2
+          },
+          {
+            "year": 2002,
+            "value": 60.5
+          },
+          {
+            "year": 2003,
+            "value": 54.7
+          },
+          {
+            "year": 2004,
+            "value": 53.7
+          },
+          {
+            "year": 2005,
+            "value": 51.4
+          },
+          {
+            "year": 2006,
+            "value": 51.1
+          },
+          {
+            "year": 2007,
+            "value": 49.53
+          },
+          {
+            "year": 2008,
+            "value": 46.3
+          },
+          {
+            "year": 2009,
+            "value": 45.3
+          },
+          {
+            "year": 2010,
+            "value": 40.6
+          },
+          {
+            "year": 2011,
+            "value": 38.8
+          },
+          {
+            "year": 2012,
+            "value": 37.948
+          },
+          {
+            "year": 2013,
+            "value": 36.912
+          },
+          {
+            "year": 2014,
+            "value": 34.7
+          },
+          {
+            "year": 2016,
+            "value": 34.222
+          },
+          {
+            "year": 2017,
+            "value": 32.648
+          },
+          {
+            "year": 2018,
+            "value": 31.367
+          },
+          {
+            "year": 2019,
+            "value": 30.013
+          },
+          {
+            "year": 2020,
+            "value": 30.69
+          },
+          {
+            "year": 2021,
+            "value": 30.036
+          },
+          {
+            "year": 2022,
+            "value": 24.776
+          },
+          {
+            "year": 2023,
+            "value": 22.92
+          },
+          {
+            "year": 2024,
+            "value": 22.915
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 325.532
+          },
+          {
+            "year": 2002,
+            "value": 286.914
+          },
+          {
+            "year": 2003,
+            "value": 305.4
+          },
+          {
+            "year": 2004,
+            "value": 315.3
+          },
+          {
+            "year": 2005,
+            "value": 313.4
+          },
+          {
+            "year": 2006,
+            "value": 315.5
+          },
+          {
+            "year": 2007,
+            "value": 319.782
+          },
+          {
+            "year": 2008,
+            "value": 322.0
+          },
+          {
+            "year": 2009,
+            "value": 329.3
+          },
+          {
+            "year": 2010,
+            "value": 328.3
+          },
+          {
+            "year": 2011,
+            "value": 332.1
+          },
+          {
+            "year": 2012,
+            "value": 329.754
+          },
+          {
+            "year": 2013,
+            "value": 323.709
+          },
+          {
+            "year": 2014,
+            "value": 356.57
+          },
+          {
+            "year": 2016,
+            "value": 377.883
+          },
+          {
+            "year": 2017,
+            "value": 376.967
+          },
+          {
+            "year": 2018,
+            "value": 371.11
+          },
+          {
+            "year": 2019,
+            "value": 371.827
+          },
+          {
+            "year": 2020,
+            "value": 375.129
+          },
+          {
+            "year": 2021,
+            "value": 370.108
+          },
+          {
+            "year": 2022,
+            "value": 303.542
+          },
+          {
+            "year": 2023,
+            "value": 304.541
+          },
+          {
+            "year": 2024,
+            "value": 301.929
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 9.2
+          },
+          {
+            "year": 2002,
+            "value": 8.3
+          },
+          {
+            "year": 2003,
+            "value": 7.5
+          },
+          {
+            "year": 2004,
+            "value": 7.4
+          },
+          {
+            "year": 2005,
+            "value": 7.0
+          },
+          {
+            "year": 2006,
+            "value": 6.9
+          },
+          {
+            "year": 2007,
+            "value": 6.654449600571802
+          },
+          {
+            "year": 2008,
+            "value": 6.216172702024607
+          },
+          {
+            "year": 2009,
+            "value": 6.1
+          },
+          {
+            "year": 2010,
+            "value": 5.5
+          },
+          {
+            "year": 2011,
+            "value": 5.3
+          },
+          {
+            "year": 2012,
+            "value": 5.1
+          },
+          {
+            "year": 2013,
+            "value": 5.0
+          },
+          {
+            "year": 2014,
+            "value": 4.9
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.6
+          },
+          {
+            "year": 2019,
+            "value": 4.4
+          },
+          {
+            "year": 2020,
+            "value": 4.6
+          },
+          {
+            "year": 2021,
+            "value": 4.5
+          },
+          {
+            "year": 2022,
+            "value": 4.4
+          },
+          {
+            "year": 2023,
+            "value": 4.1
+          },
+          {
+            "year": 2024,
+            "value": 4.1
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 62.5
+          },
+          {
+            "year": 2002,
+            "value": 65.7
+          },
+          {
+            "year": 2003,
+            "value": 65.1
+          },
+          {
+            "year": 2004,
+            "value": 64.7
+          },
+          {
+            "year": 2005,
+            "value": 65.3
+          },
+          {
+            "year": 2006,
+            "value": 65.3
+          },
+          {
+            "year": 2007,
+            "value": 65.3
+          },
+          {
+            "year": 2008,
+            "value": 65.5
+          },
+          {
+            "year": 2009,
+            "value": 65.0
+          },
+          {
+            "year": 2010,
+            "value": 65.6
+          },
+          {
+            "year": 2011,
+            "value": 65.4
+          },
+          {
+            "year": 2012,
+            "value": 65.7
+          },
+          {
+            "year": 2013,
+            "value": 78.0
+          },
+          {
+            "year": 2014,
+            "value": 63.4
+          },
+          {
+            "year": 2016,
+            "value": 61.4
+          },
+          {
+            "year": 2017,
+            "value": 61.4
+          },
+          {
+            "year": 2018,
+            "value": 61.9
+          },
+          {
+            "year": 2019,
+            "value": 61.8
+          },
+          {
+            "year": 2020,
+            "value": 61.3
+          },
+          {
+            "year": 2021,
+            "value": 61.7
+          },
+          {
+            "year": 2022,
+            "value": 62.0
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Караганда г.а.",
+          "population": 533344.0,
+          "male": 248754.0,
+          "female": 284590.0,
+          "urbanPopulation": 533344.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Балхаш г.а.",
+          "population": 76684.0,
+          "male": 37052.0,
+          "female": 39632.0,
+          "urbanPopulation": 76684.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Приозерск г.а.",
+          "population": 10620.0,
+          "male": 5212.0,
+          "female": 5408.0,
+          "urbanPopulation": 10620.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Сарань г.а.",
+          "population": 43214.0,
+          "male": 20505.0,
+          "female": 22709.0,
+          "urbanPopulation": 43214.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Темиртау г.а.",
+          "population": 175758.0,
+          "male": 83781.0,
+          "female": 91977.0,
+          "urbanPopulation": 175758.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Шахтинск г.а.",
+          "population": 56924.0,
+          "male": 27889.0,
+          "female": 29035.0,
+          "urbanPopulation": 56924.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Абайский район",
+          "population": 56854.0,
+          "male": 28049.0,
+          "female": 28805.0,
+          "urbanPopulation": 28126.0,
+          "ruralPopulation": 28728.0
+        },
+        {
+          "name": "Актогайский район",
+          "population": 14940.0,
+          "male": 7717.0,
+          "female": 7223.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 14940.0
+        },
+        {
+          "name": "Бухар-жырауский район",
+          "population": 50986.0,
+          "male": 26057.0,
+          "female": 24929.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 50986.0
+        },
+        {
+          "name": "Каркаралинский район",
+          "population": 28371.0,
+          "male": 14858.0,
+          "female": 13513.0,
+          "urbanPopulation": 8716.0,
+          "ruralPopulation": 19655.0
+        },
+        {
+          "name": "Нуринский район",
+          "population": 20593.0,
+          "male": 10825.0,
+          "female": 9768.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 20593.0
+        },
+        {
+          "name": "Осакаровский район",
+          "population": 28341.0,
+          "male": 14170.0,
+          "female": 14171.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 28341.0
+        },
+        {
+          "name": "Шетский район",
+          "population": 34724.0,
+          "male": 17996.0,
+          "female": 16728.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 34724.0
+        }
+      ],
+      "latestUnemploymentRate": 4.1,
+      "latestEmploymentRate": 62.0,
+      "latestUnemployedPopulation": 22.915,
+      "latestNotInLaborForce": 301.929,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "kostanay",
+      "label": "Kostanay Region",
+      "coordinates": [
+        51.5077,
+        64.0479
+      ],
+      "rawName": "Костанайская",
+      "population2026": 821473.0,
+      "male2026": 397754.0,
+      "female2026": 423719.0,
+      "urbanPopulation2026": 524371.0,
+      "ruralPopulation2026": 297102.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 58.2
+          },
+          {
+            "year": 2002,
+            "value": 49.7
+          },
+          {
+            "year": 2003,
+            "value": 47.0
+          },
+          {
+            "year": 2004,
+            "value": 46.8
+          },
+          {
+            "year": 2005,
+            "value": 45.4
+          },
+          {
+            "year": 2006,
+            "value": 43.3
+          },
+          {
+            "year": 2007,
+            "value": 42.095
+          },
+          {
+            "year": 2008,
+            "value": 38.1
+          },
+          {
+            "year": 2009,
+            "value": 34.5
+          },
+          {
+            "year": 2010,
+            "value": 30.9
+          },
+          {
+            "year": 2011,
+            "value": 29.1
+          },
+          {
+            "year": 2012,
+            "value": 28.311
+          },
+          {
+            "year": 2013,
+            "value": 27.427
+          },
+          {
+            "year": 2014,
+            "value": 26.105
+          },
+          {
+            "year": 2016,
+            "value": 25.653
+          },
+          {
+            "year": 2017,
+            "value": 25.016
+          },
+          {
+            "year": 2018,
+            "value": 24.526
+          },
+          {
+            "year": 2019,
+            "value": 24.121
+          },
+          {
+            "year": 2020,
+            "value": 24.138
+          },
+          {
+            "year": 2021,
+            "value": 24.082
+          },
+          {
+            "year": 2022,
+            "value": 23.185
+          },
+          {
+            "year": 2023,
+            "value": 22.595
+          },
+          {
+            "year": 2024,
+            "value": 21.604
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 183.869
+          },
+          {
+            "year": 2002,
+            "value": 169.312
+          },
+          {
+            "year": 2003,
+            "value": 175.5
+          },
+          {
+            "year": 2004,
+            "value": 171.2
+          },
+          {
+            "year": 2005,
+            "value": 168.9
+          },
+          {
+            "year": 2006,
+            "value": 168.6
+          },
+          {
+            "year": 2007,
+            "value": 166.675
+          },
+          {
+            "year": 2008,
+            "value": 170.1
+          },
+          {
+            "year": 2009,
+            "value": 178.4
+          },
+          {
+            "year": 2010,
+            "value": 178.2
+          },
+          {
+            "year": 2011,
+            "value": 177.0
+          },
+          {
+            "year": 2012,
+            "value": 173.483
+          },
+          {
+            "year": 2013,
+            "value": 180.386
+          },
+          {
+            "year": 2014,
+            "value": 192.88
+          },
+          {
+            "year": 2016,
+            "value": 185.699
+          },
+          {
+            "year": 2017,
+            "value": 184.964
+          },
+          {
+            "year": 2018,
+            "value": 186.729
+          },
+          {
+            "year": 2019,
+            "value": 188.282
+          },
+          {
+            "year": 2020,
+            "value": 199.696
+          },
+          {
+            "year": 2021,
+            "value": 190.615
+          },
+          {
+            "year": 2022,
+            "value": 182.092
+          },
+          {
+            "year": 2023,
+            "value": 182.046
+          },
+          {
+            "year": 2024,
+            "value": 195.377
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 10.3
+          },
+          {
+            "year": 2002,
+            "value": 9.3
+          },
+          {
+            "year": 2003,
+            "value": 8.7
+          },
+          {
+            "year": 2004,
+            "value": 8.5
+          },
+          {
+            "year": 2005,
+            "value": 8.2
+          },
+          {
+            "year": 2006,
+            "value": 7.8
+          },
+          {
+            "year": 2007,
+            "value": 7.5105400916002205
+          },
+          {
+            "year": 2008,
+            "value": 6.8668886688866895
+          },
+          {
+            "year": 2009,
+            "value": 6.3
+          },
+          {
+            "year": 2010,
+            "value": 5.7
+          },
+          {
+            "year": 2011,
+            "value": 5.4
+          },
+          {
+            "year": 2012,
+            "value": 5.2
+          },
+          {
+            "year": 2013,
+            "value": 5.2
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.7
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.8
+          },
+          {
+            "year": 2022,
+            "value": 4.9
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.7
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 67.7
+          },
+          {
+            "year": 2002,
+            "value": 68.8
+          },
+          {
+            "year": 2003,
+            "value": 69.0
+          },
+          {
+            "year": 2004,
+            "value": 69.9
+          },
+          {
+            "year": 2005,
+            "value": 70.5
+          },
+          {
+            "year": 2006,
+            "value": 70.8
+          },
+          {
+            "year": 2007,
+            "value": 71.3
+          },
+          {
+            "year": 2008,
+            "value": 71.3
+          },
+          {
+            "year": 2009,
+            "value": 70.6
+          },
+          {
+            "year": 2010,
+            "value": 71.0
+          },
+          {
+            "year": 2011,
+            "value": 71.3
+          },
+          {
+            "year": 2012,
+            "value": 71.7
+          },
+          {
+            "year": 2013,
+            "value": 82.3
+          },
+          {
+            "year": 2014,
+            "value": 69.3
+          },
+          {
+            "year": 2016,
+            "value": 70.0
+          },
+          {
+            "year": 2017,
+            "value": 70.1
+          },
+          {
+            "year": 2018,
+            "value": 69.8
+          },
+          {
+            "year": 2019,
+            "value": 69.5
+          },
+          {
+            "year": 2020,
+            "value": 67.6
+          },
+          {
+            "year": 2021,
+            "value": 68.9
+          },
+          {
+            "year": 2022,
+            "value": 68.9
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Костанай г.а.",
+          "population": 277064.0,
+          "male": 128808.0,
+          "female": 148256.0,
+          "urbanPopulation": 277064.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Аркалык г.а.",
+          "population": 36153.0,
+          "male": 17896.0,
+          "female": 18257.0,
+          "urbanPopulation": 27149.0,
+          "ruralPopulation": 9004.0
+        },
+        {
+          "name": "Лисаковск г.а.",
+          "population": 34280.0,
+          "male": 16079.0,
+          "female": 18201.0,
+          "urbanPopulation": 34280.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Рудный г.а.",
+          "population": 123071.0,
+          "male": 58501.0,
+          "female": 64570.0,
+          "urbanPopulation": 122548.0,
+          "ruralPopulation": 523.0
+        },
+        {
+          "name": "Алтынсаринский район",
+          "population": 11690.0,
+          "male": 6111.0,
+          "female": 5579.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11690.0
+        },
+        {
+          "name": "Амангельдинский район",
+          "population": 12351.0,
+          "male": 6632.0,
+          "female": 5719.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 12351.0
+        },
+        {
+          "name": "Аулиекольский район",
+          "population": 32658.0,
+          "male": 16262.0,
+          "female": 16396.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 32658.0
+        },
+        {
+          "name": "Денисовский район",
+          "population": 15388.0,
+          "male": 7671.0,
+          "female": 7717.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15388.0
+        },
+        {
+          "name": "Жангельдинский район",
+          "population": 9847.0,
+          "male": 5157.0,
+          "female": 4690.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 9847.0
+        },
+        {
+          "name": "Житикаринский район",
+          "population": 40735.0,
+          "male": 19774.0,
+          "female": 20961.0,
+          "urbanPopulation": 34394.0,
+          "ruralPopulation": 6341.0
+        },
+        {
+          "name": "Камыстинский район",
+          "population": 9872.0,
+          "male": 5144.0,
+          "female": 4728.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 9872.0
+        },
+        {
+          "name": "Карабалыкский район",
+          "population": 23401.0,
+          "male": 11590.0,
+          "female": 11811.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 23401.0
+        },
+        {
+          "name": "Карасуский район",
+          "population": 18785.0,
+          "male": 9475.0,
+          "female": 9310.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 18785.0
+        },
+        {
+          "name": "Костанайский район",
+          "population": 73413.0,
+          "male": 36523.0,
+          "female": 36890.0,
+          "urbanPopulation": 28936.0,
+          "ruralPopulation": 44477.0
+        },
+        {
+          "name": "Мендыкаринский район",
+          "population": 20471.0,
+          "male": 10288.0,
+          "female": 10183.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 20471.0
+        },
+        {
+          "name": "Наурзумский район",
+          "population": 8085.0,
+          "male": 4409.0,
+          "female": 3676.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 8085.0
+        },
+        {
+          "name": "Сарыкольский район",
+          "population": 16092.0,
+          "male": 8234.0,
+          "female": 7858.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 16092.0
+        },
+        {
+          "name": "район Беимбета Майлина",
+          "population": 21517.0,
+          "male": 10730.0,
+          "female": 10787.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 21517.0
+        },
+        {
+          "name": "Узункольский район",
+          "population": 13888.0,
+          "male": 7129.0,
+          "female": 6759.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13888.0
+        },
+        {
+          "name": "Федоровский район",
+          "population": 22712.0,
+          "male": 11341.0,
+          "female": 11371.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 22712.0
+        }
+      ],
+      "latestUnemploymentRate": 4.7,
+      "latestEmploymentRate": 68.9,
+      "latestUnemployedPopulation": 21.604,
+      "latestNotInLaborForce": 195.377,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "kyzylorda",
+      "label": "Kyzylorda Region",
+      "coordinates": [
+        44.8488,
+        65.4823
+      ],
+      "rawName": "Кызылординская",
+      "population2026": 846312.0,
+      "male2026": 426405.0,
+      "female2026": 419907.0,
+      "urbanPopulation2026": 399391.0,
+      "ruralPopulation2026": 446921.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 36.0
+          },
+          {
+            "year": 2002,
+            "value": 34.4
+          },
+          {
+            "year": 2003,
+            "value": 32.8
+          },
+          {
+            "year": 2004,
+            "value": 30.3
+          },
+          {
+            "year": 2005,
+            "value": 29.4
+          },
+          {
+            "year": 2006,
+            "value": 27.9
+          },
+          {
+            "year": 2007,
+            "value": 25.33
+          },
+          {
+            "year": 2008,
+            "value": 21.2
+          },
+          {
+            "year": 2009,
+            "value": 20.4
+          },
+          {
+            "year": 2010,
+            "value": 18.7
+          },
+          {
+            "year": 2011,
+            "value": 18.6
+          },
+          {
+            "year": 2012,
+            "value": 18.549
+          },
+          {
+            "year": 2013,
+            "value": 18.267
+          },
+          {
+            "year": 2014,
+            "value": 16.449
+          },
+          {
+            "year": 2016,
+            "value": 17.072
+          },
+          {
+            "year": 2017,
+            "value": 16.849
+          },
+          {
+            "year": 2018,
+            "value": 16.785
+          },
+          {
+            "year": 2019,
+            "value": 16.793
+          },
+          {
+            "year": 2020,
+            "value": 16.877
+          },
+          {
+            "year": 2021,
+            "value": 17.017
+          },
+          {
+            "year": 2022,
+            "value": 17.028
+          },
+          {
+            "year": 2023,
+            "value": 17.042
+          },
+          {
+            "year": 2024,
+            "value": 16.939
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 124.83
+          },
+          {
+            "year": 2002,
+            "value": 116.819
+          },
+          {
+            "year": 2003,
+            "value": 113.8
+          },
+          {
+            "year": 2004,
+            "value": 114.1
+          },
+          {
+            "year": 2005,
+            "value": 115.5
+          },
+          {
+            "year": 2006,
+            "value": 124.4
+          },
+          {
+            "year": 2007,
+            "value": 121.798
+          },
+          {
+            "year": 2008,
+            "value": 130.2
+          },
+          {
+            "year": 2009,
+            "value": 135.0
+          },
+          {
+            "year": 2010,
+            "value": 132.7
+          },
+          {
+            "year": 2011,
+            "value": 132.2
+          },
+          {
+            "year": 2012,
+            "value": 147.406
+          },
+          {
+            "year": 2013,
+            "value": 149.727
+          },
+          {
+            "year": 2014,
+            "value": 152.34
+          },
+          {
+            "year": 2016,
+            "value": 173.594
+          },
+          {
+            "year": 2017,
+            "value": 172.029
+          },
+          {
+            "year": 2018,
+            "value": 172.27
+          },
+          {
+            "year": 2019,
+            "value": 178.479
+          },
+          {
+            "year": 2020,
+            "value": 187.622
+          },
+          {
+            "year": 2021,
+            "value": 190.713
+          },
+          {
+            "year": 2022,
+            "value": 193.05
+          },
+          {
+            "year": 2023,
+            "value": 197.671
+          },
+          {
+            "year": 2024,
+            "value": 202.091
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 13.9
+          },
+          {
+            "year": 2002,
+            "value": 12.5
+          },
+          {
+            "year": 2003,
+            "value": 11.4
+          },
+          {
+            "year": 2004,
+            "value": 10.2
+          },
+          {
+            "year": 2005,
+            "value": 9.7
+          },
+          {
+            "year": 2006,
+            "value": 9.3
+          },
+          {
+            "year": 2007,
+            "value": 8.226937455138344
+          },
+          {
+            "year": 2008,
+            "value": 6.939578178004294
+          },
+          {
+            "year": 2009,
+            "value": 6.6
+          },
+          {
+            "year": 2010,
+            "value": 5.9
+          },
+          {
+            "year": 2011,
+            "value": 5.5
+          },
+          {
+            "year": 2012,
+            "value": 5.3
+          },
+          {
+            "year": 2013,
+            "value": 5.2
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 4.9
+          },
+          {
+            "year": 2023,
+            "value": 4.9
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 58.2
+          },
+          {
+            "year": 2002,
+            "value": 61.4
+          },
+          {
+            "year": 2003,
+            "value": 63.5
+          },
+          {
+            "year": 2004,
+            "value": 64.9
+          },
+          {
+            "year": 2005,
+            "value": 65.3
+          },
+          {
+            "year": 2006,
+            "value": 64.0
+          },
+          {
+            "year": 2007,
+            "value": 65.8
+          },
+          {
+            "year": 2008,
+            "value": 65.2
+          },
+          {
+            "year": 2009,
+            "value": 64.9
+          },
+          {
+            "year": 2010,
+            "value": 66.4
+          },
+          {
+            "year": 2011,
+            "value": 67.9
+          },
+          {
+            "year": 2012,
+            "value": 66.5
+          },
+          {
+            "year": 2013,
+            "value": 74.1
+          },
+          {
+            "year": 2014,
+            "value": 64.8
+          },
+          {
+            "year": 2016,
+            "value": 63.3
+          },
+          {
+            "year": 2017,
+            "value": 63.6
+          },
+          {
+            "year": 2018,
+            "value": 63.8
+          },
+          {
+            "year": 2019,
+            "value": 63.0
+          },
+          {
+            "year": 2020,
+            "value": 61.7
+          },
+          {
+            "year": 2021,
+            "value": 61.4
+          },
+          {
+            "year": 2022,
+            "value": 61.1
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Кызылорда г.а.",
+          "population": 366878.0,
+          "male": 180461.0,
+          "female": 186417.0,
+          "urbanPopulation": 323446.0,
+          "ruralPopulation": 43432.0
+        },
+        {
+          "name": "Байконыр г.а.",
+          "population": 31233.0,
+          "male": 15121.0,
+          "female": 16112.0,
+          "urbanPopulation": 31233.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Аральский район",
+          "population": 78643.0,
+          "male": 40525.0,
+          "female": 38118.0,
+          "urbanPopulation": 37375.0,
+          "ruralPopulation": 41268.0
+        },
+        {
+          "name": "Жалагашский район",
+          "population": 35507.0,
+          "male": 18458.0,
+          "female": 17049.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 35507.0
+        },
+        {
+          "name": "Жанакорганский район",
+          "population": 81460.0,
+          "male": 41960.0,
+          "female": 39500.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 81460.0
+        },
+        {
+          "name": "Казалинский район",
+          "population": 78709.0,
+          "male": 40190.0,
+          "female": 38519.0,
+          "urbanPopulation": 7337.0,
+          "ruralPopulation": 71372.0
+        },
+        {
+          "name": "Кармакшинский район",
+          "population": 50804.0,
+          "male": 26122.0,
+          "female": 24682.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 50804.0
+        },
+        {
+          "name": "Сырдарьинский район",
+          "population": 37462.0,
+          "male": 19488.0,
+          "female": 17974.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 37462.0
+        },
+        {
+          "name": "Шиелийский район",
+          "population": 85616.0,
+          "male": 44080.0,
+          "female": 41536.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 85616.0
+        }
+      ],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 61.1,
+      "latestUnemployedPopulation": 16.939,
+      "latestNotInLaborForce": 202.091,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "mangystau",
+      "label": "Mangystau Region",
+      "coordinates": [
+        43.6532,
+        51.1975
+      ],
+      "rawName": "Мангистауская",
+      "population2026": 819824.0,
+      "male2026": 408439.0,
+      "female2026": 411385.0,
+      "urbanPopulation2026": 383780.0,
+      "ruralPopulation2026": 436044.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 15.4
+          },
+          {
+            "year": 2002,
+            "value": 14.4
+          },
+          {
+            "year": 2003,
+            "value": 15.2
+          },
+          {
+            "year": 2004,
+            "value": 17.9
+          },
+          {
+            "year": 2005,
+            "value": 18.3
+          },
+          {
+            "year": 2006,
+            "value": 17.7
+          },
+          {
+            "year": 2007,
+            "value": 16.484
+          },
+          {
+            "year": 2008,
+            "value": 13.8
+          },
+          {
+            "year": 2009,
+            "value": 14.9
+          },
+          {
+            "year": 2010,
+            "value": 14.1
+          },
+          {
+            "year": 2011,
+            "value": 14.1
+          },
+          {
+            "year": 2012,
+            "value": 15.41
+          },
+          {
+            "year": 2013,
+            "value": 15.141
+          },
+          {
+            "year": 2014,
+            "value": 12.977
+          },
+          {
+            "year": 2016,
+            "value": 14.501
+          },
+          {
+            "year": 2017,
+            "value": 14.238
+          },
+          {
+            "year": 2018,
+            "value": 15.49
+          },
+          {
+            "year": 2019,
+            "value": 15.357
+          },
+          {
+            "year": 2020,
+            "value": 15.779
+          },
+          {
+            "year": 2021,
+            "value": 16.918
+          },
+          {
+            "year": 2022,
+            "value": 17.746
+          },
+          {
+            "year": 2023,
+            "value": 17.58
+          },
+          {
+            "year": 2024,
+            "value": 18.293
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 61.034
+          },
+          {
+            "year": 2002,
+            "value": 71.446
+          },
+          {
+            "year": 2003,
+            "value": 72.5
+          },
+          {
+            "year": 2004,
+            "value": 59.7
+          },
+          {
+            "year": 2005,
+            "value": 55.7
+          },
+          {
+            "year": 2006,
+            "value": 69.7
+          },
+          {
+            "year": 2007,
+            "value": 77.066
+          },
+          {
+            "year": 2008,
+            "value": 82.4
+          },
+          {
+            "year": 2009,
+            "value": 86.6
+          },
+          {
+            "year": 2010,
+            "value": 89.2
+          },
+          {
+            "year": 2011,
+            "value": 94.9
+          },
+          {
+            "year": 2012,
+            "value": 106.789
+          },
+          {
+            "year": 2013,
+            "value": 117.157
+          },
+          {
+            "year": 2014,
+            "value": 137.754
+          },
+          {
+            "year": 2016,
+            "value": 124.499
+          },
+          {
+            "year": 2017,
+            "value": 131.836
+          },
+          {
+            "year": 2018,
+            "value": 111.238
+          },
+          {
+            "year": 2019,
+            "value": 118.502
+          },
+          {
+            "year": 2020,
+            "value": 126.343
+          },
+          {
+            "year": 2021,
+            "value": 111.252
+          },
+          {
+            "year": 2022,
+            "value": 119.332
+          },
+          {
+            "year": 2023,
+            "value": 128.609
+          },
+          {
+            "year": 2024,
+            "value": 133.643
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 10.5
+          },
+          {
+            "year": 2002,
+            "value": 9.8
+          },
+          {
+            "year": 2003,
+            "value": 9.7
+          },
+          {
+            "year": 2004,
+            "value": 9.8
+          },
+          {
+            "year": 2005,
+            "value": 9.7
+          },
+          {
+            "year": 2006,
+            "value": 9.3
+          },
+          {
+            "year": 2007,
+            "value": 8.48566589620966
+          },
+          {
+            "year": 2008,
+            "value": 6.852954150084008
+          },
+          {
+            "year": 2009,
+            "value": 7.1
+          },
+          {
+            "year": 2010,
+            "value": 6.4
+          },
+          {
+            "year": 2011,
+            "value": 5.8
+          },
+          {
+            "year": 2012,
+            "value": 5.7
+          },
+          {
+            "year": 2013,
+            "value": 5.5
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 4.9
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 5.1
+          },
+          {
+            "year": 2023,
+            "value": 5.0
+          },
+          {
+            "year": 2024,
+            "value": 5.0
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 63.1
+          },
+          {
+            "year": 2002,
+            "value": 60.8
+          },
+          {
+            "year": 2003,
+            "value": 61.7
+          },
+          {
+            "year": 2004,
+            "value": 67.9
+          },
+          {
+            "year": 2005,
+            "value": 69.7
+          },
+          {
+            "year": 2006,
+            "value": 66.3
+          },
+          {
+            "year": 2007,
+            "value": 65.5
+          },
+          {
+            "year": 2008,
+            "value": 66.1
+          },
+          {
+            "year": 2009,
+            "value": 65.7
+          },
+          {
+            "year": 2010,
+            "value": 66.5
+          },
+          {
+            "year": 2011,
+            "value": 67.6
+          },
+          {
+            "year": 2012,
+            "value": 67.7
+          },
+          {
+            "year": 2013,
+            "value": 74.0
+          },
+          {
+            "year": 2014,
+            "value": 62.3
+          },
+          {
+            "year": 2016,
+            "value": 66.7
+          },
+          {
+            "year": 2017,
+            "value": 65.5
+          },
+          {
+            "year": 2018,
+            "value": 70.6
+          },
+          {
+            "year": 2019,
+            "value": 69.5
+          },
+          {
+            "year": 2020,
+            "value": 68.5
+          },
+          {
+            "year": 2021,
+            "value": 72.1
+          },
+          {
+            "year": 2022,
+            "value": 70.8
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Актау г.а.",
+          "population": 306650.0,
+          "male": 147083.0,
+          "female": 159567.0,
+          "urbanPopulation": 298716.0,
+          "ruralPopulation": 7934.0
+        },
+        {
+          "name": "Жанаозен г.а.",
+          "population": 155195.0,
+          "male": 78314.0,
+          "female": 76881.0,
+          "urbanPopulation": 76430.0,
+          "ruralPopulation": 78765.0
+        },
+        {
+          "name": "Бейнеуский район",
+          "population": 72009.0,
+          "male": 36674.0,
+          "female": 35335.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 72009.0
+        },
+        {
+          "name": "Каракиянский район",
+          "population": 36125.0,
+          "male": 18532.0,
+          "female": 17593.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 36125.0
+        },
+        {
+          "name": "Мангистауский район",
+          "population": 34087.0,
+          "male": 17341.0,
+          "female": 16746.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 34087.0
+        },
+        {
+          "name": "Мунайлинский район",
+          "population": 174163.0,
+          "male": 89262.0,
+          "female": 84901.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 174163.0
+        },
+        {
+          "name": "Тупкараганский район",
+          "population": 41595.0,
+          "male": 21233.0,
+          "female": 20362.0,
+          "urbanPopulation": 8634.0,
+          "ruralPopulation": 32961.0
+        }
+      ],
+      "latestUnemploymentRate": 5.0,
+      "latestEmploymentRate": 70.8,
+      "latestUnemployedPopulation": 18.293,
+      "latestNotInLaborForce": 133.643,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "pavlodar",
+      "label": "Pavlodar Region",
+      "coordinates": [
+        52.2871,
+        76.9674
+      ],
+      "rawName": "Павлодарская",
+      "population2026": 745243.0,
+      "male2026": 358949.0,
+      "female2026": 386294.0,
+      "urbanPopulation2026": 532706.0,
+      "ruralPopulation2026": 212537.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 41.4
+          },
+          {
+            "year": 2002,
+            "value": 35.4
+          },
+          {
+            "year": 2003,
+            "value": 33.9
+          },
+          {
+            "year": 2004,
+            "value": 31.6
+          },
+          {
+            "year": 2005,
+            "value": 30.5
+          },
+          {
+            "year": 2006,
+            "value": 30.2
+          },
+          {
+            "year": 2007,
+            "value": 28.997
+          },
+          {
+            "year": 2008,
+            "value": 27.5
+          },
+          {
+            "year": 2009,
+            "value": 27.6
+          },
+          {
+            "year": 2010,
+            "value": 24.8
+          },
+          {
+            "year": 2011,
+            "value": 22.9
+          },
+          {
+            "year": 2012,
+            "value": 21.725
+          },
+          {
+            "year": 2013,
+            "value": 22.024
+          },
+          {
+            "year": 2014,
+            "value": 20.981
+          },
+          {
+            "year": 2016,
+            "value": 20.297
+          },
+          {
+            "year": 2017,
+            "value": 19.921
+          },
+          {
+            "year": 2018,
+            "value": 19.617
+          },
+          {
+            "year": 2019,
+            "value": 19.146
+          },
+          {
+            "year": 2020,
+            "value": 19.587
+          },
+          {
+            "year": 2021,
+            "value": 19.378
+          },
+          {
+            "year": 2022,
+            "value": 19.186
+          },
+          {
+            "year": 2023,
+            "value": 19.323
+          },
+          {
+            "year": 2024,
+            "value": 19.194
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 153.042
+          },
+          {
+            "year": 2002,
+            "value": 159.869
+          },
+          {
+            "year": 2003,
+            "value": 173.5
+          },
+          {
+            "year": 2004,
+            "value": 183.8
+          },
+          {
+            "year": 2005,
+            "value": 193.8
+          },
+          {
+            "year": 2006,
+            "value": 188.0
+          },
+          {
+            "year": 2007,
+            "value": 181.647
+          },
+          {
+            "year": 2008,
+            "value": 170.7
+          },
+          {
+            "year": 2009,
+            "value": 169.9
+          },
+          {
+            "year": 2010,
+            "value": 163.7
+          },
+          {
+            "year": 2011,
+            "value": 160.5
+          },
+          {
+            "year": 2012,
+            "value": 159.211
+          },
+          {
+            "year": 2013,
+            "value": 157.692
+          },
+          {
+            "year": 2014,
+            "value": 155.012
+          },
+          {
+            "year": 2016,
+            "value": 171.582
+          },
+          {
+            "year": 2017,
+            "value": 171.729
+          },
+          {
+            "year": 2018,
+            "value": 172.429
+          },
+          {
+            "year": 2019,
+            "value": 173.103
+          },
+          {
+            "year": 2020,
+            "value": 174.579
+          },
+          {
+            "year": 2021,
+            "value": 173.671
+          },
+          {
+            "year": 2022,
+            "value": 174.437
+          },
+          {
+            "year": 2023,
+            "value": 174.905
+          },
+          {
+            "year": 2024,
+            "value": 175.762
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 9.2
+          },
+          {
+            "year": 2002,
+            "value": 8.7
+          },
+          {
+            "year": 2003,
+            "value": 8.2
+          },
+          {
+            "year": 2004,
+            "value": 7.7
+          },
+          {
+            "year": 2005,
+            "value": 7.6
+          },
+          {
+            "year": 2006,
+            "value": 7.4
+          },
+          {
+            "year": 2007,
+            "value": 6.920392928058653
+          },
+          {
+            "year": 2008,
+            "value": 6.359357555486582
+          },
+          {
+            "year": 2009,
+            "value": 6.4
+          },
+          {
+            "year": 2010,
+            "value": 5.6
+          },
+          {
+            "year": 2011,
+            "value": 5.2
+          },
+          {
+            "year": 2012,
+            "value": 4.9
+          },
+          {
+            "year": 2013,
+            "value": 5.0
+          },
+          {
+            "year": 2014,
+            "value": 4.8
+          },
+          {
+            "year": 2016,
+            "value": 4.8
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.7
+          },
+          {
+            "year": 2020,
+            "value": 4.8
+          },
+          {
+            "year": 2021,
+            "value": 4.8
+          },
+          {
+            "year": 2022,
+            "value": 4.8
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.7
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 73.5
+          },
+          {
+            "year": 2002,
+            "value": 72.3
+          },
+          {
+            "year": 2003,
+            "value": 70.0
+          },
+          {
+            "year": 2004,
+            "value": 68.7
+          },
+          {
+            "year": 2005,
+            "value": 68.6
+          },
+          {
+            "year": 2006,
+            "value": 69.0
+          },
+          {
+            "year": 2007,
+            "value": 68.9
+          },
+          {
+            "year": 2008,
+            "value": 69.1
+          },
+          {
+            "year": 2009,
+            "value": 68.5
+          },
+          {
+            "year": 2010,
+            "value": 68.7
+          },
+          {
+            "year": 2011,
+            "value": 69.5
+          },
+          {
+            "year": 2012,
+            "value": 70.5
+          },
+          {
+            "year": 2013,
+            "value": 81.7
+          },
+          {
+            "year": 2014,
+            "value": 68.1
+          },
+          {
+            "year": 2016,
+            "value": 67.0
+          },
+          {
+            "year": 2017,
+            "value": 66.0
+          },
+          {
+            "year": 2018,
+            "value": 67.0
+          },
+          {
+            "year": 2019,
+            "value": 66.7
+          },
+          {
+            "year": 2020,
+            "value": 66.6
+          },
+          {
+            "year": 2021,
+            "value": 66.7
+          },
+          {
+            "year": 2022,
+            "value": 65.1
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Павлодар г.а.",
+          "population": 370209.0,
+          "male": 173218.0,
+          "female": 196991.0,
+          "urbanPopulation": 345318.0,
+          "ruralPopulation": 24891.0
+        },
+        {
+          "name": "Аксу г.а.",
+          "population": 72349.0,
+          "male": 35145.0,
+          "female": 37204.0,
+          "urbanPopulation": 51856.0,
+          "ruralPopulation": 20493.0
+        },
+        {
+          "name": "Экибастуз г.а.",
+          "population": 143265.0,
+          "male": 68972.0,
+          "female": 74293.0,
+          "urbanPopulation": 135532.0,
+          "ruralPopulation": 7733.0
+        },
+        {
+          "name": "Актогайский район",
+          "population": 11852.0,
+          "male": 6140.0,
+          "female": 5712.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11852.0
+        },
+        {
+          "name": "Баянаульский район",
+          "population": 22297.0,
+          "male": 11525.0,
+          "female": 10772.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 22297.0
+        },
+        {
+          "name": "Железинский район",
+          "population": 14169.0,
+          "male": 7217.0,
+          "female": 6952.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 14169.0
+        },
+        {
+          "name": "Иртышский район",
+          "population": 15666.0,
+          "male": 7932.0,
+          "female": 7734.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 15666.0
+        },
+        {
+          "name": "район Тереңкөл",
+          "population": 18854.0,
+          "male": 9514.0,
+          "female": 9340.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 18854.0
+        },
+        {
+          "name": "район Аққулы",
+          "population": 11294.0,
+          "male": 5881.0,
+          "female": 5413.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11294.0
+        },
+        {
+          "name": "Майский район",
+          "population": 9673.0,
+          "male": 5099.0,
+          "female": 4574.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 9673.0
+        },
+        {
+          "name": "Павлодарский район",
+          "population": 25685.0,
+          "male": 13153.0,
+          "female": 12532.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 25685.0
+        },
+        {
+          "name": "Успенский район",
+          "population": 11945.0,
+          "male": 5964.0,
+          "female": 5981.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11945.0
+        },
+        {
+          "name": "Щербактинский район",
+          "population": 17985.0,
+          "male": 9189.0,
+          "female": 8796.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 17985.0
+        },
+        {
+          "name": "Северо-казахстанская",
+          "population": 514132.0,
+          "male": 248660.0,
+          "female": 265472.0,
+          "urbanPopulation": 258094.0,
+          "ruralPopulation": 256038.0
+        },
+        {
+          "name": "Петропавловск г.а.",
+          "population": 222113.0,
+          "male": 102805.0,
+          "female": 119308.0,
+          "urbanPopulation": 222113.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Айыртауский район",
+          "population": 29752.0,
+          "male": 14865.0,
+          "female": 14887.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 29752.0
+        },
+        {
+          "name": "Акжарский район",
+          "population": 12202.0,
+          "male": 6290.0,
+          "female": 5912.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 12202.0
+        },
+        {
+          "name": "Район Магжана Жумабаева",
+          "population": 25775.0,
+          "male": 12772.0,
+          "female": 13003.0,
+          "urbanPopulation": 8500.0,
+          "ruralPopulation": 17275.0
+        },
+        {
+          "name": "Есильский район",
+          "population": 20029.0,
+          "male": 10028.0,
+          "female": 10001.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 20029.0
+        },
+        {
+          "name": "Жамбылский район",
+          "population": 16545.0,
+          "male": 8311.0,
+          "female": 8234.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 16545.0
+        },
+        {
+          "name": "Кызылжарский район",
+          "population": 45846.0,
+          "male": 22821.0,
+          "female": 23025.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 45846.0
+        },
+        {
+          "name": "Мамлютский район",
+          "population": 16399.0,
+          "male": 8171.0,
+          "female": 8228.0,
+          "urbanPopulation": 6633.0,
+          "ruralPopulation": 9766.0
+        },
+        {
+          "name": "Район шал акына",
+          "population": 16827.0,
+          "male": 8362.0,
+          "female": 8465.0,
+          "urbanPopulation": 8026.0,
+          "ruralPopulation": 8801.0
+        },
+        {
+          "name": "Аккайынский район",
+          "population": 17043.0,
+          "male": 8536.0,
+          "female": 8507.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 17043.0
+        },
+        {
+          "name": "Тайыншинский район",
+          "population": 37365.0,
+          "male": 18506.0,
+          "female": 18859.0,
+          "urbanPopulation": 12822.0,
+          "ruralPopulation": 24543.0
+        },
+        {
+          "name": "Тимирязевский район",
+          "population": 9049.0,
+          "male": 4621.0,
+          "female": 4428.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 9049.0
+        },
+        {
+          "name": "Уалихановский район",
+          "population": 11522.0,
+          "male": 5906.0,
+          "female": 5616.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11522.0
+        },
+        {
+          "name": "район им.Габита Мусрепова",
+          "population": 33665.0,
+          "male": 16666.0,
+          "female": 16999.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 33665.0
+        }
+      ],
+      "latestUnemploymentRate": 4.7,
+      "latestEmploymentRate": 65.1,
+      "latestUnemployedPopulation": 19.194,
+      "latestNotInLaborForce": 175.762,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "north_kazakhstan",
+      "label": "North Kazakhstan Region",
+      "coordinates": [
+        54.8753,
+        69.1628
+      ],
+      "rawName": "Северо-Казахстанская",
+      "population2026": 514132.0,
+      "male2026": 248660.0,
+      "female2026": 265472.0,
+      "urbanPopulation2026": 258094.0,
+      "ruralPopulation2026": 256038.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 39.1
+          },
+          {
+            "year": 2002,
+            "value": 32.7
+          },
+          {
+            "year": 2003,
+            "value": 32.5
+          },
+          {
+            "year": 2004,
+            "value": 32.6
+          },
+          {
+            "year": 2005,
+            "value": 31.2
+          },
+          {
+            "year": 2006,
+            "value": 28.6
+          },
+          {
+            "year": 2007,
+            "value": 27.152
+          },
+          {
+            "year": 2008,
+            "value": 24.6
+          },
+          {
+            "year": 2009,
+            "value": 24.1
+          },
+          {
+            "year": 2010,
+            "value": 22.0
+          },
+          {
+            "year": 2011,
+            "value": 19.9
+          },
+          {
+            "year": 2012,
+            "value": 18.312
+          },
+          {
+            "year": 2013,
+            "value": 17.56
+          },
+          {
+            "year": 2014,
+            "value": 16.47
+          },
+          {
+            "year": 2016,
+            "value": 15.839
+          },
+          {
+            "year": 2017,
+            "value": 15.155
+          },
+          {
+            "year": 2018,
+            "value": 15.116
+          },
+          {
+            "year": 2019,
+            "value": 14.908
+          },
+          {
+            "year": 2020,
+            "value": 15.078
+          },
+          {
+            "year": 2021,
+            "value": 14.686
+          },
+          {
+            "year": 2022,
+            "value": 14.249
+          },
+          {
+            "year": 2023,
+            "value": 13.833
+          },
+          {
+            "year": 2024,
+            "value": 12.861
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 105.394
+          },
+          {
+            "year": 2002,
+            "value": 111.374
+          },
+          {
+            "year": 2003,
+            "value": 127.3
+          },
+          {
+            "year": 2004,
+            "value": 134.4
+          },
+          {
+            "year": 2005,
+            "value": 135.9
+          },
+          {
+            "year": 2006,
+            "value": 136.0
+          },
+          {
+            "year": 2007,
+            "value": 138.728
+          },
+          {
+            "year": 2008,
+            "value": 138.7
+          },
+          {
+            "year": 2009,
+            "value": 140.8
+          },
+          {
+            "year": 2010,
+            "value": 141.1
+          },
+          {
+            "year": 2011,
+            "value": 132.2
+          },
+          {
+            "year": 2012,
+            "value": 120.345
+          },
+          {
+            "year": 2013,
+            "value": 118.63
+          },
+          {
+            "year": 2014,
+            "value": 130.223
+          },
+          {
+            "year": 2016,
+            "value": 133.26
+          },
+          {
+            "year": 2017,
+            "value": 136.685
+          },
+          {
+            "year": 2018,
+            "value": 130.76
+          },
+          {
+            "year": 2019,
+            "value": 131.825
+          },
+          {
+            "year": 2020,
+            "value": 130.052
+          },
+          {
+            "year": 2021,
+            "value": 128.744
+          },
+          {
+            "year": 2022,
+            "value": 135.173
+          },
+          {
+            "year": 2023,
+            "value": 140.07
+          },
+          {
+            "year": 2024,
+            "value": 144.926
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 8.9
+          },
+          {
+            "year": 2002,
+            "value": 8.0
+          },
+          {
+            "year": 2003,
+            "value": 8.0
+          },
+          {
+            "year": 2004,
+            "value": 8.1
+          },
+          {
+            "year": 2005,
+            "value": 7.9
+          },
+          {
+            "year": 2006,
+            "value": 7.2
+          },
+          {
+            "year": 2007,
+            "value": 6.893382586287876
+          },
+          {
+            "year": 2008,
+            "value": 6.318984405868197
+          },
+          {
+            "year": 2009,
+            "value": 6.3
+          },
+          {
+            "year": 2010,
+            "value": 5.8
+          },
+          {
+            "year": 2011,
+            "value": 5.4
+          },
+          {
+            "year": 2012,
+            "value": 5.2
+          },
+          {
+            "year": 2013,
+            "value": 5.1
+          },
+          {
+            "year": 2014,
+            "value": 5.0
+          },
+          {
+            "year": 2016,
+            "value": 5.0
+          },
+          {
+            "year": 2017,
+            "value": 4.9
+          },
+          {
+            "year": 2018,
+            "value": 4.9
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 5.0
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 4.9
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.6
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2018,
+            "value": 63.5
+          },
+          {
+            "year": 2019,
+            "value": 63.8
+          },
+          {
+            "year": 2020,
+            "value": 62.1
+          },
+          {
+            "year": 2021,
+            "value": 61.4
+          },
+          {
+            "year": 2022,
+            "value": 60.6
+          }
+        ]
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.6,
+      "latestEmploymentRate": 60.6,
+      "latestUnemployedPopulation": 12.861,
+      "latestNotInLaborForce": 144.926,
+      "unemploymentDelta": -0.2
+    },
+    {
+      "id": "turkistan",
+      "label": "Turkistan Region",
+      "coordinates": [
+        43.3,
+        68.25
+      ],
+      "rawName": "Туркестанская",
+      "population2026": 2149205.0,
+      "male2026": 1098093.0,
+      "female2026": 1051112.0,
+      "urbanPopulation2026": 545462.0,
+      "ruralPopulation2026": 1603743.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2010,
+            "value": 48.089
+          },
+          {
+            "year": 2011,
+            "value": 49.405
+          },
+          {
+            "year": 2012,
+            "value": 50.815
+          },
+          {
+            "year": 2013,
+            "value": 51.115
+          },
+          {
+            "year": 2014,
+            "value": 50.666
+          },
+          {
+            "year": 2016,
+            "value": 42.781
+          },
+          {
+            "year": 2017,
+            "value": 42.498
+          },
+          {
+            "year": 2018,
+            "value": 43.041
+          },
+          {
+            "year": 2019,
+            "value": 41.85
+          },
+          {
+            "year": 2020,
+            "value": 42.46
+          },
+          {
+            "year": 2021,
+            "value": 41.771
+          },
+          {
+            "year": 2022,
+            "value": 43.051
+          },
+          {
+            "year": 2023,
+            "value": 41.698
+          },
+          {
+            "year": 2024,
+            "value": 41.603
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2010,
+            "value": 315.957
+          },
+          {
+            "year": 2011,
+            "value": 324.041
+          },
+          {
+            "year": 2012,
+            "value": 360.679
+          },
+          {
+            "year": 2013,
+            "value": 368.812
+          },
+          {
+            "year": 2014,
+            "value": 387.685
+          },
+          {
+            "year": 2016,
+            "value": 390.823
+          },
+          {
+            "year": 2017,
+            "value": 414.017
+          },
+          {
+            "year": 2018,
+            "value": 409.579
+          },
+          {
+            "year": 2019,
+            "value": 403.443
+          },
+          {
+            "year": 2020,
+            "value": 433.675
+          },
+          {
+            "year": 2021,
+            "value": 446.272
+          },
+          {
+            "year": 2022,
+            "value": 471.785
+          },
+          {
+            "year": 2023,
+            "value": 487.132
+          },
+          {
+            "year": 2024,
+            "value": 494.824
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2010,
+            "value": 5.4
+          },
+          {
+            "year": 2011,
+            "value": 5.4
+          },
+          {
+            "year": 2012,
+            "value": 5.3
+          },
+          {
+            "year": 2013,
+            "value": 5.4
+          },
+          {
+            "year": 2014,
+            "value": 5.5
+          },
+          {
+            "year": 2016,
+            "value": 5.1
+          },
+          {
+            "year": 2017,
+            "value": 5.2
+          },
+          {
+            "year": 2018,
+            "value": 5.2
+          },
+          {
+            "year": 2019,
+            "value": 5.1
+          },
+          {
+            "year": 2020,
+            "value": 5.2
+          },
+          {
+            "year": 2021,
+            "value": 5.1
+          },
+          {
+            "year": 2022,
+            "value": 5.2
+          },
+          {
+            "year": 2023,
+            "value": 5.0
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2022,
+            "value": 64.6
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Туркестан г.а.",
+          "population": 245606.0,
+          "male": 122478.0,
+          "female": 123128.0,
+          "urbanPopulation": 245606.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Арысь г.а.",
+          "population": 77137.0,
+          "male": 39900.0,
+          "female": 37237.0,
+          "urbanPopulation": 55112.0,
+          "ruralPopulation": 22025.0
+        },
+        {
+          "name": "Кентау г.а.",
+          "population": 99062.0,
+          "male": 49336.0,
+          "female": 49726.0,
+          "urbanPopulation": 73876.0,
+          "ruralPopulation": 25186.0
+        },
+        {
+          "name": "Район Байдибека",
+          "population": 47582.0,
+          "male": 24822.0,
+          "female": 22760.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 47582.0
+        },
+        {
+          "name": "Жетысайский район",
+          "population": 182836.0,
+          "male": 94222.0,
+          "female": 88614.0,
+          "urbanPopulation": 42865.0,
+          "ruralPopulation": 139971.0
+        },
+        {
+          "name": "Келесский район",
+          "population": 131107.0,
+          "male": 67865.0,
+          "female": 63242.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 131107.0
+        },
+        {
+          "name": "Казыгуртский район",
+          "population": 117292.0,
+          "male": 60765.0,
+          "female": 56527.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 117292.0
+        },
+        {
+          "name": "Мактааральский район",
+          "population": 127384.0,
+          "male": 65010.0,
+          "female": 62374.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 127384.0
+        },
+        {
+          "name": "Ордабасынский район",
+          "population": 130251.0,
+          "male": 67346.0,
+          "female": 62905.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 130251.0
+        },
+        {
+          "name": "Отрарский район",
+          "population": 49942.0,
+          "male": 26090.0,
+          "female": 23852.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 49942.0
+        },
+        {
+          "name": "Сайрамский район",
+          "population": 243451.0,
+          "male": 123155.0,
+          "female": 120296.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 243451.0
+        },
+        {
+          "name": "Сарыагашский район",
+          "population": 223003.0,
+          "male": 113221.0,
+          "female": 109782.0,
+          "urbanPopulation": 62782.0,
+          "ruralPopulation": 160221.0
+        },
+        {
+          "name": "Район сауран",
+          "population": 104545.0,
+          "male": 53456.0,
+          "female": 51089.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 104545.0
+        },
+        {
+          "name": "Сузакский район",
+          "population": 62114.0,
+          "male": 31916.0,
+          "female": 30198.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 62114.0
+        },
+        {
+          "name": "Толебийский район",
+          "population": 121898.0,
+          "male": 62183.0,
+          "female": 59715.0,
+          "urbanPopulation": 33969.0,
+          "ruralPopulation": 87929.0
+        },
+        {
+          "name": "Тюлькубасский район",
+          "population": 103792.0,
+          "male": 53120.0,
+          "female": 50672.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 103792.0
+        },
+        {
+          "name": "Шардаринский район",
+          "population": 82203.0,
+          "male": 43208.0,
+          "female": 38995.0,
+          "urbanPopulation": 31252.0,
+          "ruralPopulation": 50951.0
+        }
+      ],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": 64.6,
+      "latestUnemployedPopulation": 41.603,
+      "latestNotInLaborForce": 494.824,
+      "unemploymentDelta": -0.2
+    },
+    {
+      "id": "ulytau",
+      "label": "Ulytau Region",
+      "coordinates": [
+        48.6536,
+        67.0104
+      ],
+      "rawName": "Ұлытау",
+      "population2026": 219049.0,
+      "male2026": 107643.0,
+      "female2026": 111406.0,
+      "urbanPopulation2026": 174086.0,
+      "ruralPopulation2026": 44963.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2022,
+            "value": 4.49
+          },
+          {
+            "year": 2023,
+            "value": 4.384
+          },
+          {
+            "year": 2024,
+            "value": 4.189
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2022,
+            "value": 50.735
+          },
+          {
+            "year": 2023,
+            "value": 50.445
+          },
+          {
+            "year": 2024,
+            "value": 55.208
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2022,
+            "value": 4.3
+          },
+          {
+            "year": 2023,
+            "value": 4.2
+          },
+          {
+            "year": 2024,
+            "value": 4.1
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 61.2
+          },
+          {
+            "year": 2002,
+            "value": 60.0
+          },
+          {
+            "year": 2003,
+            "value": 60.3
+          },
+          {
+            "year": 2004,
+            "value": 60.4
+          },
+          {
+            "year": 2005,
+            "value": 60.6
+          },
+          {
+            "year": 2006,
+            "value": 61.3
+          },
+          {
+            "year": 2007,
+            "value": 62.2
+          },
+          {
+            "year": 2008,
+            "value": 62.6
+          },
+          {
+            "year": 2009,
+            "value": 62.7
+          },
+          {
+            "year": 2010,
+            "value": 63.6
+          },
+          {
+            "year": 2011,
+            "value": 63.5
+          },
+          {
+            "year": 2012,
+            "value": 63.7
+          },
+          {
+            "year": 2013,
+            "value": 77.4
+          },
+          {
+            "year": 2014,
+            "value": 64.0
+          },
+          {
+            "year": 2016,
+            "value": 62.8
+          },
+          {
+            "year": 2017,
+            "value": 63.6
+          },
+          {
+            "year": 2018,
+            "value": 63.7
+          },
+          {
+            "year": 2019,
+            "value": 64.0
+          },
+          {
+            "year": 2020,
+            "value": 63.6
+          },
+          {
+            "year": 2021,
+            "value": 64.0
+          },
+          {
+            "year": 2022,
+            "value": 63.7
+          }
+        ]
+      },
+      "districts": [
+        {
+          "name": "Жезказган г.а.",
+          "population": 93215.0,
+          "male": 45132.0,
+          "female": 48083.0,
+          "urbanPopulation": 89211.0,
+          "ruralPopulation": 4004.0
+        },
+        {
+          "name": "Каражал г.а.",
+          "population": 17094.0,
+          "male": 8520.0,
+          "female": 8574.0,
+          "urbanPopulation": 17094.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Сатпаев г.а.",
+          "population": 67924.0,
+          "male": 32695.0,
+          "female": 35229.0,
+          "urbanPopulation": 67781.0,
+          "ruralPopulation": 143.0
+        },
+        {
+          "name": "Жанааркинский район",
+          "population": 29961.0,
+          "male": 15450.0,
+          "female": 14511.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 29961.0
+        },
+        {
+          "name": "Улытауский район",
+          "population": 10855.0,
+          "male": 5846.0,
+          "female": 5009.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 10855.0
+        },
+        {
+          "name": "Восточно-казахстанская",
+          "population": 718995.0,
+          "male": 344842.0,
+          "female": 374153.0,
+          "urbanPopulation": 486480.0,
+          "ruralPopulation": 232515.0
+        },
+        {
+          "name": "Усть-каменогорск г.а.",
+          "population": 380858.0,
+          "male": 178988.0,
+          "female": 201870.0,
+          "urbanPopulation": 360689.0,
+          "ruralPopulation": 20169.0
+        },
+        {
+          "name": "Риддер г.а.",
+          "population": 50052.0,
+          "male": 23157.0,
+          "female": 26895.0,
+          "urbanPopulation": 48363.0,
+          "ruralPopulation": 1689.0
+        },
+        {
+          "name": "Глубоковский район",
+          "population": 55124.0,
+          "male": 26983.0,
+          "female": 28141.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 55124.0
+        },
+        {
+          "name": "Зайсанский район",
+          "population": 34522.0,
+          "male": 17442.0,
+          "female": 17080.0,
+          "urbanPopulation": 17884.0,
+          "ruralPopulation": 16638.0
+        },
+        {
+          "name": "район Алтай",
+          "population": 58119.0,
+          "male": 27297.0,
+          "female": 30822.0,
+          "urbanPopulation": 41702.0,
+          "ruralPopulation": 16417.0
+        },
+        {
+          "name": "Курчумский район",
+          "population": 13655.0,
+          "male": 6915.0,
+          "female": 6740.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 13655.0
+        },
+        {
+          "name": "Катон-карагайский район",
+          "population": 9057.0,
+          "male": 4780.0,
+          "female": 4277.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 9057.0
+        },
+        {
+          "name": "район Марқакөл",
+          "population": 6432.0,
+          "male": 3400.0,
+          "female": 3032.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 6432.0
+        },
+        {
+          "name": "район Самар",
+          "population": 11105.0,
+          "male": 5566.0,
+          "female": 5539.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 11105.0
+        },
+        {
+          "name": "Тарбагатайский район",
+          "population": 17687.0,
+          "male": 9325.0,
+          "female": 8362.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 17687.0
+        },
+        {
+          "name": "Уланский район",
+          "population": 32214.0,
+          "male": 16364.0,
+          "female": 15850.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 32214.0
+        },
+        {
+          "name": "район Үлкен нарын",
+          "population": 10123.0,
+          "male": 5103.0,
+          "female": 5020.0,
+          "urbanPopulation": null,
+          "ruralPopulation": 10123.0
+        },
+        {
+          "name": "Шемонаихинский район",
+          "population": 40047.0,
+          "male": 19522.0,
+          "female": 20525.0,
+          "urbanPopulation": 17842.0,
+          "ruralPopulation": 22205.0
+        },
+        {
+          "name": "город Астана",
+          "population": 1639176.0,
+          "male": 774610.0,
+          "female": 864566.0,
+          "urbanPopulation": 1639176.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Алматы",
+          "population": 250987.0,
+          "male": 119091.0,
+          "female": 131896.0,
+          "urbanPopulation": 250987.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Есиль",
+          "population": 320652.0,
+          "male": 151015.0,
+          "female": 169637.0,
+          "urbanPopulation": 320652.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Сарыарка",
+          "population": 352709.0,
+          "male": 167955.0,
+          "female": 184754.0,
+          "urbanPopulation": 352709.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Байқоңыр",
+          "population": 218341.0,
+          "male": 102876.0,
+          "female": 115465.0,
+          "urbanPopulation": 218341.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Нұра",
+          "population": 304136.0,
+          "male": 142320.0,
+          "female": 161816.0,
+          "urbanPopulation": 304136.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Сарайшық",
+          "population": 192351.0,
+          "male": 91353.0,
+          "female": 100998.0,
+          "urbanPopulation": 192351.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "город Алматы",
+          "population": 2348103.0,
+          "male": 1092870.0,
+          "female": 1255233.0,
+          "urbanPopulation": 2348103.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Алмалинский район",
+          "population": 272739.0,
+          "male": 123883.0,
+          "female": 148856.0,
+          "urbanPopulation": 272739.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Алатауский район",
+          "population": 400953.0,
+          "male": 192323.0,
+          "female": 208630.0,
+          "urbanPopulation": 400953.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Ауэзовский район",
+          "population": 360392.0,
+          "male": 162902.0,
+          "female": 197490.0,
+          "urbanPopulation": 360392.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Бостандыкский район",
+          "population": 348491.0,
+          "male": 158390.0,
+          "female": 190101.0,
+          "urbanPopulation": 348491.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Жетысуский район",
+          "population": 198881.0,
+          "male": 92507.0,
+          "female": 106374.0,
+          "urbanPopulation": 198881.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Медеуский район",
+          "population": 255078.0,
+          "male": 122226.0,
+          "female": 132852.0,
+          "urbanPopulation": 255078.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Наурызбайский район",
+          "population": 240049.0,
+          "male": 111708.0,
+          "female": 128341.0,
+          "urbanPopulation": 240049.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Турксибский район",
+          "population": 271520.0,
+          "male": 128931.0,
+          "female": 142589.0,
+          "urbanPopulation": 271520.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "город Шымкент",
+          "population": 1294050.0,
+          "male": 626614.0,
+          "female": 667436.0,
+          "urbanPopulation": 1294050.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Абайский район",
+          "population": 259325.0,
+          "male": 125852.0,
+          "female": 133473.0,
+          "urbanPopulation": 259325.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Аль-фарабийский район",
+          "population": 262566.0,
+          "male": 124361.0,
+          "female": 138205.0,
+          "urbanPopulation": 262566.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Енбекшинский район",
+          "population": 206679.0,
+          "male": 99441.0,
+          "female": 107238.0,
+          "urbanPopulation": 206679.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "Каратауский район",
+          "population": 334139.0,
+          "male": 164124.0,
+          "female": 170015.0,
+          "urbanPopulation": 334139.0,
+          "ruralPopulation": null
+        },
+        {
+          "name": "район Тұран",
+          "population": 231341.0,
+          "male": 112836.0,
+          "female": 118505.0,
+          "urbanPopulation": 231341.0,
+          "ruralPopulation": null
+        }
+      ],
+      "latestUnemploymentRate": 4.1,
+      "latestEmploymentRate": 63.7,
+      "latestUnemployedPopulation": 4.189,
+      "latestNotInLaborForce": 55.208,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "east_kazakhstan",
+      "label": "East Kazakhstan Region",
+      "coordinates": [
+        49.9483,
+        82.6275
+      ],
+      "rawName": "Восточно-Казахстанская",
+      "population2026": 718995.0,
+      "male2026": 344842.0,
+      "female2026": 374153.0,
+      "urbanPopulation2026": 486480.0,
+      "ruralPopulation2026": 232515.0,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 55.9
+          },
+          {
+            "year": 2002,
+            "value": 52.5
+          },
+          {
+            "year": 2003,
+            "value": 54.1
+          },
+          {
+            "year": 2004,
+            "value": 54.5
+          },
+          {
+            "year": 2005,
+            "value": 53.6
+          },
+          {
+            "year": 2006,
+            "value": 52.4
+          },
+          {
+            "year": 2007,
+            "value": 50.589
+          },
+          {
+            "year": 2008,
+            "value": 49.2
+          },
+          {
+            "year": 2009,
+            "value": 48.9
+          },
+          {
+            "year": 2010,
+            "value": 43.7
+          },
+          {
+            "year": 2011,
+            "value": 39.6
+          },
+          {
+            "year": 2012,
+            "value": 38.05
+          },
+          {
+            "year": 2013,
+            "value": 37.735
+          },
+          {
+            "year": 2014,
+            "value": 35.456
+          },
+          {
+            "year": 2016,
+            "value": 34.928
+          },
+          {
+            "year": 2017,
+            "value": 34.704
+          },
+          {
+            "year": 2018,
+            "value": 34.552
+          },
+          {
+            "year": 2019,
+            "value": 34.059
+          },
+          {
+            "year": 2020,
+            "value": 34.124
+          },
+          {
+            "year": 2021,
+            "value": 33.506
+          },
+          {
+            "year": 2022,
+            "value": 18.134
+          },
+          {
+            "year": 2023,
+            "value": 17.987
+          },
+          {
+            "year": 2024,
+            "value": 17.501
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 390.173
+          },
+          {
+            "year": 2002,
+            "value": 393.803
+          },
+          {
+            "year": 2003,
+            "value": 400.5
+          },
+          {
+            "year": 2004,
+            "value": 402.4
+          },
+          {
+            "year": 2005,
+            "value": 401.2
+          },
+          {
+            "year": 2006,
+            "value": 391.4
+          },
+          {
+            "year": 2007,
+            "value": 382.943
+          },
+          {
+            "year": 2008,
+            "value": 378.3
+          },
+          {
+            "year": 2009,
+            "value": 376.9
+          },
+          {
+            "year": 2010,
+            "value": 371.0
+          },
+          {
+            "year": 2011,
+            "value": 373.7
+          },
+          {
+            "year": 2012,
+            "value": 367.37
+          },
+          {
+            "year": 2013,
+            "value": 363.098
+          },
+          {
+            "year": 2014,
+            "value": 362.029
+          },
+          {
+            "year": 2016,
+            "value": 370.636
+          },
+          {
+            "year": 2017,
+            "value": 359.356
+          },
+          {
+            "year": 2018,
+            "value": 352.365
+          },
+          {
+            "year": 2019,
+            "value": 348.892
+          },
+          {
+            "year": 2020,
+            "value": 349.129
+          },
+          {
+            "year": 2021,
+            "value": 342.084
+          },
+          {
+            "year": 2022,
+            "value": 191.123
+          },
+          {
+            "year": 2023,
+            "value": 185.118
+          },
+          {
+            "year": 2024,
+            "value": 189.366
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 7.3
+          },
+          {
+            "year": 2002,
+            "value": 7.3
+          },
+          {
+            "year": 2003,
+            "value": 7.3
+          },
+          {
+            "year": 2004,
+            "value": 7.2
+          },
+          {
+            "year": 2005,
+            "value": 7.1
+          },
+          {
+            "year": 2006,
+            "value": 6.9
+          },
+          {
+            "year": 2007,
+            "value": 6.619448137253876
+          },
+          {
+            "year": 2008,
+            "value": 6.4246470947324665
+          },
+          {
+            "year": 2009,
+            "value": 6.4
+          },
+          {
+            "year": 2010,
+            "value": 5.7
+          },
+          {
+            "year": 2011,
+            "value": 5.2
+          },
+          {
+            "year": 2012,
+            "value": 5.1
+          },
+          {
+            "year": 2013,
+            "value": 5.1
+          },
+          {
+            "year": 2014,
+            "value": 4.8
+          },
+          {
+            "year": 2016,
+            "value": 4.9
+          },
+          {
+            "year": 2017,
+            "value": 4.8
+          },
+          {
+            "year": 2018,
+            "value": 4.8
+          },
+          {
+            "year": 2019,
+            "value": 4.8
+          },
+          {
+            "year": 2020,
+            "value": 4.9
+          },
+          {
+            "year": 2021,
+            "value": 4.8
+          },
+          {
+            "year": 2022,
+            "value": 4.7
+          },
+          {
+            "year": 2023,
+            "value": 4.6
+          },
+          {
+            "year": 2024,
+            "value": 4.6
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 64.5
+          },
+          {
+            "year": 2002,
+            "value": 58.2
+          },
+          {
+            "year": 2003,
+            "value": 59.3
+          },
+          {
+            "year": 2004,
+            "value": 63.4
+          },
+          {
+            "year": 2005,
+            "value": 61.6
+          },
+          {
+            "year": 2006,
+            "value": 61.5
+          },
+          {
+            "year": 2007,
+            "value": 61.6
+          },
+          {
+            "year": 2008,
+            "value": 67.3
+          },
+          {
+            "year": 2009,
+            "value": 67.3
+          },
+          {
+            "year": 2010,
+            "value": 67.0
+          },
+          {
+            "year": 2011,
+            "value": 68.5
+          },
+          {
+            "year": 2012,
+            "value": 68.0
+          },
+          {
+            "year": 2013,
+            "value": 74.7
+          },
+          {
+            "year": 2014,
+            "value": 69.9
+          },
+          {
+            "year": 2016,
+            "value": 73.1
+          },
+          {
+            "year": 2017,
+            "value": 70.8
+          },
+          {
+            "year": 2018,
+            "value": 68.8
+          },
+          {
+            "year": 2019,
+            "value": 72.5
+          },
+          {
+            "year": 2020,
+            "value": 70.8
+          },
+          {
+            "year": 2021,
+            "value": 70.4
+          },
+          {
+            "year": 2022,
+            "value": 68.3
+          }
+        ]
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.6,
+      "latestEmploymentRate": 68.3,
+      "latestUnemployedPopulation": 17.501,
+      "latestNotInLaborForce": 189.366,
+      "unemploymentDelta": 0.0
+    },
+    {
+      "id": "astana",
+      "label": "Astana",
+      "coordinates": [
+        51.1694,
+        71.4491
+      ],
+      "rawName": "г. Астана",
+      "population2026": 1639176.0,
+      "male2026": 774610.0,
+      "female2026": 864566.0,
+      "urbanPopulation2026": 1639176.0,
+      "ruralPopulation2026": null,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 18.3
+          },
+          {
+            "year": 2002,
+            "value": 20.8
+          },
+          {
+            "year": 2003,
+            "value": 22.0
+          },
+          {
+            "year": 2004,
+            "value": 24.1
+          },
+          {
+            "year": 2005,
+            "value": 24.1
+          },
+          {
+            "year": 2006,
+            "value": 24.3
+          },
+          {
+            "year": 2007,
+            "value": 23.947
+          },
+          {
+            "year": 2008,
+            "value": 23.5
+          },
+          {
+            "year": 2009,
+            "value": 24.4
+          },
+          {
+            "year": 2010,
+            "value": 24.0
+          },
+          {
+            "year": 2011,
+            "value": 23.2
+          },
+          {
+            "year": 2012,
+            "value": 23.625
+          },
+          {
+            "year": 2013,
+            "value": 24.014
+          },
+          {
+            "year": 2014,
+            "value": 22.955
+          },
+          {
+            "year": 2016,
+            "value": 22.659
+          },
+          {
+            "year": 2017,
+            "value": 23.958
+          },
+          {
+            "year": 2018,
+            "value": 23.953
+          },
+          {
+            "year": 2019,
+            "value": 25.544
+          },
+          {
+            "year": 2020,
+            "value": 27.083
+          },
+          {
+            "year": 2021,
+            "value": 28.133
+          },
+          {
+            "year": 2022,
+            "value": 29.938
+          },
+          {
+            "year": 2023,
+            "value": 31.238
+          },
+          {
+            "year": 2024,
+            "value": 31.402
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 79.608
+          },
+          {
+            "year": 2002,
+            "value": 136.093
+          },
+          {
+            "year": 2003,
+            "value": 141.8
+          },
+          {
+            "year": 2004,
+            "value": 129.7
+          },
+          {
+            "year": 2005,
+            "value": 143.4
+          },
+          {
+            "year": 2006,
+            "value": 150.0
+          },
+          {
+            "year": 2007,
+            "value": 157.065
+          },
+          {
+            "year": 2008,
+            "value": 138.0
+          },
+          {
+            "year": 2009,
+            "value": 144.5
+          },
+          {
+            "year": 2010,
+            "value": 156.3
+          },
+          {
+            "year": 2011,
+            "value": 149.4
+          },
+          {
+            "year": 2012,
+            "value": 162.077
+          },
+          {
+            "year": 2013,
+            "value": 163.959
+          },
+          {
+            "year": 2014,
+            "value": 162.668
+          },
+          {
+            "year": 2016,
+            "value": 148.732
+          },
+          {
+            "year": 2017,
+            "value": 181.401
+          },
+          {
+            "year": 2018,
+            "value": 206.567
+          },
+          {
+            "year": 2019,
+            "value": 183.999
+          },
+          {
+            "year": 2020,
+            "value": 205.565
+          },
+          {
+            "year": 2021,
+            "value": 215.553
+          },
+          {
+            "year": 2022,
+            "value": 259.997
+          },
+          {
+            "year": 2023,
+            "value": 272.0
+          },
+          {
+            "year": 2024,
+            "value": 300.155
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 9.3
+          },
+          {
+            "year": 2002,
+            "value": 8.7
+          },
+          {
+            "year": 2003,
+            "value": 8.4
+          },
+          {
+            "year": 2004,
+            "value": 8.3
+          },
+          {
+            "year": 2005,
+            "value": 8.2
+          },
+          {
+            "year": 2006,
+            "value": 8.0
+          },
+          {
+            "year": 2007,
+            "value": 7.608623127392885
+          },
+          {
+            "year": 2008,
+            "value": 6.620398395157316
+          },
+          {
+            "year": 2009,
+            "value": 6.6
+          },
+          {
+            "year": 2010,
+            "value": 6.2
+          },
+          {
+            "year": 2011,
+            "value": 5.8
+          },
+          {
+            "year": 2012,
+            "value": 5.7
+          },
+          {
+            "year": 2013,
+            "value": 5.5
+          },
+          {
+            "year": 2014,
+            "value": 5.1
+          },
+          {
+            "year": 2016,
+            "value": 4.6
+          },
+          {
+            "year": 2017,
+            "value": 4.6
+          },
+          {
+            "year": 2018,
+            "value": 4.5
+          },
+          {
+            "year": 2019,
+            "value": 4.4
+          },
+          {
+            "year": 2020,
+            "value": 4.6
+          },
+          {
+            "year": 2021,
+            "value": 4.6
+          },
+          {
+            "year": 2022,
+            "value": 4.6
+          },
+          {
+            "year": 2023,
+            "value": 4.5
+          },
+          {
+            "year": 2024,
+            "value": 4.4
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2001,
+            "value": 55.6
+          },
+          {
+            "year": 2002,
+            "value": 56.8
+          },
+          {
+            "year": 2003,
+            "value": 57.0
+          },
+          {
+            "year": 2004,
+            "value": 57.4
+          },
+          {
+            "year": 2005,
+            "value": 57.5
+          },
+          {
+            "year": 2006,
+            "value": 58.1
+          },
+          {
+            "year": 2007,
+            "value": 59.7
+          },
+          {
+            "year": 2008,
+            "value": 61.1
+          },
+          {
+            "year": 2009,
+            "value": 59.8
+          },
+          {
+            "year": 2010,
+            "value": 61.1
+          },
+          {
+            "year": 2011,
+            "value": 61.9
+          },
+          {
+            "year": 2012,
+            "value": 62.2
+          },
+          {
+            "year": 2013,
+            "value": 72.7
+          },
+          {
+            "year": 2014,
+            "value": 63.4
+          },
+          {
+            "year": 2016,
+            "value": 64.6
+          },
+          {
+            "year": 2017,
+            "value": 64.6
+          },
+          {
+            "year": 2018,
+            "value": 64.9
+          },
+          {
+            "year": 2019,
+            "value": 65.2
+          },
+          {
+            "year": 2020,
+            "value": 65.1
+          },
+          {
+            "year": 2021,
+            "value": 65.1
+          },
+          {
+            "year": 2022,
+            "value": 64.6
+          }
+        ]
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.4,
+      "latestEmploymentRate": 64.6,
+      "latestUnemployedPopulation": 31.402,
+      "latestNotInLaborForce": 300.155,
+      "unemploymentDelta": -0.1
+    },
+    {
+      "id": "almaty_city",
+      "label": "Almaty",
+      "coordinates": [
+        43.2389,
+        76.8897
+      ],
+      "rawName": "г. Алматы",
+      "population2026": 2348103.0,
+      "male2026": 1092870.0,
+      "female2026": 1255233.0,
+      "urbanPopulation2026": 2348103.0,
+      "ruralPopulation2026": null,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2001,
+            "value": 59.9
+          },
+          {
+            "year": 2002,
+            "value": 54.0
+          },
+          {
+            "year": 2003,
+            "value": 51.6
+          },
+          {
+            "year": 2004,
+            "value": 52.7
+          },
+          {
+            "year": 2005,
+            "value": 52.2
+          },
+          {
+            "year": 2006,
+            "value": 53.0
+          },
+          {
+            "year": 2007,
+            "value": 53.059
+          },
+          {
+            "year": 2008,
+            "value": 51.9
+          },
+          {
+            "year": 2009,
+            "value": 54.6
+          },
+          {
+            "year": 2010,
+            "value": 45.5
+          },
+          {
+            "year": 2011,
+            "value": 41.7
+          },
+          {
+            "year": 2012,
+            "value": 43.642
+          },
+          {
+            "year": 2013,
+            "value": 44.446
+          },
+          {
+            "year": 2014,
+            "value": 44.764
+          },
+          {
+            "year": 2016,
+            "value": 48.371
+          },
+          {
+            "year": 2017,
+            "value": 49.584
+          },
+          {
+            "year": 2018,
+            "value": 49.75
+          },
+          {
+            "year": 2019,
+            "value": 50.025
+          },
+          {
+            "year": 2020,
+            "value": 52.198
+          },
+          {
+            "year": 2021,
+            "value": 53.512
+          },
+          {
+            "year": 2022,
+            "value": 53.035
+          },
+          {
+            "year": 2023,
+            "value": 52.528
+          },
+          {
+            "year": 2024,
+            "value": 52.025
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2001,
+            "value": 336.631
+          },
+          {
+            "year": 2002,
+            "value": 333.327
+          },
+          {
+            "year": 2003,
+            "value": 344.8
+          },
+          {
+            "year": 2004,
+            "value": 354.4
+          },
+          {
+            "year": 2005,
+            "value": 367.3
+          },
+          {
+            "year": 2006,
+            "value": 372.3
+          },
+          {
+            "year": 2007,
+            "value": 367.578
+          },
+          {
+            "year": 2008,
+            "value": 363.5
+          },
+          {
+            "year": 2009,
+            "value": 383.0
+          },
+          {
+            "year": 2010,
+            "value": 386.4
+          },
+          {
+            "year": 2011,
+            "value": 388.1
+          },
+          {
+            "year": 2012,
+            "value": 399.745
+          },
+          {
+            "year": 2013,
+            "value": 399.233
+          },
+          {
+            "year": 2014,
+            "value": 396.035
+          },
+          {
+            "year": 2016,
+            "value": 427.718
+          },
+          {
+            "year": 2017,
+            "value": 437.353
+          },
+          {
+            "year": 2018,
+            "value": 444.258
+          },
+          {
+            "year": 2019,
+            "value": 449.172
+          },
+          {
+            "year": 2020,
+            "value": 462.073
+          },
+          {
+            "year": 2021,
+            "value": 474.396
+          },
+          {
+            "year": 2022,
+            "value": 494.023
+          },
+          {
+            "year": 2023,
+            "value": 503.002
+          },
+          {
+            "year": 2024,
+            "value": 519.874
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2001,
+            "value": 10.8
+          },
+          {
+            "year": 2002,
+            "value": 9.6
+          },
+          {
+            "year": 2003,
+            "value": 8.9
+          },
+          {
+            "year": 2004,
+            "value": 8.8
+          },
+          {
+            "year": 2005,
+            "value": 8.4
+          },
+          {
+            "year": 2006,
+            "value": 8.2
+          },
+          {
+            "year": 2007,
+            "value": 7.833691117023318
+          },
+          {
+            "year": 2008,
+            "value": 7.353783265866132
+          },
+          {
+            "year": 2009,
+            "value": 7.7
+          },
+          {
+            "year": 2010,
+            "value": 6.3
+          },
+          {
+            "year": 2011,
+            "value": 5.6
+          },
+          {
+            "year": 2012,
+            "value": 5.6
+          },
+          {
+            "year": 2013,
+            "value": 5.6
+          },
+          {
+            "year": 2014,
+            "value": 5.5
+          },
+          {
+            "year": 2016,
+            "value": 5.3
+          },
+          {
+            "year": 2017,
+            "value": 5.3
+          },
+          {
+            "year": 2018,
+            "value": 5.2
+          },
+          {
+            "year": 2019,
+            "value": 5.1
+          },
+          {
+            "year": 2020,
+            "value": 5.2
+          },
+          {
+            "year": 2021,
+            "value": 5.2
+          },
+          {
+            "year": 2022,
+            "value": 5.0
+          },
+          {
+            "year": 2023,
+            "value": 4.8
+          },
+          {
+            "year": 2024,
+            "value": 4.6
+          }
+        ],
+        "employmentRate": [
+          {
+            "year": 2018,
+            "value": 60.7
+          },
+          {
+            "year": 2019,
+            "value": 60.5
+          },
+          {
+            "year": 2020,
+            "value": 59.6
+          },
+          {
+            "year": 2021,
+            "value": 58.7
+          },
+          {
+            "year": 2022,
+            "value": 57.0
+          }
+        ]
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.6,
+      "latestEmploymentRate": 57.0,
+      "latestUnemployedPopulation": 52.025,
+      "latestNotInLaborForce": 519.874,
+      "unemploymentDelta": -0.2
+    },
+    {
+      "id": "shymkent",
+      "label": "Shymkent",
+      "coordinates": [
+        42.3417,
+        69.5901
+      ],
+      "rawName": "г. Шымкент",
+      "population2026": 1294050.0,
+      "male2026": 626614.0,
+      "female2026": 667436.0,
+      "urbanPopulation2026": 1294050.0,
+      "ruralPopulation2026": null,
+      "series": {
+        "unemployedPopulation": [
+          {
+            "year": 2010,
+            "value": 20.332
+          },
+          {
+            "year": 2011,
+            "value": 19.037
+          },
+          {
+            "year": 2012,
+            "value": 18.919
+          },
+          {
+            "year": 2013,
+            "value": 18.392
+          },
+          {
+            "year": 2014,
+            "value": 15.963
+          },
+          {
+            "year": 2016,
+            "value": 19.991
+          },
+          {
+            "year": 2017,
+            "value": 19.658
+          },
+          {
+            "year": 2018,
+            "value": 20.998
+          },
+          {
+            "year": 2019,
+            "value": 22.107
+          },
+          {
+            "year": 2020,
+            "value": 22.212
+          },
+          {
+            "year": 2021,
+            "value": 21.948
+          },
+          {
+            "year": 2022,
+            "value": 22.423
+          },
+          {
+            "year": 2023,
+            "value": 22.225
+          },
+          {
+            "year": 2024,
+            "value": 22.597
+          }
+        ],
+        "notInLaborForce": [
+          {
+            "year": 2010,
+            "value": 149.742
+          },
+          {
+            "year": 2011,
+            "value": 149.682
+          },
+          {
+            "year": 2012,
+            "value": 141.278
+          },
+          {
+            "year": 2013,
+            "value": 146.388
+          },
+          {
+            "year": 2014,
+            "value": 174.894
+          },
+          {
+            "year": 2016,
+            "value": 224.182
+          },
+          {
+            "year": 2017,
+            "value": 238.233
+          },
+          {
+            "year": 2018,
+            "value": 228.451
+          },
+          {
+            "year": 2019,
+            "value": 245.662
+          },
+          {
+            "year": 2020,
+            "value": 256.015
+          },
+          {
+            "year": 2021,
+            "value": 269.111
+          },
+          {
+            "year": 2022,
+            "value": 299.052
+          },
+          {
+            "year": 2023,
+            "value": 312.486
+          },
+          {
+            "year": 2024,
+            "value": 320.182
+          }
+        ],
+        "unemploymentRate": [
+          {
+            "year": 2010,
+            "value": 7.6
+          },
+          {
+            "year": 2011,
+            "value": 6.8
+          },
+          {
+            "year": 2012,
+            "value": 6.5
+          },
+          {
+            "year": 2013,
+            "value": 6.1
+          },
+          {
+            "year": 2014,
+            "value": 5.3
+          },
+          {
+            "year": 2016,
+            "value": 5.3
+          },
+          {
+            "year": 2017,
+            "value": 5.2
+          },
+          {
+            "year": 2018,
+            "value": 5.2
+          },
+          {
+            "year": 2019,
+            "value": 5.1
+          },
+          {
+            "year": 2020,
+            "value": 5.1
+          },
+          {
+            "year": 2021,
+            "value": 5.0
+          },
+          {
+            "year": 2022,
+            "value": 5.0
+          },
+          {
+            "year": 2023,
+            "value": 4.9
+          },
+          {
+            "year": 2024,
+            "value": 4.8
+          }
+        ],
+        "employmentRate": []
+      },
+      "districts": [],
+      "latestUnemploymentRate": 4.8,
+      "latestEmploymentRate": null,
+      "latestUnemployedPopulation": 22.597,
+      "latestNotInLaborForce": 320.182,
+      "unemploymentDelta": -0.1
+    }
+  ]
+}

@@ -26,6 +26,35 @@ The current submission is intentionally frontend-first:
 - live district risk snapshot support through Railway
 - compliance-ready shell for later FastAPI and ML integration
 
+## Architecture
+
+Current target architecture for SocialRadar:
+
+```mermaid
+flowchart LR
+    A["Social services API"] --> E["Kafka streaming ingestion"]
+    B["Banking and spending data"] --> E
+    C["Police call signals"] --> E
+    D["eGov complaints"] --> E
+    E --> F["PostgreSQL data warehouse"]
+    F --> G["Python ML layer<br/>Isolation Forest / risk scoring / forecasting / clustering"]
+    G --> H["FastAPI prediction API"]
+    H --> I["React dashboard<br/>Map / alerts / analytics"]
+```
+
+Current stage delivered in this repository:
+
+- React dashboard and analytics shell
+- district map and regional monitoring UI
+- live district snapshot integration through Railway
+- compliance and explainability-ready interface layer
+
+Planned next stage:
+
+- FastAPI integration for structured prediction endpoints
+- ML scoring and forecasting layer
+- explainability outputs for every model recommendation
+
 ## Live integration
 
 The frontend can already read district risk data from:

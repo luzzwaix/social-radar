@@ -3,6 +3,11 @@
 SocialRadar is an early warning and decision-support platform for detecting social risk signals across Almaty districts.
 The project is being built for `AI inDrive / Decentrathon 5.0`, case `#3`, where explainability, human-in-the-loop decision making, and public-sector applicability are mandatory.
 
+## Submission note
+
+This repository is the public submission mirror used for hackathon review, demo access, and attached video availability.
+The active team workflow can continue in a private repository, while this mirror remains available so reviewers can open the repository, README, and demo assets without access issues.
+
 ## Project idea
 
 SocialRadar helps operators and analysts see where social pressure may be growing before the situation escalates.

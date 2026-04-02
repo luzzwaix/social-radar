@@ -28,6 +28,10 @@ Production build:
 npm run build
 ```
 
+## Demo video
+
+- [IMG_1154.MP4](./IMG_1154.MP4)
+
 ## 3) Конфигурация
 
 См. [`.env.example`](./.env.example)
@@ -98,4 +102,3 @@ npm run build
 - Геометрия районов в демо-режиме (не официальный GIS-publish).
 - Часть данных в прототипе может быть proxy/демо-слоем (это явно маркируется).
 - Финальная production-валидация выполняется после полного backend+ML merge.
-

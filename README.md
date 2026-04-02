@@ -6,7 +6,13 @@ The project is being built for `AI inDrive / Decentrathon 5.0`, case `#3`, where
 ## Submission note
 
 This repository is the public submission mirror used for hackathon review, demo access, and attached video availability.
-The active team workflow can continue in a private repository, while this mirror remains available so reviewers can open the repository, README, and demo assets without access issues.
+It is intentionally kept public so the repository link and the direct demo-video link in the submission form remain accessible to reviewers without authentication issues.
+
+The primary working repository is maintained separately in private mode as `social-radar-private`.
+In other words:
+
+- `social-radar` = public submission/demo mirror
+- `social-radar-private` = active private team workspace
 
 ## Project idea
 

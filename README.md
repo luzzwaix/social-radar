@@ -1,26 +1,51 @@
-# SocialRadar (Frontend)
+# SocialRadar
 
-Frontend-прототип для кейса `AI inDrive / Decentrathon 5.0 (Case #3)`:
-платформа раннего обнаружения социальных рисков по районам Алматы с human-in-the-loop логикой.
+SocialRadar is an early warning and decision-support platform for detecting social risk signals across Almaty districts.
+The project is being built for `AI inDrive / Decentrathon 5.0`, case `#3`, where explainability, human-in-the-loop decision making, and public-sector applicability are mandatory.
 
-## 1) Что уже реализовано
+## Project idea
 
-- Palantir-style аналитический интерфейс (React).
-- Карта районов Алматы + выбор района.
-- Дашборд метрик и таблица сравнения.
-- Страница активного кейса с AI-рекомендацией и объяснением.
-- Блок трассируемости источников и ограничений.
-- Human-in-the-loop: финальное действие выполняет человек (`Эскалировать` / `Отклонить` / `Принять`).
-- Интеграция с live endpoint для district snapshot.
+SocialRadar helps operators and analysts see where social pressure may be growing before the situation escalates.
+Instead of replacing a human expert, the system aggregates district-level signals, visualizes risk, explains why a case is being flagged, and leaves the final action to the operator.
 
-## 2) Быстрый запуск
+In practical terms, the product combines:
+
+- district-level monitoring across Almaty
+- risk scoring and prioritization
+- explainable AI recommendations
+- case-centered operator workflow
+- visible governance and compliance guardrails
+
+## Current prototype scope
+
+The current repository contains a working frontend-first prototype with:
+
+- a Palantir-style analytics dashboard
+- Almaty district map and district drilldown
+- overview, district dossier, active case, and methodology screens
+- AI recommendation panel with explainability blocks
+- human-in-the-loop actions: `Approve`, `Escalate`, `Reject`
+- data provenance and limitations panel
+- live district snapshot integration through API
+
+This stage is focused on proving the product UX, decision flow, and architecture readiness for full backend and ML integration.
+
+## Demo video
+
+For submission review, the demo video is attached directly in this repository:
+
+- [IMG_1154.MP4](./IMG_1154.MP4)
+
+## Quick start
 
 ```bash
 npm install
 npm start
 ```
 
-Локально: `http://localhost:3000`
+Local URL:
+
+- `http://localhost:3000`
 
 Production build:
 
@@ -28,54 +53,70 @@ Production build:
 npm run build
 ```
 
-## Demo video
+## Environment
 
-- [IMG_1154.MP4](./IMG_1154.MP4)
+See [`.env.example`](./.env.example)
 
-## 3) Конфигурация
+Main variables:
 
-См. [`.env.example`](./.env.example)
+- `API_BASE_URL` - future FastAPI base URL
+- `DISTRICTS_ENDPOINT` - current district snapshot endpoint
 
-- `API_BASE_URL` — базовый URL будущего FastAPI.
-- `DISTRICTS_ENDPOINT` — live snapshot endpoint (по умолчанию уже настроен).
+Current live endpoint:
 
-Текущий live endpoint:
 - `https://social-radar-final.onrender.com/api/districts`
 
-## 4) Архитектура решения (для формы)
+## Architecture
 
-Архитектурная схема:
+Architecture diagram:
+
 - [public/assets/architecture.png](./public/assets/architecture.png)
 
-Кратко:
-1. Источники данных (open/stat/proxy в рамках прототипа).
-2. ML-слой (подготовлен контур explainable scoring).
-3. FastAPI (prediction/snapshot API).
-4. React dashboard (карта, риски, кейсы, explainability).
+High-level architecture:
 
-## 5) Минимально работающий элемент (для формы)
+1. Open/public and normalized indicator sources
+2. Data preparation and feature engineering layer
+3. ML scoring and explainability layer
+4. FastAPI prediction and district snapshot API
+5. React operator dashboard
 
-Минимально рабочий элемент уже доступен в текущем репозитории:
+Current status in this repo:
 
-- Фронтенд получает live-данные районов через `DISTRICTS_ENDPOINT`.
-- На карте и в карточках отображаются `risk_score`, `risk_level`, `top_factor`.
-- В `Активном кейсе` показывается AI-рекомендация и объяснение факторов.
-- Решение не автоматизируется: оператор принимает итоговое действие вручную.
+- frontend analytics workspace is implemented
+- UX for cases and explainability is implemented
+- district snapshot API consumption is implemented
+- backend and ML are being integrated as the next stage
 
-Техническая точка входа:
+## Minimal working element
+
+The current MVP already demonstrates a working end-to-end interaction:
+
+1. The frontend fetches district data from `DISTRICTS_ENDPOINT`
+2. The map and summary cards display district risk context
+3. The operator opens a case and sees AI recommendation + explanation
+4. The final decision remains manual and auditable
+
+Technical entry point:
+
 - [src/api/socialRadar.js](./src/api/socialRadar.js)
 
-## 6) Соответствие ТЗ кейса #3
+## Compliance with case #3
 
-- Explainability: в UI есть объяснение рекомендаций и факторы.
-- Human-in-the-loop: финальное решение за экспертом.
-- Open-data подход: используются агрегаты и документированные источники.
-- Без ПДн: персональные данные не отображаются.
-- Demo-ready UX: карта + аналитика + кейсовый сценарий.
+The prototype is designed around the main requirements of the challenge:
 
-Важно: это frontend-first этап. Backend/ML команда подключает полноценную модель и API-контракты без смены UX-архитектуры.
+- Explainability: the UI shows why a recommendation appears
+- Human-in-the-loop: AI does not make the final decision
+- No personal data: only aggregated district-level signals are shown
+- Open/public-data mindset: sources and limitations are surfaced explicitly
+- GovTech relevance: the workflow is built for analyst/operator use, not entertainment
 
-## 7) Стек
+Important:
+
+- this prototype does not claim autonomous decision making
+- this prototype does not claim full production ML deployment in the frontend stage
+- any proxy or demo-layer data must remain explicitly marked as such
+
+## Tech stack
 
 - React 18
 - React Router
@@ -86,19 +127,67 @@ npm run build
 - TanStack Table
 - Parcel
 
-## 8) Ключевые файлы
+## Key files
 
 - [src/App.jsx](./src/App.jsx)
 - [src/routes/OverviewPage.jsx](./src/routes/OverviewPage.jsx)
 - [src/routes/DistrictPage.jsx](./src/routes/DistrictPage.jsx)
 - [src/routes/CasePage.jsx](./src/routes/CasePage.jsx)
+- [src/routes/MethodologyPage.jsx](./src/routes/MethodologyPage.jsx)
 - [src/components/socialradar/DistrictMap.jsx](./src/components/socialradar/DistrictMap.jsx)
 - [src/components/advisor/AdvisorPanel.jsx](./src/components/advisor/AdvisorPanel.jsx)
 - [src/components/socialradar/DataProvenancePanel.jsx](./src/components/socialradar/DataProvenancePanel.jsx)
 - [src/hooks/useSocialRadarWorkspace.js](./src/hooks/useSocialRadarWorkspace.js)
 
-## 9) Ограничения текущего этапа
+## Product roadmap
 
-- Геометрия районов в демо-режиме (не официальный GIS-publish).
-- Часть данных в прототипе может быть proxy/демо-слоем (это явно маркируется).
-- Финальная production-валидация выполняется после полного backend+ML merge.
+The next stages of SocialRadar are planned as follows:
+
+### Backend integration
+
+- connect full FastAPI endpoints for districts, cases, predictions, and audit trail
+- replace frontend-only demo actions with persistent server-side case workflow
+- add role-based operator and reviewer states
+
+### ML integration
+
+- connect trained risk scoring model
+- expose explainability outputs for each recommendation
+- support district-level comparison and dynamic risk updates
+- improve model provenance and score transparency
+
+### Mobile application
+
+After the web control center is stabilized, the project is planned to expand into a mobile app for field and operational workflows.
+
+Planned mobile use cases:
+
+- quick case review on phone
+- push alerts for high-risk districts
+- mobile escalation workflow
+- supervisor approval flow
+- compact district snapshot for on-the-go decision makers
+
+In this model:
+
+- the web platform remains the main analytical headquarters
+- the mobile app becomes the lightweight operational companion
+
+## Current limitations
+
+- district geometry is used in prototype/demo mode and is not positioned as official GIS publication
+- part of the current data layer may still rely on demo/proxy values and must remain explicitly marked
+- full backend persistence is not fully merged into the frontend workflow yet
+- full production ML lifecycle is still being integrated by the team
+
+## Positioning for judges
+
+SocialRadar should be understood as:
+
+- a GovTech risk intelligence platform
+- an explainable decision-support system
+- a human-centered operational console
+- a scalable base for backend, ML, and mobile expansion
+
+The current prototype already shows the most important thing:
+there is a clear operator workflow, a clear AI-assist logic, and a realistic path to production integration.

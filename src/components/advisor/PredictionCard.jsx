@@ -1,23 +1,28 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Gauge, Landmark, Radar, Sparkles } from "lucide-react";
+import { normalizeDisplayText } from "../../utils/text";
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
 export default function PredictionCard({
-  label = "Prediction",
-  value = "Low risk",
+  label = "\u041f\u0440\u043e\u0433\u043d\u043e\u0437",
+  value = "\u041d\u0438\u0437\u043a\u0438\u0439 \u0440\u0438\u0441\u043a",
   confidence = 0,
   delta,
   explanation,
   className = "",
   style
 }) {
+  const safeLabel = useMemo(() => normalizeDisplayText(label), [label]);
+  const safeValue = useMemo(() => normalizeDisplayText(value), [value]);
+  const safeDelta = useMemo(() => normalizeDisplayText(delta), [delta]);
+  const safeExplanation = useMemo(() => normalizeDisplayText(explanation), [explanation]);
   const safeConfidence = clamp(confidence, 0, 100);
   const tone = safeConfidence >= 70 ? "#4f9a64" : safeConfidence >= 40 ? "#b87c4f" : "#a65347";
-  const support = safeConfidence >= 70 ? "stable" : safeConfidence >= 40 ? "monitor" : "review";
+  const support = safeConfidence >= 70 ? "\u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e" : safeConfidence >= 40 ? "\u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0442\u044c" : "\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c";
   const [displayConfidence, setDisplayConfidence] = useState(0);
 
   useEffect(() => {
@@ -78,26 +83,42 @@ export default function PredictionCard({
       />
 
       <div style={{ position: "relative", display: "grid", gap: "0.95rem" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 160px", gap: "0.9rem", alignItems: "center" }}>
-          <div style={{ minWidth: 0, display: "grid", gap: "0.5rem" }}>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "0.9rem",
+            alignItems: "center"
+          }}
+        >
+          <div style={{ minWidth: 0, flex: "1 1 280px", display: "grid", gap: "0.5rem" }}>
             <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "0.55rem" }}>
               <span style={{ fontSize: "0.68rem", color: "#b87c4f", textTransform: "uppercase", letterSpacing: "0.16em" }}>
-                {label}
+                {safeLabel}
               </span>
               <span className="pill pill--info">
                 <Radar size={13} />
-                Forecast
+                {"\u041f\u0440\u043e\u0433\u043d\u043e\u0437"}
               </span>
             </div>
-            <div style={{ fontSize: "1.42rem", fontWeight: 800, color: "#f4efe8", lineHeight: 1.05, letterSpacing: "-0.03em" }}>
-              {value}
+            <div
+              style={{
+                fontSize: "clamp(1.2rem, 4vw, 1.42rem)",
+                fontWeight: 800,
+                color: "#f4efe8",
+                lineHeight: 1.05,
+                letterSpacing: "-0.03em",
+                overflowWrap: "anywhere"
+              }}
+            >
+              {safeValue}
             </div>
-            <div style={{ color: "#b8aea2", fontSize: "0.88rem", lineHeight: 1.55, maxWidth: 520 }}>
-              {explanation}
+            <div style={{ color: "#b8aea2", fontSize: "0.88rem", lineHeight: 1.55, maxWidth: 520, overflowWrap: "anywhere" }}>
+              {safeExplanation}
             </div>
           </div>
 
-          <div style={{ display: "grid", justifyItems: "center", gap: "0.35rem" }}>
+          <div style={{ flex: "0 1 180px", width: "100%", display: "grid", justifyItems: "center", gap: "0.35rem" }}>
             <svg viewBox="0 0 120 72" width="120" height="72" aria-hidden="true" style={{ overflow: "visible" }}>
               <path
                 d="M18 60 A42 42 0 0 1 102 60"
@@ -148,19 +169,23 @@ export default function PredictionCard({
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.45rem" }}>
             <span className={`pill pill--${safeConfidence >= 70 ? "success" : safeConfidence >= 40 ? "warning" : "danger"}`}>
-              {support === "stable" ? "Stable" : support === "monitor" ? "Monitor" : "Review"}
+              {support === "\u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e"
+                ? "\u0421\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e"
+                : support === "\u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0442\u044c"
+                  ? "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435"
+                  : "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430"}
             </span>
             <span className="pill pill--info">
               <Sparkles size={13} />
-              Explainable
+              {"\u041e\u0431\u044a\u044f\u0441\u043d\u0438\u043c\u043e"}
             </span>
             <span className="pill">
               <Landmark size={13} />
-              Civic lens
+              {"\u0413\u043e\u0441\u0441\u0435\u043a\u0442\u043e\u0440"}
             </span>
           </div>
 
-          {delta ? (
+          {safeDelta ? (
             <div
               style={{
                 padding: "0.8rem 0.9rem",
@@ -169,10 +194,11 @@ export default function PredictionCard({
                 border: "2px solid rgba(255,255,255,0.06)",
                 color: "#d9d2c8",
                 fontSize: "0.88rem",
-                lineHeight: 1.55
+                lineHeight: 1.55,
+                overflowWrap: "anywhere"
               }}
             >
-              {delta}
+              {safeDelta}
             </div>
           ) : null}
         </div>

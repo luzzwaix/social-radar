@@ -16,11 +16,11 @@ function isFiniteNumber(value) {
 }
 
 function formatPercent(value) {
-  return isFiniteNumber(value) ? `${value.toFixed(1)}%` : "N/A";
+  return isFiniteNumber(value) ? `${value.toFixed(1)}%` : "н/д";
 }
 
 function formatThousands(value) {
-  return isFiniteNumber(value) ? `${value.toFixed(1)}k` : "N/A";
+  return isFiniteNumber(value) ? `${value.toFixed(1)}k` : "н/д";
 }
 
 function safeDelta(current, previous) {
@@ -44,9 +44,9 @@ function TrendTooltip({ active, label, payload }) {
     <div className="rounded-[14px] border border-white/10 bg-[#09121b]/95 px-3 py-2 text-sm text-slate-200 shadow-2xl">
       <p className="data-kicker">{label}</p>
       <div className="mt-2 space-y-1">
-        <p className="font-mono text-cyan-200">Employment: {formatPercent(employment?.value)}</p>
-        <p className="font-mono text-amber-200">Unemployment: {formatPercent(unemployment?.value)}</p>
-        <p className="font-mono text-slate-300">Outside labor force: {formatThousands(outsideLaborForce?.value)}</p>
+        <p className="font-mono text-cyan-200">Занятость: {formatPercent(employment?.value)}</p>
+        <p className="font-mono text-amber-200">Безработица: {formatPercent(unemployment?.value)}</p>
+        <p className="font-mono text-slate-300">Вне рабочей силы: {formatThousands(outsideLaborForce?.value)}</p>
       </div>
     </div>
   );
@@ -89,12 +89,12 @@ export default function TrendPanel({ regionLabel, data, regionRow, nationalUnemp
     >
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <p className="data-kicker">Trend workspace</p>
+          <p className="data-kicker">Тренды</p>
           <h2 className="mt-2 text-[1.45rem] font-semibold tracking-[-0.04em] text-white">
-            {regionLabel} versus national baseline
+            {regionLabel} vs национальный уровень
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">
-            Smooth chart transitions and dense readouts keep the workspace feeling live without looking noisy.
+            Плавные переходы и плотные подписи дают «дорогой» эффект, но не перегружают оператора.
           </p>
         </div>
 
@@ -104,22 +104,22 @@ export default function TrendPanel({ regionLabel, data, regionRow, nationalUnemp
       <div className="mt-4 grid gap-3 sm:grid-cols-4">
         {[
           {
-            label: "Employment",
+            label: "Занятость",
             value: formatPercent(regionRow.employmentRate),
             tone: "text-cyan-200"
           },
           {
-            label: "Unemployment",
+            label: "Безработица",
             value: formatPercent(regionRow.unemploymentRate),
             tone: "text-amber-200"
           },
           {
-            label: "Employment delta",
-            value: employmentDelta === null ? "N/A" : `${employmentDelta > 0 ? "+" : ""}${employmentDelta.toFixed(1)} p.p.`,
+            label: "Изменение занятости",
+            value: employmentDelta === null ? "н/д" : `${employmentDelta > 0 ? "+" : ""}${employmentDelta.toFixed(1)} п.п.`,
             tone: employmentDelta === null ? "text-slate-100" : employmentDelta >= 0 ? "text-emerald-200" : "text-rose-200"
           },
           {
-            label: "National benchmark",
+            label: "Нац. бенчмарк",
             value: formatPercent(nationalUnemployment),
             tone: "text-slate-100"
           }
@@ -236,7 +236,7 @@ export default function TrendPanel({ regionLabel, data, regionRow, nationalUnemp
       </motion.div>
 
       <div className="mt-4 text-xs leading-6 text-slate-500">
-        Latest point is compared against the national unemployment benchmark of {formatPercent(nationalUnemployment)}.
+        Последняя точка сравнивается с национальным уровнем безработицы {formatPercent(nationalUnemployment)}.
       </div>
     </motion.section>
   );

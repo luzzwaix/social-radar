@@ -79,19 +79,21 @@ This makes the prototype suitable for stage 1, where a strong demo, clarity of c
 
 ## Compliance baseline
 
-The current frontend was checked against the brief and the relevant RK legal baseline:
+This is a hackathon prototype designed to align with RK public-sector expectations around:
 
-- Law of the Republic of Kazakhstan `On Personal Data and Their Protection` from `21 May 2013 No. 94-V`
-- Law of the Republic of Kazakhstan `On Informatization` from `24 November 2015 No. 418-V`
-- Law of the Republic of Kazakhstan `On Access to Information` from `16 November 2015 No. 401-V`
-- Law of the Republic of Kazakhstan `On Artificial Intelligence` from `17 November 2025 No. 230-VIII`
+- personal data protection (no PII processing in the prototype)
+- access to information / open data usage (only public, aggregated indicators)
+- human-in-the-loop decision support (AI recommendations only)
+- explainability (show why a recommendation was made)
 
-Current implementation choices:
+Current implementation choices (verifiable in code and artifacts):
 
 - only aggregated indicators are rendered
 - no person-level data is exposed
 - no autonomous state action is triggered
 - the UI is already structured for human-in-the-loop review
+
+Note: this is not legal advice. Production rollout would require formal compliance review and approvals.
 
 ## Stack
 
@@ -118,6 +120,15 @@ Current implementation choices:
 
 - core statistics were normalized from the provided `dataset.zip`
 - current Almaty district geometry is prototype geometry for the frontend stage
+
+## Data provenance (ML readiness)
+
+The repo includes a transparent, reproducible ML/data pipeline under `ml/` with explicit provenance:
+
+- `ml/data/raw/lineage.json` includes `source_coverage` per metric and `proxy_share_pct`
+- `ml/data/raw/sources_manifest.json` lists baseline sources and clearly marks proxy/disaggregation
+
+Important (no over-claims): in this prototype, some district-month signals are proxy-allocated when district-level open data is not available; this is explicitly documented.
 - displayed values are aggregated indicators only
 - backend business logic and ML are intentionally deferred to the next integration stage
 

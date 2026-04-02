@@ -1,5 +1,7 @@
+import { decodeUnicodeEscapesDeep } from "../utils/text";
+
 const DISTRICTS_ENDPOINT =
-  process.env.DISTRICTS_ENDPOINT || "https://social-radar-production.up.railway.app/api/districts";
+  process.env.DISTRICTS_ENDPOINT || "https://social-radar-final.onrender.com/api/districts";
 
 export async function fetchDistrictRiskSnapshot(signal) {
   const response = await fetch(DISTRICTS_ENDPOINT, {
@@ -14,7 +16,8 @@ export async function fetchDistrictRiskSnapshot(signal) {
     throw new Error(`District risk request failed with status ${response.status}`);
   }
 
-  return response.json();
+  const payload = await response.json();
+  return decodeUnicodeEscapesDeep(payload);
 }
 
 export function normalizeDistrictLabel(value = "") {

@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import { ChevronsRight, Database, Sparkles } from "lucide-react";
+import { normalizeDisplayText } from "../../utils/text";
 
-export default function SimilarCasesList({ cases = [], title = "Similar cases", className = "", style }) {
+export default function SimilarCasesList({ cases = [], title = "\u041f\u043e\u0445\u043e\u0436\u0438\u0435 \u043a\u0435\u0439\u0441\u044b", className = "", style }) {
+  const safeTitle = useMemo(() => normalizeDisplayText(title), [title]);
+  const safeCases = useMemo(
+    () =>
+      cases.map((item) => ({
+        ...item,
+        title: normalizeDisplayText(item.title),
+        summary: normalizeDisplayText(item.summary),
+        source: normalizeDisplayText(item.source),
+        result: normalizeDisplayText(item.result)
+      })),
+    [cases]
+  );
+
   return (
     <div
       className={className}
@@ -32,25 +46,25 @@ export default function SimilarCasesList({ cases = [], title = "Similar cases", 
         }}
       />
 
-      <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem" }}>
+      <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem", flexWrap: "wrap" }}>
         <div style={{ display: "grid", gap: "0.2rem" }}>
           <div style={{ color: "#8c8377", fontSize: "0.68rem", textTransform: "uppercase", letterSpacing: "0.16em" }}>
-            Reference archive
+            {"\u0410\u0440\u0445\u0438\u0432"}
           </div>
           <div style={{ fontWeight: 800, color: "#f4efe8", display: "flex", alignItems: "center", gap: "0.45rem" }}>
             <Database size={16} />
-            {title}
+            {safeTitle}
           </div>
         </div>
         <span className="pill pill--info">
           <Sparkles size={13} />
-          Source trail
+          {"\u0422\u0440\u0430\u0441\u0441\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432"}
         </span>
       </div>
 
       <div style={{ display: "grid", gap: "0.7rem", marginTop: "0.9rem", position: "relative" }}>
-        {cases.length ? (
-          cases.map((item, index) => (
+        {safeCases.length ? (
+          safeCases.map((item, index) => (
             <motion.article
               key={item.id || item.title}
               initial={{ opacity: 0, y: 10 }}
@@ -76,7 +90,14 @@ export default function SimilarCasesList({ cases = [], title = "Similar cases", 
               />
 
               <div style={{ display: "grid", gap: "0.55rem", paddingLeft: "0.35rem" }}>
-                <div style={{ display: "grid", gridTemplateColumns: "36px minmax(0, 1fr) auto", gap: "0.75rem", alignItems: "start" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "0.75rem",
+                    alignItems: "start"
+                  }}
+                >
                   <div
                     style={{
                       width: 36,
@@ -94,15 +115,25 @@ export default function SimilarCasesList({ cases = [], title = "Similar cases", 
                     {String(index + 1).padStart(2, "0")}
                   </div>
 
-                  <div style={{ minWidth: 0 }}>
-                    <div style={{ fontWeight: 800, color: "#f4efe8", lineHeight: 1.25 }}>{item.title}</div>
-                    <div style={{ marginTop: "0.26rem", color: "#b6ab9f", fontSize: "0.86rem", lineHeight: 1.55 }}>
+                  <div style={{ minWidth: 0, flex: "1 1 220px" }}>
+                    <div style={{ fontWeight: 800, color: "#f4efe8", lineHeight: 1.25, overflowWrap: "anywhere" }}>{item.title}</div>
+                    <div style={{ marginTop: "0.26rem", color: "#b6ab9f", fontSize: "0.86rem", lineHeight: 1.55, overflowWrap: "anywhere" }}>
                       {item.summary}
                     </div>
                   </div>
 
                   {item.similarity != null ? (
-                    <div style={{ color: "#e8dfd3", fontWeight: 800, flex: "0 0 auto", display: "grid", justifyItems: "end", gap: "0.35rem", minWidth: 94 }}>
+                    <div
+                      style={{
+                        color: "#e8dfd3",
+                        fontWeight: 800,
+                        flex: "1 1 100%",
+                        display: "grid",
+                        justifyItems: "start",
+                        gap: "0.35rem",
+                        minWidth: 0
+                      }}
+                    >
                       <div style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
                         {item.similarity}%
                         <ChevronsRight size={14} />
@@ -179,7 +210,7 @@ export default function SimilarCasesList({ cases = [], title = "Similar cases", 
               background: "rgba(255,255,255,0.02)"
             }}
           >
-            No historical matches yet.
+            {"\u041f\u043e\u043a\u0430 \u043d\u0435\u0442 \u043f\u043e\u0445\u043e\u0436\u0438\u0445 \u043a\u0435\u0439\u0441\u043e\u0432."}
           </div>
         )}
       </div>

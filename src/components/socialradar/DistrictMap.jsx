@@ -1,8 +1,14 @@
 import React, { useEffect, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CircleMarker, GeoJSON, MapContainer, TileLayer, Tooltip, ZoomControl, useMap } from "react-leaflet";
+import { riskLevelTone } from "../../hooks/useSocialRadarWorkspace";
+import { normalizeDisplayText } from "../../utils/text";
 
 const numberFormatter = new Intl.NumberFormat("ru-RU");
+
+function safeText(value) {
+  return normalizeDisplayText(value);
+}
 
 function isFiniteNumber(value) {
   return typeof value === "number" && Number.isFinite(value);
@@ -38,18 +44,18 @@ function FocusOnDistrict({ district }) {
 
 function metricDescription(metric) {
   if (metric === "total") {
-    return "Resident population";
+    return "\u0427\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f";
   }
 
   if (metric === "riskScore") {
-    return "Live district risk";
+    return "\u0423\u0440\u043e\u0432\u0435\u043d\u044c \u0440\u0438\u0441\u043a\u0430 (\u0441\u043d\u044d\u043f\u0448\u043e\u0442)";
   }
 
   if (metric === "youthShare") {
-    return "Share aged 0-15";
+    return "\u0414\u043e\u043b\u044f 0\u201315";
   }
 
-  return "Share aged 65+";
+  return "\u0414\u043e\u043b\u044f 65+";
 }
 
 function metricValue(metric, district) {
@@ -60,10 +66,10 @@ function metricValue(metric, district) {
   }
 
   if (metric === "riskScore") {
-    return isFiniteNumber(value) ? value.toFixed(1) : "N/A";
+    return isFiniteNumber(value) ? value.toFixed(1) : "\u041d/\u0434";
   }
 
-  return isFiniteNumber(value) ? `${value.toFixed(1)}%` : "N/A";
+  return isFiniteNumber(value) ? `${value.toFixed(1)}%` : "\u041d/\u0434";
 }
 
 function getFill(metric, value, min, max) {
@@ -125,7 +131,9 @@ export default function DistrictMap({
   onSelectDistrict,
   onMetricChange,
   liveStatus,
-  liveAlerts
+  liveAlerts,
+  onOpenDistrict,
+  openDistrictLabel = "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0434\u043e\u0441\u044c\u0435"
 }) {
   const districtLookup = useMemo(
     () =>
@@ -173,9 +181,9 @@ export default function DistrictMap({
         : `${value.toFixed(1)}%`;
 
   const legendItems = [
-    { label: "Low", color: getFill(metric, minMetric, minMetric, maxMetric), value: legendValue(minMetric) },
-    { label: "Mid", color: getFill(metric, midpoint, minMetric, maxMetric), value: legendValue(midpoint) },
-    { label: "High", color: getFill(metric, maxMetric, minMetric, maxMetric), value: legendValue(maxMetric) }
+    { label: "\u041c\u0438\u043d", color: getFill(metric, minMetric, minMetric, maxMetric), value: legendValue(minMetric) },
+    { label: "\u0421\u0440", color: getFill(metric, midpoint, minMetric, maxMetric), value: legendValue(midpoint) },
+    { label: "\u041c\u0430\u043a\u0441", color: getFill(metric, maxMetric, minMetric, maxMetric), value: legendValue(maxMetric) }
   ];
 
   return (
@@ -189,12 +197,18 @@ export default function DistrictMap({
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
-              <p className="data-kicker">Spatial workspace</p>
-              <span className="status-badge status-badge--slate">Almaty districts</span>
+              <p className="data-kicker">{safeText("\u041a\u0430\u0440\u0442\u0430")}</p>
+              <span className="status-badge status-badge--slate">
+                {safeText("\u0440\u0430\u0439\u043e\u043d\u044b \u0410\u043b\u043c\u0430\u0442\u044b")}
+              </span>
             </div>
-            <h2 className="mt-2 text-[1.35rem] font-semibold tracking-[-0.04em] text-white">District theater</h2>
+            <h2 className="mt-2 text-[1.35rem] font-semibold tracking-[-0.04em] text-white">
+              {safeText("\u0420\u0430\u0439\u043e\u043d\u044b \u0410\u043b\u043c\u0430\u0442\u044b")}
+            </h2>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-              Select a district to refresh the demographic profile and compare service load through a live spatial readout.
+              {safeText(
+                "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0440\u0430\u0439\u043e\u043d, \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u043f\u0440\u043e\u0444\u0438\u043b\u044c, \u043c\u0435\u0442\u0440\u0438\u043a\u0438 \u0438 \u0432\u0445\u043e\u0434 \u0432 \u043a\u0435\u0439\u0441\u044b."
+              )}
             </p>
           </div>
 
@@ -208,7 +222,7 @@ export default function DistrictMap({
                 whileHover={{ y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
-                {option.label}
+                {safeText(option.label)}
               </motion.button>
             ))}
           </div>
@@ -219,7 +233,7 @@ export default function DistrictMap({
         <div className="relative border-b border-white/8 xl:border-b-0 xl:border-r">
           <div className="map-stage">
             <div className="map-stage__hud map-stage__hud--top-left">
-              <div className="map-stage__badge">Selected</div>
+              <div className="map-stage__badge">{safeText("\u0412\u044b\u0431\u0440\u0430\u043d\u043e")}</div>
               <AnimatePresence mode="wait" initial={false}>
                 <motion.div
                   key={selectedFeature?.properties?.name}
@@ -229,13 +243,13 @@ export default function DistrictMap({
                   exit={{ opacity: 0, y: -6 }}
                   transition={{ duration: 0.22, ease: "easeOut" }}
                 >
-                  <div className="map-stage__value">{selectedFeature?.properties?.name}</div>
+                  <div className="map-stage__value">{safeText(selectedFeature?.properties?.name)}</div>
                 </motion.div>
               </AnimatePresence>
             </div>
 
             <div className="map-stage__hud map-stage__hud--top-right">
-              <div className="map-stage__badge">Metric</div>
+              <div className="map-stage__badge">{safeText("\u041c\u0435\u0442\u0440\u0438\u043a\u0430")}</div>
               <AnimatePresence mode="wait" initial={false}>
                 <motion.div
                   key={metric}
@@ -251,12 +265,12 @@ export default function DistrictMap({
             </div>
 
             <div className="map-stage__hud map-stage__hud--bottom-left">
-              <div className="map-stage__badge">Legend</div>
+              <div className="map-stage__badge">{safeText("\u041b\u0435\u0433\u0435\u043d\u0434\u0430")}</div>
               <div className="mt-2 space-y-2">
                 {legendItems.map((item) => (
                   <div key={item.label} className="map-stage__legend">
                     <span className="map-stage__legend-swatch" style={{ background: item.color }} />
-                    <span className="map-stage__legend-label">{item.label}</span>
+                    <span className="map-stage__legend-label">{safeText(item.label)}</span>
                     <span className="map-stage__legend-value">{item.value}</span>
                   </div>
                 ))}
@@ -264,23 +278,29 @@ export default function DistrictMap({
             </div>
 
             <div className="map-stage__hud map-stage__hud--bottom-right">
-              <div className="map-stage__badge">Telemetry</div>
+              <div className="map-stage__badge">{safeText("\u0422\u0435\u043b\u0435\u043c\u0435\u0442\u0440\u0438\u044f")}</div>
               <div className="mt-2 grid gap-2">
                 <div className="map-stage__telemetry">
-                  <span>Districts</span>
+                  <span>{safeText("\u0420\u0430\u0439\u043e\u043d\u044b")}</span>
                   <span>{districts.length}</span>
                 </div>
                 <div className="map-stage__telemetry">
-                  <span>Basemap</span>
+                  <span>{safeText("\u041f\u043e\u0434\u043b\u043e\u0436\u043a\u0430")}</span>
                   <span>CARTO dark</span>
                 </div>
                 <div className="map-stage__telemetry">
-                  <span>Risk feed</span>
-                  <span>{liveStatus === "ready" ? "live" : liveStatus === "error" ? "fallback" : "syncing"}</span>
+                  <span>{safeText("\u0421\u043d\u044d\u043f\u0448\u043e\u0442")}</span>
+                  <span>
+                    {liveStatus === "ready"
+                      ? safeText("\u043e\u043d\u043b\u0430\u0439\u043d")
+                      : liveStatus === "error"
+                        ? safeText("\u0440\u0435\u0437\u0435\u0440\u0432")
+                        : safeText("\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f")}
+                  </span>
                 </div>
                 {liveAlerts ? (
                   <div className="map-stage__telemetry">
-                    <span>Critical</span>
+                    <span>{safeText("\u041a\u0440\u0438\u0442\u0438\u0447\u043d\u044b\u0435")}</span>
                     <span>{liveAlerts.critical_count ?? 0}</span>
                   </div>
                 ) : null}
@@ -329,7 +349,7 @@ export default function DistrictMap({
                   });
 
                   layer.bindTooltip(
-                    `${feature.properties.name}\n${metricDescription(metric)}: ${metricValue(metric, feature.properties)}`
+                    `${safeText(feature.properties.name)}\n${metricDescription(metric)}: ${metricValue(metric, feature.properties)}`
                   );
                 }}
               />
@@ -352,7 +372,7 @@ export default function DistrictMap({
                   <Tooltip direction="top" offset={[0, -8]} opacity={1}>
                     <div className="space-y-1">
                       <div className="data-kicker">Node {String(index + 1).padStart(2, "0")}</div>
-                      <div className="text-sm text-slate-100">{feature.properties.name}</div>
+                      <div className="text-sm text-slate-100">{safeText(feature.properties.name)}</div>
                     </div>
                   </Tooltip>
                 </CircleMarker>
@@ -406,22 +426,17 @@ export default function DistrictMap({
               transition={{ duration: 0.24, ease: "easeOut" }}
             >
               <div>
-                <p className="data-kicker">District readout</p>
+                <p className="data-kicker">{safeText("\u041f\u0430\u043d\u0435\u043b\u044c \u0440\u0430\u0439\u043e\u043d\u0430")}</p>
                 <div className="mt-2 flex flex-wrap items-center gap-2">
                   <h3 className="text-lg font-semibold tracking-[-0.04em] text-white">
-                    {selectedFeature?.properties?.name}
+                    {safeText(selectedFeature?.properties?.name)}
                   </h3>
                   {selectedFeature?.properties?.riskLevel ? (
-                    <span
-                      className={`status-badge status-badge--${
-                        selectedFeature.properties.riskScore >= 75
-                          ? "rose"
-                          : selectedFeature.properties.riskScore >= 55
-                            ? "amber"
-                            : "cyan"
-                      }`}
-                    >
-                      {selectedFeature.properties.riskLevel}
+                    <span className={`status-badge status-badge--${riskLevelTone(
+                      selectedFeature.properties.riskLevel,
+                      selectedFeature.properties.riskScore
+                    )}`}>
+                      {safeText(selectedFeature.properties.riskLevel)}
                     </span>
                   ) : null}
                 </div>
@@ -434,30 +449,30 @@ export default function DistrictMap({
               <div className="grid gap-3">
                 {[
                   {
-                    label: "Population",
+                    label: "\u041d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435",
                     value: numberFormatter.format(selectedFeature?.properties?.total ?? 0)
                   },
                   {
-                    label: "Working age",
+                    label: "\u0422\u0440\u0443\u0434\u043e\u0441\u043f\u043e\u0441\u043e\u0431\u043d\u044b\u0435",
                     value: numberFormatter.format(selectedFeature?.properties?.workingAge ?? 0)
                   },
                   {
-                    label: "Youth share",
+                    label: "\u0414\u043e\u043b\u044f 0\u201315",
                     value: `${Number(selectedFeature?.properties?.youthShare ?? 0).toFixed(1)}%`
                   },
                   {
-                    label: "Senior share",
+                    label: "\u0414\u043e\u043b\u044f 65+",
                     value: `${Number(selectedFeature?.properties?.seniorShare ?? 0).toFixed(1)}%`
                   },
                   {
-                    label: "Live risk",
+                    label: "\u0420\u0438\u0441\u043a",
                     value: isFiniteNumber(selectedFeature?.properties?.riskScore)
                       ? selectedFeature.properties.riskScore.toFixed(1)
-                      : "N/A"
+                      : "\u041d/\u0434"
                   },
                   {
-                    label: "Top factor",
-                    value: selectedFeature?.properties?.topFactor ?? "No live factor"
+                    label: "\u0422\u043e\u043f-\u0444\u0430\u043a\u0442\u043e\u0440",
+                    value: safeText(selectedFeature?.properties?.topFactor ?? "\u041d/\u0434")
                   }
                 ].map((item, index) => (
                   <motion.article
@@ -468,11 +483,21 @@ export default function DistrictMap({
                     transition={{ duration: 0.22, delay: 0.04 + index * 0.03, ease: "easeOut" }}
                     whileHover={{ y: -2 }}
                   >
-                    <p className="data-kicker">{item.label}</p>
+                    <p className="data-kicker">{safeText(item.label)}</p>
                     <p className="mt-2 font-mono text-base text-white">{item.value}</p>
                   </motion.article>
                 ))}
               </div>
+
+              {onOpenDistrict ? (
+                <button
+                  type="button"
+                  className="control-button mt-3 w-full justify-center"
+                  onClick={() => onOpenDistrict(selectedFeature?.properties?.name)}
+                >
+                  {safeText(openDistrictLabel)}
+                </button>
+              ) : null}
             </motion.div>
           </AnimatePresence>
         </div>

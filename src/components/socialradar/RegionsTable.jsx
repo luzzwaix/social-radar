@@ -2,12 +2,17 @@ import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowUp, ArrowUpDown, Search } from "lucide-react";
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable } from "@tanstack/react-table";
+import { normalizeDisplayText } from "../../utils/text";
 
 const numberFormatter = new Intl.NumberFormat("ru-RU");
 const compactFormatter = new Intl.NumberFormat("ru-RU", {
   notation: "compact",
   maximumFractionDigits: 1
 });
+
+function safeText(value) {
+  return normalizeDisplayText(value);
+}
 
 function isFiniteNumber(value) {
   return typeof value === "number" && Number.isFinite(value);
@@ -52,46 +57,47 @@ export default function RegionsTable({ regions, selectedRegion, onSelectRegion }
       return regions;
     }
 
-    return regions.filter((row) => row.region.toLowerCase().includes(normalized));
+    return regions.filter((row) => safeText(row.region).toLowerCase().includes(normalized));
   }, [query, regions]);
 
   const columns = useMemo(
     () => [
       {
         accessorKey: "region",
-        header: "Region",
+        header: "\u0420\u0435\u0433\u0438\u043e\u043d",
         cell: ({ row }) => (
           <div>
-            <p className="font-medium text-slate-100">{row.original.region}</p>
+            <p className="font-medium text-slate-100">{safeText(row.original.region)}</p>
             <p className="mt-1 text-xs text-slate-500">
-              Natural growth: {numberFormatter.format(Math.round(row.original.naturalGrowth ?? 0))}
+              {safeText("\u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u0438\u0440\u043e\u0441\u0442")}:{" "}
+              {numberFormatter.format(Math.round(row.original.naturalGrowth ?? 0))}
             </p>
           </div>
         )
       },
       {
         accessorKey: "unemploymentRate",
-        header: "Unemployment",
+        header: "\u0411\u0435\u0437\u0440\u0430\u0431\u043e\u0442\u0438\u0446\u0430",
         cell: ({ getValue }) => <span className="font-mono text-amber-200">{formatPercent(getValue())}</span>
       },
       {
         accessorKey: "employmentRate",
-        header: "Employment",
+        header: "\u0417\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c",
         cell: ({ getValue }) => <span className="font-mono text-cyan-200">{formatPercent(getValue())}</span>
       },
       {
         accessorKey: "unemploymentCount",
-        header: "Unemployed",
+        header: "\u0411\u0435\u0437\u0440\u0430\u0431\u043e\u0442\u043d\u044b\u0435",
         cell: ({ getValue }) => <span className="font-mono text-slate-300">{formatThousands(getValue())}</span>
       },
       {
         accessorKey: "migrationBalance",
-        header: "Migration",
+        header: "\u041c\u0438\u0433\u0440\u0430\u0446\u0438\u044f",
         cell: ({ getValue }) => <span className="font-mono text-slate-300">{formatInteger(getValue())}</span>
       },
       {
         accessorKey: "population2026",
-        header: "Population",
+        header: "\u041d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435",
         cell: ({ getValue }) => <span className="font-mono text-slate-300">{formatPopulation(getValue())}</span>
       }
     ],
@@ -116,10 +122,12 @@ export default function RegionsTable({ regions, selectedRegion, onSelectRegion }
     >
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <p className="data-kicker">Ranking workspace</p>
-          <h2 className="mt-2 text-[1.45rem] font-semibold tracking-[-0.04em] text-white">Regional comparison table</h2>
+          <p className="data-kicker">{safeText("\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435")}</p>
+          <h2 className="mt-2 text-[1.45rem] font-semibold tracking-[-0.04em] text-white">
+            {safeText("\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432")}
+          </h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">
-            Dense rows, soft motion, instant ranking changes. This table is designed to feel like a premium operational console.
+            {safeText("\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0438 \u043f\u043e\u0438\u0441\u043a \u0434\u043b\u044f \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0444\u043e\u043d\u0430 \u0438 \u0442\u0440\u0435\u043d\u0434\u043e\u0432.")}
           </p>
         </div>
 
@@ -129,7 +137,7 @@ export default function RegionsTable({ regions, selectedRegion, onSelectRegion }
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search region"
+            placeholder={safeText("\u041f\u043e\u0438\u0441\u043a \u0440\u0435\u0433\u0438\u043e\u043d\u0430")}
             className="h-11 w-full rounded-[12px] border border-white/10 bg-white/[0.03] pl-10 pr-3 text-sm text-slate-100 outline-none transition placeholder:text-slate-600 focus:border-cyan-400/35"
           />
         </label>
@@ -143,13 +151,14 @@ export default function RegionsTable({ regions, selectedRegion, onSelectRegion }
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.18, ease: "easeOut" }}
         >
-          Selected region: {selectedRegion}
+          {safeText("\u0412\u044b\u0431\u0440\u0430\u043d\u043e")}: {safeText(selectedRegion)}
         </motion.div>
 
         <div className="flex flex-wrap items-center gap-2">
-          <span className="table-summary-chip">{filteredRegions.length} rows</span>
+          <span className="table-summary-chip">{filteredRegions.length} {safeText("\u0441\u0442\u0440\u043e\u043a")}</span>
           <span className="table-summary-chip">
-            Sorted by {sorting[0]?.id ? sorting[0].id.replace(/([A-Z])/g, " $1").toLowerCase() : "region"}
+            {safeText("\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430")}:{" "}
+            {sorting[0]?.id ? safeText(sorting[0].id.replace(/([A-Z])/g, " $1").toLowerCase()) : "region"}
           </span>
         </div>
       </div>
@@ -190,13 +199,10 @@ export default function RegionsTable({ regions, selectedRegion, onSelectRegion }
                     key={row.id}
                     className={`table-row cursor-pointer border-b border-white/6 transition ${
                       isSelected ? "table-row--selected" : ""
-                    } ${
-                      isSelected ? "bg-cyan-400/[0.08]" : "hover:bg-white/[0.035]"
-                    }`}
+                    } ${isSelected ? "bg-cyan-400/[0.08]" : "hover:bg-white/[0.035]"}`}
                     initial={{ opacity: 0, y: 6 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.22, delay: index * 0.02 }}
-                    whileHover={{ x: 1.5 }}
                     onClick={() => onSelectRegion(row.original.region)}
                   >
                     {row.getVisibleCells().map((cell) => (
